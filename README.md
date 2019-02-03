@@ -22,6 +22,7 @@ The IoT(Hardware) components required are:
 - **A buzzer**
 - **12V transformer**
 
-### Author
+### Author 
 **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
-[![Author](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue)](https://github.com/vinitshahdeo/)
+
+[![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue)](https://github.com/vinitshahdeo/)
