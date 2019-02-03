@@ -13,7 +13,7 @@
 - ***To reduce the wastage of water across the city***
 - ***To provide better water supply to the people***
 
-> **Click [here]() to download the report.**
+> **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
 
 The IoT(Hardware) components required are:
 
