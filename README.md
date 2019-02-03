@@ -1,5 +1,7 @@
 # Water Monitoring System
 
+> **You can view the demo [here]().**
+
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 
 **Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes. The water tanks can be fixed with ultrasonic sensors that is placed over the container. Ultrasonic sensor is used to measure, compare container depth and liquid level.**
@@ -11,8 +13,7 @@
 - ***To reduce the wastage of water across the city***
 - ***To provide better water supply to the people***
 
-> **You can view the demo [here]().
-> Click [here]() to download the report.**
+> **Click [here]() to download the report.**
 
 The IoT(Hardware) components required are:
 
