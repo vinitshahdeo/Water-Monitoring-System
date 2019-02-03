@@ -1,6 +1,6 @@
-# Water Monitoring System
+# [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/home.html) - IoT Project
 
-> **You can view the demo [here]().**
+> **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/home.html).**
 
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 
