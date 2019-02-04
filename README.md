@@ -27,3 +27,5 @@ The IoT(Hardware) components required are:
 **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
 
 [![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue)](https://github.com/vinitshahdeo/)
+
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/network)
