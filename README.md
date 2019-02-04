@@ -1,5 +1,7 @@
 # [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/home.html) - IoT Project
 
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/network)
+
 > **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/home.html).**
 
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
@@ -27,5 +29,3 @@ The IoT(Hardware) components required are:
 **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
 
 [![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue)](https://github.com/vinitshahdeo/)
-
-[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/network)
