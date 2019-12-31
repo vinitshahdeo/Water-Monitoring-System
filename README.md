@@ -45,6 +45,7 @@ The IoT(Hardware) components required are:
 
 [![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/codeuino/Water-Monitoring-System/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/vinitshahdeo)  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo)
 
+
 | TITLE  | LEVEL  |
 |---|---|
 | [UI Enhancements](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/2)  | EASY  |
@@ -52,6 +53,8 @@ The IoT(Hardware) components required are:
 | [Setting up Cloud APIs to send/receive data](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/4)  | MEDIUM |
 | [Admin Dashboard ](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/5)  | HARD |
 | [Notify stakeholders](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/6)  | ADVANCED  |
+
+**NOTE**: **Feel free to [open issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new/choose)**. Make sure you follow the Issue Template provided.
 
 ### Contribution Guidelines
 
