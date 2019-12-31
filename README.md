@@ -74,6 +74,9 @@ The IoT(Hardware) components required are:
 
 **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
 
+> ***Need help?***
+***Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)***
+
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) 
 
 ---
