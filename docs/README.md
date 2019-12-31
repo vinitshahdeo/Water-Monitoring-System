@@ -1,4 +1,4 @@
-# Water Monitoring System - IoT Project
+# [Water Monitoring System](https://github.com/vinitshahdeo/Water-Monitoring-System) - IoT Project
 
 [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System) 
 
@@ -45,11 +45,11 @@ The IoT(Hardware) components required are:
 
 | TITLE  | LEVEL  |
 |---|---|
-| [UI Enhancements](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/2)  | EASY  |
-| [Project Documentation](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/3)  | VERY EASY  |
-| [Setting up Cloud APIs to send/receive data](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/4)  | MEDIUM |
-| [Admin Dashboard ](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/5)  | HARD |
-| [Notify stakeholders](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/6)  | ADVANCED  |
+| [UI Enhancements](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/2)  | `EASY`  |
+| [Project Documentation](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/3)  | `VERY EASY`  |
+| [Setting up Cloud APIs to send/receive data](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/4)  | `MEDIUM` |
+| [Admin Dashboard ](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/5)  | `HARD` |
+| [Notify stakeholders](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/6)  | `ADVANCED`  |
 
 ### Contribution Guidelines
 
