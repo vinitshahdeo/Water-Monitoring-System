@@ -27,6 +27,8 @@ The IoT(Hardware) components required are:
 
 ### Issues
 
+[![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/codeuino/Water-Monitoring-System/issues) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo)
+
 | TITLE  | LEVEL  |
 |---|---|
 | [UI Enhancements](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/2)  | EASY  |
@@ -37,7 +39,7 @@ The IoT(Hardware) components required are:
 
 ### Contribution Guidelines
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo)
+![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/vinitshahdeo/Water-Monitoring-System?logo=github) 
 
 - Write clear meaningful git commit messages (Do read [this](http://chris.beams.io/posts/git-commit/)).
 
