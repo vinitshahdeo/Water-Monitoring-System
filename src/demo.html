@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Vinit Shahdeo">
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <title>Water Monitoring System</title>
+  <style>
+    body {
+      background-color: #fafafa;
+      font-family: 'Roboto';
+    }
+
+    .container {
+      margin: 150px auto;
+      max-width: 960px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Water Tanks</h1>
+    <div class="loading" style="width: 140px;height: 140px;float:left"></div>
+    <div class="loading" style="width: 160px;height: 160px;float:left"></div>
+    <div class="waterBall1" style="width: 200px;height:200px; float:left"></div>
+    <div class="demo" style="width: 200px;height:200px; float:left"></div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
+  <script>
+    $('.demo').createWaterBall({
+      targetRange: 90
+    });
+
+    var loadingEle = $('.loading');
+    var loading_width = loadingEle.width(),
+      loading_height = loadingEle.height();
+    $('.loading').createWaterBall({
+      cvs_config: {
+        width: loading_width,
+        height: loading_height
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 5
+      },
+      data_range: [30, 70, 100],
+      isLoading: true,
+      nowRange: 70,
+      targetRange: 70
+    });
+    setTimeout(function () {
+      $('.loading').createWaterBall('updateRange', 80);
+    }, 1000);
+    $('.waterBall1').createWaterBall({
+      csv_config: {
+        width: $('.waterBall1').width(),
+        height: $('.waterBall1').height()
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 5
+      },
+      data_range: [40, 50, 100],
+      targetRange: 45
+    });
+  </script>
+
+</body>
+
+</html>

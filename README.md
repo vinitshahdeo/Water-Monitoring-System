@@ -1,8 +1,8 @@
-# [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/home.html) - IoT Project
+# [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html) - IoT Project
 
 [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?style=social&logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/network)
 
-> **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/home.html).**
+> **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html).**
 
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 

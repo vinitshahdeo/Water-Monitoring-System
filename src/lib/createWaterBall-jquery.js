@@ -8,17 +8,15 @@
 		canvas.width = config.cvs_config.width;
 		canvas.height = config.cvs_config.height;
 
-        /****剪切内圆画布***/
 		ctx.save();
-		var points = [];//用于存放绘制Sin曲线的点
+		var points = [];
         ctx.beginPath();
         ctx.arc(config.circle_config.r,config.circle_config.r,config.circle_config.cR - 5,0,2 * Math.PI);
         ctx.clip();
         ctx.closePath();
 
-        /***画sin曲线***/
 		ctx.beginPath();
-		//在整个轴长上取点
+
 		var w_sX = config.wave_config.sX,
 			w_waveWidth = config.wave_config.waveWidth,
 			w_waveHeight = config.wave_config.waveHeight,
@@ -27,7 +25,7 @@
 			c_height = config.cvs_config.height;
 
 		for(var x = w_sX;x < w_sX + w_axisLength;x += 20 / w_axisLength) {
-			//此处坐标(x,y)的取点，依靠公式 “振幅高*sin(x*振幅宽 + 振幅偏移量)”
+
 			var y = -Math.sin((w_sX + x) * w_waveWidth + xOffset);
 
 			var dY = c_height * (1 - config.nowRange / 100 );
@@ -47,8 +45,6 @@
 		ctx.fill();
 		ctx.restore();
 
-
-        /**绘制百分比文本**/
 		if (!config.isLoading) {
 			ctx.save();
 			var size = 0.4 * config.circle_config.cR;
@@ -92,35 +88,34 @@
         init: function (config) {
 
          return this.each(function(){
-            //使用jQuery data方法对每个元素跟踪变量
             
             var $this = $(this),
                 data = $this.data('waterBall'),
                 _config = {
                     cvs_config:{
-                        width:220,//canvas的长
-                        height:220//canvas的高
+                        width:220,
+                        height:220
                     },
                     wave_config:{
-                        sX:0,//x轴偏移
+                        sX:0,
                         sY:220 / 2,
-                        waveWidth:0.015,//波宽
-                        waveHeight:5,//波高
-                        axisLength:220,//轴长
-                        speed:0.09,//波速
+                        waveWidth:0.015,
+                        waveHeight:5,
+                        axisLength:220,
+                        speed:0.09,
                         xOffset:0
                     },
                     circle_config:{
-                        r:220 / 2,//圆心
-                        cR:220 / 2 - 5//半径
+                        r:220 / 2,
+                        cR:220 / 2 - 5
                     },
-                    isLoading:false,//当isLoading为true时，不显示百分比文字
+                    isLoading:false,
                     nowRange:0,
                     targetRange:0,
-                    lineWidth:2,//圆圈线条宽度
-                    data_range:[60,80,100],//数据临界值范围
-                    textColorRange:['#fe5022','#fff','#fff'],//不同临界值文字的颜色范围
-                    circle_line_color:['#fe3702','#ffa200','#4ed752'],//不同临界值圆圈线条颜色
+                    lineWidth:2,
+                    data_range:[60,80,100],
+                    textColorRange:['#fe5022','#fff','#fff'],
+                    circle_line_color:['#fe3702','#ffa200','#4ed752'],
                     main_backcolor_range:[['#fe5e21','#f98957'],['#ffb30c','#f7d35a'],['#2ed351','#8ced6c']],//渐变色
                     backcolor_range:[['#f76b3b','#f14f17'],['#f4d672','#ffb50d'],['#43ea83','#12ce55']]
                 };
