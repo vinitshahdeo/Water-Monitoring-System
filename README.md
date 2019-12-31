@@ -25,6 +25,16 @@ The IoT(Hardware) components required are:
 - **A buzzer**
 - **12V transformer**
 
+### Issues
+
+| TITLE  | LEVEL  |
+|---|---|
+| [UI Enhancements](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/2)  | EASY  |
+| [Project Documentation](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/3)  | VERY EASY  |
+| [Setting up Cloud APIs to send/receive data](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/4)  | MEDIUM |
+| [Admin Dashboard ](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/5)  | HARD |
+| [Notify stakeholders](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/6)  | ADVANCED  |
+
 ### Author
 
 [![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/7)
