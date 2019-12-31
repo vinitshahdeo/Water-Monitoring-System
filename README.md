@@ -1,6 +1,6 @@
 # [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/home.html) - IoT Project
 
-[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/network)
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?style=social&logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?style=social)](https://github.com/vinitshahdeo/Water-Monitoring-System/network)
 
 > **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/home.html).**
 
