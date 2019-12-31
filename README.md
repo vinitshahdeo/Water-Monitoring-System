@@ -60,9 +60,7 @@ The IoT(Hardware) components required are:
 
 **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
 
-[![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/)
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) 
+[![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) 
 
 ---
 
@@ -74,5 +72,7 @@ if (isAwesome) {
 }
 
 ```
+
+---
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/vinitshahdeo/) [![powered by water](https://forthebadge.com/images/badges/powered-by-water.svg)](https://github.com/vinitshahdeo/) [![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/vinitshahdeo/)
