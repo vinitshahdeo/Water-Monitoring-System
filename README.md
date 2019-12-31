@@ -67,6 +67,8 @@ The IoT(Hardware) components required are:
 
 - Please follow the [PR Template](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/.github/PULL_REQUEST_TEMPLATE.md) to create the PR.
 
+- Always create PR to `develop` branch.
+
 
 ### Maintainer
 
