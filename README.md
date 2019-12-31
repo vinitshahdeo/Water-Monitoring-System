@@ -47,7 +47,7 @@ The IoT(Hardware) components required are:
 
 -  When you're submitting a PR for a UI-related issue, it would be really awesome if you add a screenshot of your change or a link to a deployment where it can be tested out along with your PR. It makes it very easy for the reviewers and you'll also get reviews quicker.
 
-- Please view follow the [PR Template](./.github/PR_TEMPLATE.md) to create the PR.
+- Please view follow the [PR Template](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/.github/PULL_REQUEST_TEMPLATE.md) to create the PR.
 
 
 ### Maintainer
