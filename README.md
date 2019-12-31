@@ -29,7 +29,7 @@ The status of the system could be monitored by an LCD screen or a web page that 
                                                       
 ```
 
-> **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
+> **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/docs/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
 
 The IoT(Hardware) components required are:
 
