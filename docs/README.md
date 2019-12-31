@@ -10,8 +10,6 @@
 
 **The status of the system could be monitored by an LCD screen or a web page that provides a brilliant graphical representation. Colours are used to depict various scenarios with respect to the amount of liquid in the tanks or containers and the buzzer buzzes when the limit exceeds the permissible quantity of fill.**
 
-<img src="./assets/logo.gif" width="250px" height="250px">
-
 ### Goals of this project : 
 
 - ***To reduce the wastage of water across the city***
