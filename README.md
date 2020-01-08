@@ -72,6 +72,8 @@ The IoT(Hardware) components required are:
 
 - Always create PR to `develop` branch.
 
+- Please read our [Code of Conduct](./CODE_OF_CONDUCT.md).
+
 
 ### Maintainer
 
