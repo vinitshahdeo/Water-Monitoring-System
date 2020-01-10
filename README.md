@@ -39,9 +39,35 @@ The IoT(Hardware) components required are:
 - **A buzzer**
 - **12V transformer**
 
+### Getting Started
+
+**1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
+
+**2.** Clone the forked repository: `git clone https://github.com/<your-github-username>/Water-Monitoring-System`
+
+**3.** Navigate to the project directory: `cd Water-Monitoring-System`
+
+**4.** Create a new branch: `git checkout -b <your_branch_name>`
+
+**5.** Make changes in source code.
+
+**6.** Commit your changes.
+
+```terminal
+  git add .
+  git commit -m "<your_commit_message>"
+```
+
+**7.** Push your local branch to the remote repository: `git push -u origin <your_branch_name>`.
+
+**8.** Create a PR!
+
+**9.** **Congratulations!** Sit and relax, you've made your contribution to [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) project.
+
 ### Issues
 
 [![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/codeuino/Water-Monitoring-System/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/vinitshahdeo)  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo)
+
 
 | TITLE  | LEVEL  |
 |---|---|
@@ -50,6 +76,8 @@ The IoT(Hardware) components required are:
 | [Setting up Cloud APIs to send/receive data](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/4)  | `MEDIUM` |
 | [Admin Dashboard ](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/5)  | `HARD` |
 | [Notify stakeholders](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/6)  | `ADVANCED`  |
+
+**NOTE**: **Feel free to [open issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new/choose)**. Make sure you follow the Issue Template provided.
 
 **NOTE**: **Feel free to [open issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new/choose)**. Make sure you follow the Issue Template provided.
 
@@ -68,6 +96,10 @@ The IoT(Hardware) components required are:
 - Please follow the [PR Template](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/.github/PULL_REQUEST_TEMPLATE.md) to create the PR.
 
 - Always create PR to `develop` branch.
+
+- Please read our [Code of Conduct](./CODE_OF_CONDUCT.md).
+
+- Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
 
 ### Maintainer
