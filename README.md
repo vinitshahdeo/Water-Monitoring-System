@@ -91,8 +91,6 @@ git push -u origin <your_branch_name>
 
 **NOTE**: **Feel free to [open issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new/choose)**. Make sure you follow the Issue Template provided.
 
-**NOTE**: **Feel free to [open issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new/choose)**. Make sure you follow the Issue Template provided.
-
 ### Contribution Guidelines
 
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/vinitshahdeo/Water-Monitoring-System?logo=github) [![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)](https://github.com/vinitshahdeo/)
