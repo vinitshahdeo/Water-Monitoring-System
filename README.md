@@ -39,7 +39,7 @@ The IoT(Hardware) components required are:
 - **A buzzer**
 - **12V transformer**
 
-### Getting Started
+## Getting Started
 
 **1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
 
