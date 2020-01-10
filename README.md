@@ -43,11 +43,20 @@ The IoT(Hardware) components required are:
 
 **1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
 
-**2.** Clone the forked repository: `git clone https://github.com/<your-github-username>/Water-Monitoring-System`
+**2.** Clone the forked repository.
+```terminal
+git clone https://github.com/<your-github-username>/Water-Monitoring-System
+```
 
-**3.** Navigate to the project directory: `cd Water-Monitoring-System`
+**3.** Navigate to the project directory.
+```terminal
+cd Water-Monitoring-System
+```
 
-**4.** Create a new branch: `git checkout -b <your_branch_name>`
+**4.** Create a new branch.
+```terminal
+git checkout -b <your_branch_name>
+```
 
 **5.** Make changes in source code.
 
@@ -58,7 +67,10 @@ The IoT(Hardware) components required are:
   git commit -m "<your_commit_message>"
 ```
 
-**7.** Push your local branch to the remote repository: `git push -u origin <your_branch_name>`.
+**7.** Push your local branch to the remote repository.
+```terminal
+git push -u origin <your_branch_name>
+```
 
 **8.** Create a PR!
 
