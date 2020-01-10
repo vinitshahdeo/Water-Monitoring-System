@@ -1,16 +1,14 @@
-# [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System) - IoT Project
+# [Water Monitoring System](https://github.com/vinitshahdeo/Water-Monitoring-System) - IoT Project
 
 [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System) 
 
-> **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html). Click [here](https://vinitshahdeo.github.io/Water-Monitoring-System) to view the homepage.**
+> **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html).**
 
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 
-**Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes. The water tanks can be fixed with ultrasonic sensors that is placed over the container. Ultrasonic sensor is used to measure, compare container depth and liquid level.**
+Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes. The water tanks can be fixed with ultrasonic sensors that is placed over the container. Ultrasonic sensor is used to measure, compare container depth and liquid level.
 
-**The status of the system could be monitored by an LCD screen or a web page that provides a brilliant graphical representation. Colours are used to depict various scenarios with respect to the amount of liquid in the tanks or containers and the buzzer buzzes when the limit exceeds the permissible quantity of fill.**
-
-<img src="./assets/logo.gif" width="250px" height="250px">
+The status of the system could be monitored by an LCD screen or a web page that provides a brilliant graphical representation. Colours are used to depict various scenarios with respect to the amount of liquid in the tanks or containers and the buzzer buzzes when the limit exceeds the permissible quantity of fill.
 
 ### Goals of this project : 
 
@@ -31,7 +29,7 @@
                                                       
 ```
 
-> **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
+> **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/docs/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
 
 The IoT(Hardware) components required are:
 
@@ -47,11 +45,20 @@ The IoT(Hardware) components required are:
 
 **1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
 
-**2.** Clone the forked repository: `git clone https://github.com/<your-github-username>/Water-Monitoring-System`
+**2.** Clone the forked repository.
+```terminal
+git clone https://github.com/<your-github-username>/Water-Monitoring-System
+```
 
-**3.** Navigate to the project directory: `cd Water-Monitoring-System`
+**3.** Navigate to the project directory.
+```terminal
+cd Water-Monitoring-System
+```
 
-**4.** Create a new branch: `git checkout -b <your_branch_name>`
+**4.** Create a new branch.
+```terminal
+git checkout -b <your_branch_name>
+```
 
 **5.** Make changes in source code.
 
@@ -62,7 +69,10 @@ The IoT(Hardware) components required are:
   git commit -m "<your_commit_message>"
 ```
 
-**7.** Push your local branch to the remote repository: `git push -u origin <your_branch_name>`.
+**7.** Push your local branch to the remote repository.
+```terminal
+git push -u origin <your_branch_name>
+```
 
 **8.** Create a PR!
 
@@ -75,11 +85,11 @@ The IoT(Hardware) components required are:
 
 | TITLE  | LEVEL  |
 |---|---|
-| [UI Enhancements](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/2)  | EASY  |
-| [Project Documentation](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/3)  | VERY EASY  |
-| [Setting up Cloud APIs to send/receive data](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/4)  | MEDIUM |
-| [Admin Dashboard ](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/5)  | HARD |
-| [Notify stakeholders](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/6)  | ADVANCED  |
+| [UI Enhancements](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/2)  | `EASY`  |
+| [Project Documentation](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/3)  | `VERY EASY`  |
+| [Setting up Cloud APIs to send/receive data](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/4)  | `MEDIUM` |
+| [Admin Dashboard ](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/5)  | `HARD` |
+| [Notify stakeholders](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/6)  | `ADVANCED`  |
 
 **NOTE**: **Feel free to [open issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new/choose)**. Make sure you follow the Issue Template provided.
 
