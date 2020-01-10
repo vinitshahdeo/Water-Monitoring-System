@@ -41,6 +41,8 @@ The IoT(Hardware) components required are:
 
 ## Getting Started
 
+[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub repo size](https://img.shields.io/github/repo-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
+
 **1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
 
 **2.** Clone the forked repository.
