@@ -109,7 +109,7 @@ git push -u origin <your_branch_name>
 
 - Always create PR to `develop` branch.
 
-- Please read our [Code of Conduct](./CODE_OF_CONDUCT.md).
+- Please read our [Code of Conduct](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CODE_OF_CONDUCT.md).
 
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
