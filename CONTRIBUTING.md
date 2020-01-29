@@ -26,4 +26,4 @@ In short, when you submit code changes, your submissions are understood to be un
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new); it's that easy!
 
 ## License
-By contributing, you agree that your contributions will be licensed under its MIT License.
+By contributing, you agree that your contributions will be licensed under its [MIT License](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE).
