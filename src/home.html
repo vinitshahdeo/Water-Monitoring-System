@@ -82,23 +82,15 @@
   height: 220px;
   width: 220px;
   padding-top: 90px;
-  font-size: 36px;
+  font-size: 30px;
   border-radius: 50%;
   display: inline-block;
   }
-  .danger {
-    background-color: #fe5e21;
-  }
-  .warning {
-    background-color: #ffb30c;
-  }
-  .safe {
-    background-color: #2ed351;
-  }
+
+}
 
   </style>
 </head>
-
 <body>
   <div class="container">
     <center>
@@ -115,7 +107,7 @@
 
 				</div>
 				<div class="flip-box-back">
-          <span class="danger dot">Danger</span>
+          <p id="backtank1" class="dot"></p>
 				</div>
 			  </div>
 			</div>
@@ -130,7 +122,7 @@
 
 				</div>
 				<div class="flip-box-back">
-          <span class="warning dot">Warning</span>
+          <p id="backtank2" class="dot"></p>
 				</div>
 			  </div>
 			</div>
@@ -145,7 +137,7 @@
 
   				</div>
   				<div class="flip-box-back">
-            <span class="danger dot">Danger</span>
+            <p id="backtank3" class="dot"></p>
   				</div>
   			  </div>
   			</div>
@@ -160,7 +152,7 @@
 
   				</div>
   				<div class="flip-box-back">
-            <span class="safe dot">Safe</span>
+            <p id="backtank4" class="dot"></p>
   				</div>
   			  </div>
   			</div>
@@ -177,13 +169,13 @@
 
 
       <div class="col-lg-4" style="background-color: #fe5e21;min-height: 100px;min-width: 100px; ">
-        <h1>Danger Zone</h1>
+        <h1>Danger Zone<br><30% </h1>
       </div>
       <div class="col-lg-4" style="background-color: #ffb30c;min-width: 100px;min-height: 100px">
-        <h1>Warning Zone</h1>
+        <h1>Warning Zone<br><50% </h1>
       </div>
       <div class="col-lg-4" style="background-color: #2ed351;min-width: 100px;min-height: 100px">
-        <h1>Safe Zone</h1>
+        <h1>Safe Zone<br>>50% </h1>
       </div>
     </div>
     <hr>
@@ -207,18 +199,42 @@
     var y = getQueryStringValue("tank2");
     var z = getQueryStringValue("tank3");
     var w = getQueryStringValue("tank4");
+    var tank1 = 25;
+    var tank2 = 65;
+    var tank3 = 45;
+    var tank4 = 70;
+
+
     $('.tank1').createWaterBall({
-      targetRange: 40
+      targetRange:tank1
     });
     $('.tank2').createWaterBall({
-      targetRange: 60
+      targetRange:tank2
     });
     $('.tank3').createWaterBall({
-      targetRange: 50
+      targetRange:tank3
     });
     $('.tank4').createWaterBall({
-      targetRange: 80
+      targetRange:tank4
     });
+    var tanks = [tank1, tank2, tank3, tank4];
+    var tanksid = ["backtank1", "backtank2", "backtank3", "backtank4"];
+    for(i=0;i<tanks.length;i++)
+    {
+      if (tanks[i]<30)
+      {
+        document.getElementById(tanksid[i]).innerHTML = "Danger: <30";
+        document.getElementById(tanksid[i]).style.backgroundColor = "#fe5e21";
+      }
+      else if (tanks[i]<50) {
+        document.getElementById(tanksid[i]).innerHTML = "Warning: <50";
+        document.getElementById(tanksid[i]).style.backgroundColor = "#ffb30c";
+      }
+      else {
+        document.getElementById(tanksid[i]).innerHTML = "Safe: >50";
+        document.getElementById(tanksid[i]).style.backgroundColor = "#2ed351";
+      }
+    }
 
 
   </script>
