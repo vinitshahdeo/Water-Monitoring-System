@@ -29,7 +29,7 @@ The status of the system could be monitored by an LCD screen or a web page that 
                                                       
 ```
 
-> **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/docs/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
+> **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
 
 The IoT(Hardware) components required are:
 
@@ -39,49 +39,9 @@ The IoT(Hardware) components required are:
 - **A buzzer**
 - **12V transformer**
 
-## Getting Started
-
-[![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vinitshahdeo/Water-Monitoring-System?color=bluevoilet&logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/commits/)  [![GitHub repo size](https://img.shields.io/github/repo-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
-
-**1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
-
-**2.** Clone the forked repository.
-```terminal
-git clone https://github.com/<your-github-username>/Water-Monitoring-System
-```
-
-**3.** Navigate to the project directory.
-```terminal
-cd Water-Monitoring-System
-```
-
-**4.** Create a new branch.
-```terminal
-git checkout -b <your_branch_name>
-```
-
-**5.** Make changes in source code.
-
-**6.** Commit your changes.
-
-```terminal
-  git add .
-  git commit -m "<your_commit_message>"
-```
-
-**7.** Push your local branch to the remote repository.
-```terminal
-git push -u origin <your_branch_name>
-```
-
-**8.** Create a PR!
-
-**9.** **Congratulations!** Sit and relax, you've made your contribution to [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) project.
-
 ### Issues
 
 [![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/codeuino/Water-Monitoring-System/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/vinitshahdeo)  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo)
-
 
 | TITLE  | LEVEL  |
 |---|---|
@@ -90,8 +50,6 @@ git push -u origin <your_branch_name>
 | [Setting up Cloud APIs to send/receive data](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/4)  | `MEDIUM` |
 | [Admin Dashboard ](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/5)  | `HARD` |
 | [Notify stakeholders](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/6)  | `ADVANCED`  |
-
-**NOTE**: **Feel free to [open issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new/choose)**. Make sure you follow the Issue Template provided.
 
 ### Contribution Guidelines
 
@@ -109,20 +67,12 @@ git push -u origin <your_branch_name>
 
 - Always create PR to `develop` branch.
 
-- Please read our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
-- Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
-
-
-## Maintainer
-
-[![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
+### Maintainer
 
 [![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/7)
 
 **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
-
-<a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a>
 
 > ***Need help?***
 ***Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)***
