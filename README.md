@@ -140,6 +140,14 @@ git push -u origin <your_branch_name>
 if (thisRepo.isAwesome()) {
     thisRepo.fork(); // waiting for your awesome contributions :)
     thisRepo.star(); // thanks in advance :p
+    thisRepo.watch((bug) => {
+      if(!doesIssueExists(bug)) {
+        createNewIssue(bug); // wow, that's nice catch
+      }
+      else {
+        checkIssueTracker(bug); // comment there
+      }
+    }
     thisRepo.share(); // sharing is caring :D
 }
 
