@@ -132,10 +132,15 @@ git push -u origin <your_branch_name>
 ---
 
 ```javascript
-
-if (isAwesome) {
-    // thanks in advance :p
-    starThisRepository();
+/**
+ *
+ * {thisRepo.url} = https://github.com/vinitshahdeo/Water-Monitoring-System/
+ *
+ */
+if (thisRepo.isAwesome()) {
+    thisRepo.fork(); // waiting for your awesome contributions :)
+    thisRepo.star(); // thanks in advance :p
+    thisRepo.share(); // sharing is caring :D
 }
 
 ```
