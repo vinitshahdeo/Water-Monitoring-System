@@ -1,0 +1,12 @@
+body {
+  background-color: #fafafa;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.grey-color {
+  color: grey;
+}
+
+.tank-title {
+  font-size: 30px;
+}
