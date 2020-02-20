@@ -147,7 +147,7 @@ if (thisRepo.isAwesome()) {
       else {
         checkIssueTracker(bug); // comment there
       }
-    }
+    });
     thisRepo.share(); // sharing is caring :D
 }
 
