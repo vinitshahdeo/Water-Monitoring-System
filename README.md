@@ -142,7 +142,7 @@ if (thisRepo.isAwesome()) {
     thisRepo.star(); // thanks in advance :p
     thisRepo.watch((bug) => {
       if(!doesIssueExists(bug)) {
-        createNewIssue(bug); // wow, that's nice catch
+        createNewIssue(bug); // wow, that's a nice catch
       }
       else {
         checkIssueTracker(bug); // comment there
