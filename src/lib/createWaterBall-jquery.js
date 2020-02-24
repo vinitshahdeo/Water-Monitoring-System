@@ -31,7 +31,7 @@
 			var dY = c_height * (1 - config.nowRange / 100 );
 
 			points.push([x, dY + y * w_waveHeight]);
-			ctx.lineTo(x, dY + y * w_waveHeight);  
+			ctx.lineTo(x, dY + y * w_waveHeight);
 		}
 		ctx.lineTo(w_axisLength,c_height);
 		ctx.lineTo(w_sX,c_height);
@@ -88,7 +88,7 @@
         init: function (config) {
 
          return this.each(function(){
-            
+
             var $this = $(this),
                 data = $this.data('waterBall'),
                 _config = {
@@ -113,7 +113,7 @@
                     nowRange:0,
                     targetRange:0,
                     lineWidth:2,
-                    data_range:[60,80,100],
+                    data_range:[30,50,100],
                     textColorRange:['#fe5022','#fff','#fff'],
                     circle_line_color:['#fe3702','#ffa200','#4ed752'],
                     main_backcolor_range:[['#fe5e21','#f98957'],['#ffb30c','#f7d35a'],['#2ed351','#8ced6c']],//渐变色
@@ -148,7 +148,7 @@
                 methods.render.apply($this);
             }
          });
-            
+
         },
         destroy: function () {
         },
@@ -203,7 +203,7 @@
         }
     };
 	$.fn.createWaterBall = function(method) {
-		
+
 		if (methods[method]) {
 			return methods[method].apply(this,Array.prototype.slice.call(arguments,1));
 		} else if(typeof method === 'object' || !method) {

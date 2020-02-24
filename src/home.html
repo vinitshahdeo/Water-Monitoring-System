@@ -36,13 +36,61 @@
     }
 
     h2 {
-      padding-top: 200px;
       text-align: center;
       font-weight: 800;
     }
+
+
+    .flip-box {
+	  background-color: transparent;
+	  width: 220px;
+	  height: 220px;
+	  perspective: 1000px;
+	}
+
+	.flip-box-inner {
+	  position: relative;
+	  width: 100%;
+	  height: 100%;
+	  text-align: center;
+	  transition: transform 0.8s;
+	  transform-style: preserve-3d;
+	}
+
+	.flip-box:hover .flip-box-inner {
+	  transform: rotateY(180deg);
+	}
+
+	.flip-box-front, .flip-box-back {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  backface-visibility: hidden;
+	}
+
+	.flip-box-front {
+	  background-color: #fafafa;
+	  color: black;
+	}
+
+	.flip-box-back {
+	  background-color: #fafafa;
+	  color: white;
+	  transform: rotateY(180deg);
+	}
+  .dot {
+  height: 220px;
+  width: 220px;
+  padding-top: 90px;
+  font-size: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  }
+
+}
+
   </style>
 </head>
-
 <body>
   <div class="container">
     <center>
@@ -52,35 +100,82 @@
     </center>
     <div class="row">
       <div class="col-lg-3">
-        <div class="tank1" style="width: 200px;height:200px; float:left"></div>
-        <h2>Tank 1</h2>
+		  <div class="flip-box">
+			  <div class="flip-box-inner">
+				<div class="flip-box-front">
+				  <div class="tank1" style="width: 200px;height:200px; float:left"></div>
+
+				</div>
+				<div class="flip-box-back">
+          <p id="backtank1" class="dot"></p>
+				</div>
+			  </div>
+			</div>
+         <h2>Tank 1</h2>
       </div>
+
       <div class="col-lg-3">
-        <div class="tank2" style="width: 200px;height:200px; float:left"></div>
-        <h2>Tank 2</h2>
+		  <div class="flip-box">
+			  <div class="flip-box-inner">
+				<div class="flip-box-front">
+				  <div class="tank2" style="width: 200px;height:200px; float:left"></div>
+
+				</div>
+				<div class="flip-box-back">
+          <p id="backtank2" class="dot"></p>
+				</div>
+			  </div>
+			</div>
+         <h2>Tank 2</h2>
       </div>
-      <div class="col-lg-3">
-        <div class="tank3" style="width: 200px;height:200px; float:left"></div>
-        <h2>Tank 3</h2>
-      </div>
-      <div class="col-lg-3">
-        <div class="tank4" style="width: 200px;height:200px; float:left"></div>
-        <h2>Tank 4</h2>
-      </div>
+
+        <div class="col-lg-3">
+  		  <div class="flip-box">
+  			  <div class="flip-box-inner">
+  				<div class="flip-box-front">
+  				  <div class="tank3" style="width: 200px;height:200px; float:left"></div>
+
+  				</div>
+  				<div class="flip-box-back">
+            <p id="backtank3" class="dot"></p>
+  				</div>
+  			  </div>
+  			</div>
+           <h2>Tank 3</h2>
+        </div>
+
+        <div class="col-lg-3">
+  		  <div class="flip-box">
+  			  <div class="flip-box-inner">
+  				<div class="flip-box-front">
+  				  <div class="tank4" style="width: 200px;height:200px; float:left"></div>
+
+  				</div>
+  				<div class="flip-box-back">
+            <p id="backtank4" class="dot"></p>
+  				</div>
+  			  </div>
+  			</div>
+           <h2>Tank 4</h2>
+        </div>
     </div>
   </div>
 
   <div class="container">
 
+
     <div class="row">
+
+
+
       <div class="col-lg-4" style="background-color: #fe5e21;min-height: 100px;min-width: 100px; ">
-        <h1>Danger Zone</h1>
+        <h1>Danger Zone<br><30% </h1>
       </div>
       <div class="col-lg-4" style="background-color: #ffb30c;min-width: 100px;min-height: 100px">
-        <h1>Warning Zone</h1>
+        <h1>Warning Zone<br><50% </h1>
       </div>
       <div class="col-lg-4" style="background-color: #2ed351;min-width: 100px;min-height: 100px">
-        <h1>Safe Zone</h1>
+        <h1>Safe Zone<br>>50% </h1>
       </div>
     </div>
     <hr>
@@ -93,76 +188,55 @@
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
-    //var x=30;
-    //alert("vini");
-    //var qs = window.GetQueryString(query);
 
-    //var x = window.getParameterByName('foo');
-
-    /* function getParameterByName(name) {
-     
-        var match = RegExp('[?]' + foo + '=')
-                        .exec(window.location.search);
-     
-        return match ?
-            decodeURIComponent(match[1].replace(/+/g, ' '))
-            : null;
-     
-    }*/
 
     function getQueryStringValue(key) {
       return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key)
         .replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
     }
+
     var x = getQueryStringValue("tank1");
     var y = getQueryStringValue("tank2");
     var z = getQueryStringValue("tank3");
     var w = getQueryStringValue("tank4");
+    var tank1 = 25;
+    var tank2 = 65;
+    var tank3 = 45;
+    var tank4 = 70;
+
+
     $('.tank1').createWaterBall({
-      targetRange: x
+      targetRange:tank1
     });
     $('.tank2').createWaterBall({
-      targetRange: y
+      targetRange:tank2
     });
     $('.tank3').createWaterBall({
-      targetRange: z
+      targetRange:tank3
     });
     $('.tank4').createWaterBall({
-      targetRange: w
+      targetRange:tank4
     });
+    var tanks = [tank1, tank2, tank3, tank4];
+    var tanksid = ["backtank1", "backtank2", "backtank3", "backtank4"];
+    for(i=0;i<tanks.length;i++)
+    {
+      if (tanks[i]<30)
+      {
+        document.getElementById(tanksid[i]).innerHTML = "Danger: <30";
+        document.getElementById(tanksid[i]).style.backgroundColor = "#fe5e21";
+      }
+      else if (tanks[i]<50) {
+        document.getElementById(tanksid[i]).innerHTML = "Warning: <50";
+        document.getElementById(tanksid[i]).style.backgroundColor = "#ffb30c";
+      }
+      else {
+        document.getElementById(tanksid[i]).innerHTML = "Safe: >50";
+        document.getElementById(tanksid[i]).style.backgroundColor = "#2ed351";
+      }
+    }
 
-    var loadingEle = $('.loading');
-    var loading_width = loadingEle.width(),
-      loading_height = loadingEle.height();
-    $('.loading').createWaterBall({
-      cvs_config: {
-        width: loading_width,
-        height: loading_height
-      },
-      wave_config: {
-        waveWidth: 0.02,
-        waveHeight: 5
-      },
-      data_range: [30, 70, 100],
-      isLoading: true,
-      nowRange: 70,
-      targetRange: 70
-    });
-    setTimeout(function () {
-      $('.loading').createWaterBall('updateRange', 80);
-    }, 1000);
-    $('.waterBall1').createWaterBall({
-      csv_config: {
-        width: $('.waterBall1').width(),
-        height: $('.waterBall1').height()
-      },
-      wave_config: {
-        waveWidth: 0.02,
-        waveHeight: 5
-      },
-      data_range: [40, 50, 100],
-      targetRange: 45
-    });
+
   </script>
   <!-- @author: Vinit Shahdeo -->
 </body>
