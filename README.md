@@ -127,8 +127,7 @@ git push -u origin <your_branch_name>
 
 <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a>
 
-> **_Need help?_**
-> **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
+> **_Need help?_** > **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
