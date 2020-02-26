@@ -21,10 +21,10 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 3. Work on the feature branch without taking pull
 4. Write proper commit message and description.
 5. Resolve Merge conflicts and assign respective mentor for reviewing.
-4. Always create PR to `develop` branch.
-5. Once your PR is merged, delete that branch.
-4. Make sure your code lints.
-5. Issue that pull request!
+6. Always create PR to `develop` branch.
+7. Once your PR is merged, delete that branch.
+8. Make sure your code lints.
+9. Issue that pull request!
 
 ## Any contributions you make will be under the MIT Software License
 
