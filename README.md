@@ -55,8 +55,9 @@ git clone https://github.com/<your-github-username>/Water-Monitoring-System
 cd Water-Monitoring-System
 ```
 
-**4.** Create a new branch.
+**4.** Create a new branch from develop branch.
 ```terminal
+git checkout -b develop
 git checkout -b <your_branch_name>
 ```
 
