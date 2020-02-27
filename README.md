@@ -158,8 +158,9 @@ git push -u origin <your_branch_name>
 
 | GitHub Usernames  | Domain  |
 |---|---|
-| [@vinitshahdeo](https://github.com/vinitshahdeo)  | Full Stack  |
+| [@vinitshahdeo](https://github.com/vinitshahdeo)  | Full Stack + Documentation |
 | [@ShreyaAnand](https://github.com/ShreyaAnand)  | Full Stack  |
+| [@YashMeh](https://github.com/YashMeh)  | Backend |
 | [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation  |
 | [@ramanaditya](https://github.com/ramanaditya)  | Backend + Hardware  |
 | [@Manvityagi](https://github.com/Manvityagi)  | APIs + Cloud  |
