@@ -114,6 +114,37 @@ git push -u origin <your_branch_name>
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
 
+### Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
+
+> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.gssoc.tech/).
+
+#### 1. How to start as a beginner so as to contribute to the project?
+*There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs.Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions.*
+
+
+#### 2. Is this a hardware/IoT project?
+*Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integarted with the real-time data from the sensors.*
+
+#### 3. How to communicate with us?
+*All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. *Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more.**
+
+#### 4. What is the Tech Stack for this project?
+
+- **Frontend:** React
+
+- **Backend:** Django, Node.js
+
+#### 5. What is the deadline for any task submission?
+
+*Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration.*
+
+
+### Important Resources
+
+- [Django Docs](https://docs.djangoproject.com/en/3.0/)
+- [React Docs](https://reactjs.org/docs/getting-started.html)
+- [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
+
 ## Maintainer
 
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
@@ -129,36 +160,7 @@ git push -u origin <your_branch_name>
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) 
 
----
 
-### Frequently Asked Questions(FAQs) for GSSoC'20:
-
-#### 1. How to start as a beginner so as to contribute to the project?
-There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs.Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions.
-
-
-#### 2. Is this a hardware/IoT project?
-Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integarted with the real-time data from the sensors.
-
-#### 3. How to communicate with us?
-All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. Checkout this issue for more: [https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15"](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15)
-
-#### 4. What is the Tech Stack for this project?
-**Frontend:** ReactJS
-**Backend:** Django, NodeJS
-
-#### 5. What is the deadline for any task submission?
-Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration.
-
----
-
-### Important Resources:
-
-
-- Django Docs: [https://docs.djangoproject.com/en/3.0/](https://docs.djangoproject.com/en/3.0/)
-- React Docs: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
-- Git and GitHub: [https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
-  
 ---
 
 ```javascript
