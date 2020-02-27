@@ -93,7 +93,7 @@ git push -u origin <your_branch_name>
 
 **NOTE**: **Feel free to [open issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/new/choose)**. Make sure you follow the Issue Template provided.
 
-### Contribution Guidelines
+## Contribution Guidelines
 
 ![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/vinitshahdeo/Water-Monitoring-System?logo=github) [![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)](https://github.com/vinitshahdeo/)
 
@@ -114,7 +114,7 @@ git push -u origin <your_branch_name>
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
 
-### Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
+## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
 
 > This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.gssoc.tech/).
 
@@ -139,7 +139,7 @@ git push -u origin <your_branch_name>
 *Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration.*
 
 
-### Important Resources
+## Important Resources
 
 - [Django Docs](https://docs.djangoproject.com/en/3.0/)
 - [React Docs](https://reactjs.org/docs/getting-started.html)
