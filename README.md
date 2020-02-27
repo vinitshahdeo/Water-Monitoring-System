@@ -140,6 +140,18 @@ git push -u origin <your_branch_name>
 
 *Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration.*
 
+## Additional Info
+
+- If you're interested in contributing for **documentation**, please checkout `feature/documentation` branch.
+
+- If you're interested in contributing for **backend**, please checkout the following branch according to the tech stack:
+
+  - **Django**: `feature/backend-django` 
+  - **Node.js**: `feature/backend-node`
+
+- If you're interested in contributing for **frontend**, please checkout `feature/frontend` branch.
+
+
 ## Mentors
 
  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) ![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)
