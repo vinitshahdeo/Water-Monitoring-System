@@ -166,7 +166,7 @@ git push -u origin <your_branch_name>
 | [@jainpawan21](https://github.com/jainpawan21)  | Frontend  |
 
 
-## Important Resources
+## Useful Resources
 
 - [Django Docs](https://docs.djangoproject.com/en/3.0/)
 - [React Docs](https://reactjs.org/docs/getting-started.html)
