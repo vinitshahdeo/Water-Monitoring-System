@@ -80,7 +80,7 @@ git push -u origin <your_branch_name>
 
 ## Issues
 
-[![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/codeuino/Water-Monitoring-System/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/vinitshahdeo)  [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo)
+[![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/codeuino/Water-Monitoring-System/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/vinitshahdeo) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo)
 
 
 | TITLE  | LEVEL  |
@@ -138,12 +138,26 @@ git push -u origin <your_branch_name>
 
 *Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration.*
 
+## Mentors
+
+ [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo)
+
+| GitHub Usernames  | Domain  |
+|---|---|
+| [@vinitshahdeo](https://github.com/vinitshahdeo)  | Full Stack  |
+| [@ShreyaAnand](https://github.com/ShreyaAnand)  | Full Stack  |
+| [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation  |
+| [@ramanaditya](https://github.com/ramanaditya)  | Backend + Hardware  |
+| [@Manvityagi](https://github.com/Manvityagi)  | APIs + Cloud  |
+| [@jainpawan21](https://github.com/jainpawan21)  | Frontend  |
+
 
 ## Important Resources
 
 - [Django Docs](https://docs.djangoproject.com/en/3.0/)
 - [React Docs](https://reactjs.org/docs/getting-started.html)
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
+
 
 ## Maintainer
 
