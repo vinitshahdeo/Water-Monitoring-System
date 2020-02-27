@@ -17,7 +17,7 @@ We use github to host code, to track issues and feature requests, as well as acc
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://guides.github.com/introduction/flow/index.html)). We actively welcome your pull requests:
 
 1. Fork the repo and create your branch from `master`.
-2. From `develop` branch create feature branch `eg: feature/ui-enhancements`
+2. From `develop` branch create feature branch `eg: feature/button-overflow-fix`
 3. Work on the feature branch without taking pull
 4. Write proper commit message and description.
 5. Resolve Merge conflicts and assign respective mentor for reviewing.
