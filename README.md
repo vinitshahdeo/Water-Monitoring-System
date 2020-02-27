@@ -179,11 +179,10 @@ git push -u origin <your_branch_name>
 
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
 
-
-
-**[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
-
-<a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a>
+| <img src="assets/vinit-shahdeo.jpg" width=150px height=150px /> |
+|:---:|
+| **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**  |
+| <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a> |
 
 > ***Need help?***
 ***Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)***
