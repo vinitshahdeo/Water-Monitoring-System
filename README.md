@@ -140,25 +140,24 @@ There are many beginner level issues to begin with, which include documentation,
 #### 2. Is this a hardware/IoT project?
 Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integarted with the real-time data from the sensors.
 
-#### 3.How to communicate with us?
-All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. Checkout this issue for more: <a href="https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15">https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15</a>
+#### 3. How to communicate with us?
+All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. Checkout this issue for more: [https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15"](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15)
 
-#### 4.What is the Tech Stack for this project?
-<strong>Frontend:</strong> ReactJS<br>
-<strong>Backend:</strong> Django, NodeJS
+#### 4. What is the Tech Stack for this project?
+**Frontend:** ReactJS
+**Backend:** Django, NodeJS
 
-#### 5.What is the deadline for any task submission?
+#### 5. What is the deadline for any task submission?
 Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration.
 
 ---
 
 ### Important Resources:
 
-<ul>
-  <li> Django Docs: https://docs.djangoproject.com/en/3.0/ </li>
-  <li> React Docs: https://reactjs.org/docs/getting-started.html </li>
-  <li> Git and GitHub: https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide </li>
-  </ul>
+
+- Django Docs: [https://docs.djangoproject.com/en/3.0/](https://docs.djangoproject.com/en/3.0/)
+- React Docs: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
+- Git and GitHub: [https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
   
 ---
 
