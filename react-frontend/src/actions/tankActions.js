@@ -1,7 +1,6 @@
 import {FETCH_TANKS} from './types';
 
 export const fetchTanks = () => {
-  console.log('in actions')
   return ({
     type: FETCH_TANKS,
     payload: [
@@ -12,4 +11,3 @@ export const fetchTanks = () => {
     ]
   }) 
 };
-

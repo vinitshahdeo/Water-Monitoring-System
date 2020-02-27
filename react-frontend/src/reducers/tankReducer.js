@@ -7,7 +7,6 @@ const initialState = {
 export default function(state = initialState, action) {
   switch (action.type) {
     case FETCH_TANKS:
-      console.log('In reducer')
       return {
         ...state,
         tanks: action.payload
