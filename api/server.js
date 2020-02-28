@@ -1,0 +1,57 @@
+const express = require("express");
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const cors = require("cors");
+const helmet = require("helmet");
+const morgan = require("morgan");
+const config = require("config");
+const app = express();
+const port = process.env.PORT || 8080;
+
+//Use the database uri from the ./config directory
+const dbURI = config.dbURI;
+mongoose
+  .connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(res => {
+    console.log("Database connected successfully.");
+  })
+  .catch(err => {
+    throw err;
+  });
+
+//Configuring the express instance
+// Prevent misconfig headers
+app.disable("x-powered-by");
+
+// Prevent opening page in frame or iframe to protect from clickjacking
+app.use(helmet.frameguard());
+
+// Prevents browser from caching and storing page
+app.use(helmet.noCache());
+
+// use bodyParser to parse application/json content-type
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+// enable all CORS requests
+app.use(cors());
+
+//If executing in test environment then prevent logging
+if (config.util.getEnv("NODE_ENV") !== "test") {
+  // log HTTP requests
+  app.use(morgan("combined"));
+}
+
+//Requiring Routes
+const readingRoutes = require("./routes/readingRoutes");
+
+//Using Routes
+app.use("/api/reading", readingRoutes);
+
+//Starting the server
+app.listen(port, err => {
+  if (err) throw err;
+  console.log(`Server running at port ${port}`);
+});
+
+module.exports = app; // for testing
