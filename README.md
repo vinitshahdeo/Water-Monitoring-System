@@ -163,6 +163,7 @@ git push -u origin <your_branch_name>
 | [@YashMeh](https://github.com/YashMeh)  | Backend |
 | [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation  |
 | [@ramanaditya](https://github.com/ramanaditya)  | Backend + Hardware  |
+| [@ArpitKotecha](https://github.com/ArpitKotecha)  | Backend |
 | [@Manvityagi](https://github.com/Manvityagi)  | APIs + Cloud  |
 | [@jainpawan21](https://github.com/jainpawan21)  | Frontend  |
 
@@ -173,6 +174,7 @@ git push -u origin <your_branch_name>
 
 - [Django Docs](https://docs.djangoproject.com/en/3.0/)
 - [React Docs](https://reactjs.org/docs/getting-started.html)
+- [Node.js Docs](https://nodejs.org/api/)
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
 
