@@ -163,6 +163,7 @@ git push -u origin <your_branch_name>
 | [@YashMeh](https://github.com/YashMeh)  | Backend |
 | [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation  |
 | [@ramanaditya](https://github.com/ramanaditya)  | Backend + Hardware  |
+| [@ArpitKotecha](https://github.com/ArpitKotecha)  | Backend |
 | [@Manvityagi](https://github.com/Manvityagi)  | APIs + Cloud  |
 | [@jainpawan21](https://github.com/jainpawan21)  | Frontend  |
 
