@@ -4,4 +4,4 @@ from hardware.models import Hardware
 class HardwareSerializer(serializers.ModelSerializer):
     class Meta:
         model = Hardware
-        field = '__all__'
+        fields = '__all__'
