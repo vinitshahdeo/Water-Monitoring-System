@@ -1,0 +1,4 @@
+[build]
+base = "react-frontend/"
+publish = "react-frontend/build/"
+command = "yarn build"
