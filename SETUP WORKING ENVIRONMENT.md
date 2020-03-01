@@ -1,20 +1,20 @@
-#HOW TO SETUP WORKING ENVIRONMENT ON YOUR LOCAL MACHINE
+# HOW TO SETUP WORKING ENVIRONMENT ON YOUR LOCAL MACHINE
 
-##To setup Backend using Nodejs-
+## To setup Backend using Nodejs-
 - ***Firstly install Node on your machine, [click here](https://nodejs.org/en/).***
--***To check that NOde has succesfully installed, run the following command in Terminal. Yhis will display the version of Node installed.***
+-***To check that Node has successfully installed, run the following command in Terminal. This will display the version of Node installed.***
 
 ```js
 node -v
 ```
 
-- ***You also need to install npm, run the following command in Terminal ***
+-***You also need to install npm, run the following command in Terminal ***
 
 ```js
 npm install
 ```
 
--***To chack that npm has installed succesfully, run this command in your Terminal. This will display the version of npm istalled.***
+-***To check that npm has installed successfully, run this command in your Terminal. This will display the version of npm installed.***
 
 ```js
 npm -v
@@ -22,9 +22,9 @@ npm -v
 
 -***Your Backend environment is all setup.***
 
-##To setup Backend using Reactjs-
+## To setup FrontEnd using Reactjs-
 
--***You need to below command to install React on your machine.***
+-***You need to run below command to install React on your machine.***
 
 ```js
 npm install -g create-react-app  
