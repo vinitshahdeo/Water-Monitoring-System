@@ -113,6 +113,14 @@ git push -u origin <your_branch_name>
 
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
+## Open Source Programs
+
+This project is part of the following Open Source programs:
+
+- [GirlScript Summer of Code 2020](https://www.gssoc.tech/)
+- [Rails Girls Summer of Code 2020](http://railsgirlssummerofcode.org/)
+- [JGEC Winter of Code 2020](https://www.facebook.com/jwoc2k20/)
+
 
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
 
