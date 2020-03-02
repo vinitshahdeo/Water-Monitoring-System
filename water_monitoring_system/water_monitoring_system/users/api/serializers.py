@@ -2,7 +2,7 @@ from rest_framework import serializers
 from water_monitoring_system.users.models import User
 
 
-class UserSerializer(serializers.ModelSerializer):
+class UserSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = User
         fields = ["username", "email", "name", "url"]

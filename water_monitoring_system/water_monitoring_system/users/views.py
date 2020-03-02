@@ -4,7 +4,6 @@ from django.urls import reverse
 from django.views.generic import DetailView, RedirectView, UpdateView
 from django.contrib import messages
 from django.utils.translation import ugettext_lazy as _
-from rest_framework import viewsets
 
 User = get_user_model()
 
@@ -49,9 +48,3 @@ class UserRedirectView(LoginRequiredMixin, RedirectView):
 
 
 user_redirect_view = UserRedirectView.as_view()
-
-class UserViewSet(viewsets.ModelViewSet):
-    """
-    API endpoints that allow users to be viewed or edited or created.
-    """
-    pass
