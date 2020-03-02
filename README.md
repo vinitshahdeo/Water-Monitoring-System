@@ -72,6 +72,10 @@ git checkout -b <your_branch_name>
 **7.** Push your local branch to the remote repository.
 ```terminal
 git push -u origin <your_branch_name>
+-> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.gssoc.tech/).
++> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.girlscript.tech/).
+ 
+ [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://www.gssoc.tech/)
 ```
 
 **8.** Create a PR!
@@ -113,6 +117,14 @@ git push -u origin <your_branch_name>
 
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
+## Open Source Programs
+
+This project is part of the following Open Source programs:
+
+- [GirlScript Summer of Code 2020](https://www.gssoc.tech/)
+- [Rails Girls Summer of Code 2020](http://railsgirlssummerofcode.org/)
+- [JGEC Winter of Code 2020](https://jwoc.tech/)
+
 
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
 
@@ -151,6 +163,8 @@ git push -u origin <your_branch_name>
 
 - If you're interested in contributing for **frontend**, please checkout `feature/frontend` branch.
 
+> **Note:** Are you an **absolute beginner?** Please [check the issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues?q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only) labeled with `first-timers-only`. These issues might _let your Open Source journey begin_ - **Welcome onboard!**
+
 
 ## Mentors
 
@@ -163,6 +177,7 @@ git push -u origin <your_branch_name>
 | [@YashMeh](https://github.com/YashMeh)  | Backend |
 | [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation  |
 | [@ramanaditya](https://github.com/ramanaditya)  | Backend + Hardware  |
+| [@ArpitKotecha](https://github.com/ArpitKotecha)  | Backend |
 | [@Manvityagi](https://github.com/Manvityagi)  | APIs + Cloud  |
 | [@jainpawan21](https://github.com/jainpawan21)  | Frontend  |
 
@@ -173,6 +188,7 @@ git push -u origin <your_branch_name>
 
 - [Django Docs](https://docs.djangoproject.com/en/3.0/)
 - [React Docs](https://reactjs.org/docs/getting-started.html)
+- [Node.js Docs](https://nodejs.org/api/)
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
 
