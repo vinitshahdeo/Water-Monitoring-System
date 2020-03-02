@@ -151,6 +151,8 @@ git push -u origin <your_branch_name>
 
 - If you're interested in contributing for **frontend**, please checkout `feature/frontend` branch.
 
+> **Note:** Are you an **absolute beginner?** Please [check the issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues?q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only) labeled with `first-timers-only`. These issues might _let your Open Source journey begin_ - **Welcome onboard!**
+
 
 ## Mentors
 
