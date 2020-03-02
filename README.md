@@ -156,3 +156,4 @@ if (thisRepo.isAwesome()) {
 ---
 
 [![built with love](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/vinitshahdeo/) [![powered by water](https://forthebadge.com/images/badges/powered-by-water.svg)](https://github.com/vinitshahdeo/) [![smile please](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://github.com/vinitshahdeo/)
+version|https://badge.fury.io/{{programming_language:js\|py}}/{{project_name}}.svg|http://badge.fury.io/{{programming_language:js\|py}}/{{project_name}}
