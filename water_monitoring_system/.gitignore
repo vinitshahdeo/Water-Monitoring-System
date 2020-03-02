@@ -337,4 +337,5 @@ water_monitoring_system/media/
 
 .pytest_cache/
 
+*.sqlite3
 
