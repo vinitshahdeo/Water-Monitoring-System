@@ -87,8 +87,8 @@ THIRD_PARTY_APPS = [
 
 LOCAL_APPS = [
     "water_monitoring_system.users.apps.UsersConfig",
-    'hardware',
     # Your stuff: custom apps go here
+    "water_monitoring_system.hardware.apps.HardwareConfig",
 ]
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
 INSTALLED_APPS = DJANGO_APPS + THIRD_PARTY_APPS + LOCAL_APPS
