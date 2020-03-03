@@ -1,5 +1,5 @@
 {
-  "name": "web-monitoring-api",
+  "name": "water-monitoring-system-api",
   "version": "1.0.0",
   "description": "This is the backend of the web based water monitoring system.",
   "main": "server.js",
