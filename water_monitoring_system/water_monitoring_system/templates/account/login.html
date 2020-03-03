@@ -1,6 +1,9 @@
-{% extends "account/base.html" %} {% load i18n %} {% load account socialaccount
-%} {% load crispy_forms_tags %} {% block head_title %}{% trans "Sign In" %}{%
-endblock %} {% block inner %}
+{% extends "account/base.html" %}{% load i18n %}
+{% load account socialaccount %}
+{% load crispy_forms_tags %}
+{% block head_title %}
+  {% trans "Sign In" %}
+{% endblock %} {% block inner %}
 
 <h1>{% trans "Sign In" %}</h1>
 
@@ -13,8 +16,7 @@ endblock %} {% block inner %}
 
 <div class="socialaccount_ballot">
   <ul class="socialaccount_providers">
-    {% include "socialaccount/snippets/provider_list.html" with process="login"
-    %}
+    {% include "socialaccount/snippets/provider_list.html" with process="login" %}
   </ul>
 
   <div class="login-or">{% trans 'or' %}</div>
