@@ -21,8 +21,8 @@ class Home extends Component {
             </center>
           </div>
           <div className="row m-5 d-flex justify-content-center align-items-center">
-            {this.props.tanks.map(tank=> (
-              <div>
+            {this.props.tanks.map((tank, index)=> (
+              <div key={index}>
                 <div className="col-lg-3 d-flex align-items-center" id={tank.id}>
                   <center>
                     <TankCircle>
@@ -50,9 +50,11 @@ class Home extends Component {
             </div>
           </div>
           <hr/>
-          <p>
-            <center><strong>Made by Vinit Shahdeo</strong></center>
-          </p>
+          <center>
+            <p>
+              <strong>Made by Vinit Shahdeo</strong>
+            </p>
+          </center>
         </div>
       </div>
     )
