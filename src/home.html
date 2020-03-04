@@ -40,6 +40,11 @@
       text-align: center;
       font-weight: 800;
     }
+
+    .container {
+      margin: 150px auto;
+      max-width: 960px;
+    }
   </style>
 </head>
 
@@ -48,23 +53,24 @@
     <center>
       <h1 class="title">Water Monitoring System</h1>
       <p>Water Monitoring System is an IOT based Liquid Level Monitoring system that has
-        mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.</p>
+        mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.
+      </p>
     </center>
     <div class="row">
       <div class="col-lg-3">
-        <div class="tank1" style="width: 200px;height:200px; float:left"></div>
+        <div class="tank1" style="width: 140px;height: 140px;float:left"></div>
         <h2>Tank 1</h2>
       </div>
       <div class="col-lg-3">
-        <div class="tank2" style="width: 200px;height:200px; float:left"></div>
+        <div class="tank2" style="width: 140px;height: 140px;float:left"></div>
         <h2>Tank 2</h2>
       </div>
       <div class="col-lg-3">
-        <div class="tank3" style="width: 200px;height:200px; float:left"></div>
+        <div class="tank3" style="width: 140px;height: 140px;float:left"></div>
         <h2>Tank 3</h2>
       </div>
       <div class="col-lg-3">
-        <div class="tank4" style="width: 200px;height:200px; float:left"></div>
+        <div class="tank4" style="width: 140px;height: 140px;float:left"></div>
         <h2>Tank 4</h2>
       </div>
     </div>
@@ -92,7 +98,65 @@
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
   <script>
+
+    var loadingEle = $('.loading');
+    var loading_width = loadingEle.width(),
+      loading_height = loadingEle.height();
+
+    $('.tank1').createWaterBall({
+      csv_config: {
+        width: $('.tank1').width(),
+        height: $('.tank1').height()
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 15
+      },
+      data_range: [40, 50, 100],
+      targetRange: 55
+    });
+
+    $('.tank2').createWaterBall({
+      csv_config: {
+        width: $('.tank2').width(),
+        height: $('.tank2').height()
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 15
+      },
+      data_range: [40, 50, 100],
+      targetRange: 25
+    });
+
+    $('.tank3').createWaterBall({
+      csv_config: {
+        width: $('.tank3').width(),
+        height: $('.tank3').height()
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 15
+      },
+      data_range: [40, 50, 100],
+      targetRange: 45
+    });
+
+    $('.tank4').createWaterBall({
+      csv_config: {
+        width: $('.tank4').width(),
+        height: $('.tank4').height()
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 15
+      },
+      data_range: [40, 50, 100],
+      targetRange: 80
+    });
     //var x=30;
     //alert("vini");
     //var qs = window.GetQueryString(query);

@@ -2,7 +2,7 @@
 
 ## To setup Backend using Nodejs-
 - ***Firstly install Node on your machine, [click here](https://nodejs.org/en/).***
--***To check that Node has successfully installed, run the following command in Terminal. This will display the version of Node installed.***
+- ***To check that Node has successfully installed, run the following command in Terminal. This will display the version of Node installed.***
 
 ```js
 node -v
