@@ -9,7 +9,10 @@
       name="description"
       content="Water Level Monitoring System - IoT Project"
     />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -41,18 +44,27 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          navigator.serviceWorker.register('worker.js').then(function(registration) {
-            console.log('Worker registration successful', registration.scope);
-          }, function(err) {
-            console.log('Worker registration failed', err);
-          }).catch(function(err) {
-            console.log(err);
-          });
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function() {
+          navigator.serviceWorker
+            .register("worker.js")
+            .then(
+              function(registration) {
+                console.log(
+                  "Worker registration successful",
+                  registration.scope
+                );
+              },
+              function(err) {
+                console.log("Worker registration failed", err);
+              }
+            )
+            .catch(function(err) {
+              console.log(err);
+            });
         });
       } else {
-        console.log('Service Worker is not supported by browser.');
+        console.log("Service Worker is not supported by browser.");
       }
     </script>
   </body>
