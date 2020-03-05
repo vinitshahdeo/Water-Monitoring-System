@@ -1,0 +1,110 @@
+@import 'https://fonts.googleapis.com/css?family=Quicksand';
+body {
+  background-color: #17171e;
+}
+
+.header {
+
+  margin: auto;
+  width: 90%;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  overflow: hidden;
+  margin: auto;
+  background-color:	 #f1f1f1; 
+  width: 100%;
+  left:0;
+  top:0;
+}
+
+.navbar li.logo,
+.navbar li.navbar_items {
+  list-style-type: none;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.navbar li a {
+  font-family: Quicksand;
+  font-size: 1.05em;
+  color: black;
+  display: inline-block;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar li.navbar_items a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  font-weight: bold;
+  /*   padding-bottom: 5px; */
+}
+
+.navbar li.icon {
+  display: none;
+}
+
+.div_navbar_items {
+  float: right;
+  padding-right:1%;
+}
+
+
+
+
+@media screen and (max-width:875px) {
+  .navbar li.navbar_items {
+    display: none;
+  }
+  .navbar li.icon {
+    float: right;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 19px;
+  }
+}
+
+
+@media screen and (max-width:875px) {
+  .navbar.responsive {
+    position:fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(236,201,205, 1);
+    transition: background-color .6s;
+  }
+  
+  .navbar.responsive li.logo {
+    float: left;
+    display: block;
+  }
+  .navbar.responsive .div_navbar_items {
+    float: none;
+    padding-right:0;
+  }
+  
+  .navbar.responsive li.navbar_items {
+    display: block;
+    padding: 50px;
+    font-size: 25px;
+  }
+  .navbar.responsive li.navbar_items a {
+    display: block;
+    text-align: center;
+  }
+  
+  .navbar.responsive li.navbar_items a:hover{
+    color:#17171e;
+    border-bottom-color: transparent;
+    
+  }
+  
+
+  
+}
