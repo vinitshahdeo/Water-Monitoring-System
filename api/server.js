@@ -1,14 +1,14 @@
-'use strict'
+"use strict";
 
 const express = require("express"),
-mongoose = require("mongoose"),
-bodyParser = require("body-parser"),
-cors = require("cors"),
-helmet = require("helmet"),
-morgan = require("morgan"),
-config = require("config"),
-app = express(),
-port = process.env.PORT || 8080;
+  mongoose = require("mongoose"),
+  bodyParser = require("body-parser"),
+  cors = require("cors"),
+  helmet = require("helmet"),
+  morgan = require("morgan"),
+  config = require("config"),
+  app = express(),
+  port = process.env.PORT || 8080;
 
 //Use the database uri from the ./config directory
 const dbURI = config.dbURI;
