@@ -116,6 +116,7 @@ git push -u origin <your_branch_name>
 
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
+
 ## Open Source Programs
 
 This project is part of the following Open Source programs:
@@ -182,6 +183,7 @@ if (_.contains(projectsInRGSoC, {
 - **RGSoC student applications have officially started on Monday, 02 March 2020. Apply [here](https://teams.railsgirlssummerofcode.org/apply).**
 - Check out the project [here](https://teams.railsgirlssummerofcode.org/projects/293-water-monitoring-system).
 - **[Click here](https://twitter.com/Vinit_Shahdeo/status/1234936360613695489) to view the tweet**. RTs are most welcome! :heart:
+- Feel free to **shoot your doubts [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141)**.
 
 ## Additional Info
 
