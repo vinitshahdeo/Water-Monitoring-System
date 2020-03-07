@@ -144,9 +144,9 @@ _Yes, it is a hardware/IoT + software project. There would be maximum tasks rela
 
 #### _4. What is the Tech Stack for this project?_
 
-- **\*Frontend:** React\*
+- ***Frontend:** React*
 
-- **\*Backend:** Django, Node.js\*
+- ***Backend:** Django, Node.js*
 
 #### _5. What is the deadline for any task submission?_
 
