@@ -155,21 +155,23 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 ## About RGSoC'20
 
 ```javascript
-var baseURL = `https://github.com`,
-  projectsInRGSoC = _.filter(appliedProjects, project => {
-    RGSoC.isSelected(project, new Date().getFullYear());
-  });
 
-if (
-  _.contains(projectsInRGSoC, {
-    name: `Water Monitoring System`,
-    url: `${baseURL}Water-Monitoring-System`
-  })
-) {
-  fork("Water Monitoring System");
-  // Looking forward to awesome contributions
-  console.log("Thank You RGSoC");
+var baseURL = `https://github.com`,
+    projectsInRGSoC = _.filter(appliedProjects,
+        (project) => {
+            RGSoC.isSelected(project,
+                new Date().getFullYear())
+        });
+
+if (_.contains(projectsInRGSoC, {
+        name: `Water Monitoring System`,
+        url: `${baseURL}Water-Monitoring-System`
+    })) {
+    fork('Water Monitoring System');
+    // Looking forward to awesome contributions
+    console.log('Thank You RGSoC');
 }
+
 ```
 
 ## Additional Info
