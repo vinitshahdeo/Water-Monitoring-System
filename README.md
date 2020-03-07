@@ -169,17 +169,17 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) ![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)
 
-| GitHub Usernames  | Domain  |
-|---|---|
-| [@vinitshahdeo](https://github.com/vinitshahdeo)  | Full Stack + Documentation |
-| [@ShreyaAnand](https://github.com/ShreyaAnand)  | Full Stack  |
-| [@YashMeh](https://github.com/YashMeh)  | Backend |
-| [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation  |
-| [@ramanaditya](https://github.com/ramanaditya)  | Backend + Hardware  |
-| [@ArpitKotecha](https://github.com/ArpitKotecha)  | Backend |
-| [@Manvityagi](https://github.com/Manvityagi)  | APIs + Cloud  |
-| [@jainpawan21](https://github.com/jainpawan21)  | Frontend  |
-| [@amaaniqbal](https://github.com/amaaniqbal)  | Frontend  |
+| GitHub Usernames                                     | Domain                     |
+| ---------------------------------------------------- | -------------------------- |
+| [@vinitshahdeo](https://github.com/vinitshahdeo)     | Full Stack + Documentation |
+| [@ShreyaAnand](https://github.com/ShreyaAnand)       | Full Stack                 |
+| [@YashMeh](https://github.com/YashMeh)               | Backend                    |
+| [@PragatiVerma18](https://github.com/PragatiVerma18) | Backend + Documentation    |
+| [@ramanaditya](https://github.com/ramanaditya)       | Backend + Hardware         |
+| [@ArpitKotecha](https://github.com/ArpitKotecha)     | Backend                    |
+| [@Manvityagi](https://github.com/Manvityagi)         | APIs + Cloud               |
+| [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
+| [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
 
 [![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/7)
 
