@@ -15,7 +15,7 @@ class Home extends Component {
         <div className="container">
           <div className="row m-3">
             <center>
-              <h1 className="title">Water Monitoring System</h1>
+              <h1 className="title text-center">Water Monitoring System</h1>
               <p>Water Monitoring System is an IOT based Liquid Level Monitoring system that has
                 mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.</p>
             </center>
@@ -25,8 +25,8 @@ class Home extends Component {
               <div>
                 <div className="col-lg-3 d-flex align-items-center" id={tank.id}>
                   <center>
-                    <TankCircle>
-                      <TankWaterValue>{tank.value}%</TankWaterValue> 
+                    <TankCircle className="rounded-circle">
+                      <TankWaterValue className="d-flex justify-content-center align-items-center w-100 h-100 position-relative">{tank.value}%</TankWaterValue> 
                     </TankCircle>
                     <div className="d-flex justify-content-center">
                       <span className="tank-title">Tank{ tank.id}</span>
@@ -40,13 +40,13 @@ class Home extends Component {
         <div className="container mt-5">
           <div className="row">
             <div className="col-lg-4">
-              <Sticker backgroundColor="#fe5e21"><h1>Danger Zone</h1></Sticker>
+              <Sticker className="d-flex justify-content-center align-items-center mw-100 mh-100" backgroundColor="#fe5e21"><h1>Danger Zone</h1></Sticker>
             </div>
             <div className="col-lg-4">
-              <Sticker backgroundColor="#ffb30c"><h1>Warning Zone</h1></Sticker>
+              <Sticker className="d-flex justify-content-center align-items-center mw-100 mh-100" backgroundColor="#ffb30c"><h1>Warning Zone</h1></Sticker>
             </div>
             <div className="col-lg-4">
-              <Sticker backgroundColor="#2ed351"><h1>Safe Zone</h1></Sticker>
+              <Sticker className="d-flex justify-content-center align-items-center mw-100 mh-100" backgroundColor="#2ed351"><h1>Safe Zone</h1></Sticker>
             </div>
           </div>
           <hr/>
