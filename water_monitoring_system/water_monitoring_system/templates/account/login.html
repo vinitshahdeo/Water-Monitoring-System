@@ -1,10 +1,19 @@
-{% extends "account/base.html" %} {% load i18n %} {% load account socialaccount
-%} {% load crispy_forms_tags %} {% block head_title %}{% trans "Sign In" %}{%
-endblock %} {% block inner %}
+{% extends "account/base.html" %} 
+{% load i18n %} 
+{% load account socialaccount %} 
+{% load crispy_forms_tags %} 
+{% block head_title %}
+{% trans "Sign In" %}
+{% endblock %} 
+{% block inner %}
 
 <h1>{% trans "Sign In" %}</h1>
+{% comment %} {% endblock %} {% endcomment %}
+{% comment %} {% block content %} {% endcomment %}
 
-{% get_providers as socialaccount_providers %} {% if socialaccount_providers %}
+{% get_providers as socialaccount_providers %}
+{% if socialaccount_providers %} 
+
 <p>
   {% blocktrans with site.name as site_name %}Please sign in with one of your
   existing third party accounts. Or, <a href="{{ signup_url }}">sign up</a> for

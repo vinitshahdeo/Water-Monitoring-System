@@ -81,9 +81,12 @@ THIRD_PARTY_APPS = [
     "crispy_forms",
     "allauth",
     "allauth.account",
-    "allauth.socialaccount",
+    "allauth.socialaccount",   
     "rest_framework",
+    "rest_framework.authtoken",
 ]
+
+
 
 LOCAL_APPS = [
     "water_monitoring_system.users.apps.UsersConfig",

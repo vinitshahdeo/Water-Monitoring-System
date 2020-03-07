@@ -1,10 +1,13 @@
-{% extends "account/base.html" %} {% load i18n %} {% load account %} {% block
-head_title %}{% trans "Confirm E-mail Address" %}{% endblock %} {% block inner
-%}
+{% extends "account/base.html" %} 
+{% load i18n %} 
+{% load account %} 
+{% block head_title %}
+{% trans "Confirm E-mail Address" %}
+{% endblock %} 
+{% block inner %}
 <h1>{% trans "Confirm E-mail Address" %}</h1>
 
-{% if confirmation %} {% user_display confirmation.email_address.user as
-user_display %}
+{% if confirmation %} {% user_display confirmation.email_address.user as user_display %}
 
 <p>
   {% blocktrans with confirmation.email_address.email as email %}Please confirm
@@ -21,8 +24,7 @@ user_display %}
 
 <p>
   {% blocktrans %}This e-mail confirmation link expired or is invalid. Please
-  <a href="{{ email_url }}">issue a new e-mail confirmation request</a>.{%
-  endblocktrans %}
+  <a href="{{ email_url }}">issue a new e-mail confirmation request</a>.{% endblocktrans %}
 </p>
 
 {% endif %} {% endblock %}
