@@ -83,11 +83,8 @@ THIRD_PARTY_APPS = [
     "allauth.account",
     "allauth.socialaccount",
     "rest_framework",
-<<<<<<< HEAD
     # app for token authorization
     "rest_framework.authtoken",
-=======
->>>>>>> 82dff5934974a50c32a82d21f4b325f33d909197
 ]
 
 LOCAL_APPS = [
