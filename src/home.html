@@ -1,105 +1,137 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Vinit Shahdeo" />
+    <link
+      href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <title>Water Level Monitoring System - IoT Project</title>
+    <style>
+      body {
+        background-color: #fafafa;
+        font-family: "Montserrat", sans-serif;
+      }
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Vinit Shahdeo">
-  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <title>Water Level Monitoring System - IoT Project</title>
-  <style>
-    body {
-      background-color: #fafafa;
-      font-family: 'Montserrat', sans-serif;
-    }
+      .container {
+        margin: 80px auto;
+        max-width: 960px;
+      }
 
-    .container {
-      margin: 80px auto;
-      max-width: 960px;
-    }
+      .demo {
+        padding: 20px;
+        margin: 30px;
+      }
 
-    .demo {
-      padding: 20px;
-      margin: 30px;
-    }
+      h1 {
+        text-align: center;
+        color: #fff;
+      }
 
-    h1 {
-      text-align: center;
-      color: #fff;
-    }
+      .title {
+        color: grey;
+      }
 
-    .title {
-      color: grey;
-    }
+      h2 {
+        padding-top: 200px;
+        text-align: center;
+        font-weight: 800;
+      }
+    </style>
+  </head>
 
-    h2 {
-      padding-top: 200px;
-      text-align: center;
-      font-weight: 800;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <center>
-      <h1 class="title">Water Monitoring System</h1>
-      <p>Water Monitoring System is an IOT based Liquid Level Monitoring system that has
-        mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.</p>
-    </center>
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="tank1" style="width: 200px;height:200px; float:left"></div>
-        <h2>Tank 1</h2>
-      </div>
-      <div class="col-lg-3">
-        <div class="tank2" style="width: 200px;height:200px; float:left"></div>
-        <h2>Tank 2</h2>
-      </div>
-      <div class="col-lg-3">
-        <div class="tank3" style="width: 200px;height:200px; float:left"></div>
-        <h2>Tank 3</h2>
-      </div>
-      <div class="col-lg-3">
-        <div class="tank4" style="width: 200px;height:200px; float:left"></div>
-        <h2>Tank 4</h2>
+  <body>
+    <div class="container">
+      <center>
+        <h1 class="title">Water Monitoring System</h1>
+        <p>
+          Water Monitoring System is an IOT based Liquid Level Monitoring system
+          that has mechanisms to keep the user alerted in case of liquid
+          overflow or when tank depletes.
+        </p>
+      </center>
+      <div class="row">
+        <div class="col-lg-3">
+          <div
+            class="tank1"
+            style="width: 200px;height:200px; float:left"
+          ></div>
+          <h2>Tank 1</h2>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="tank2"
+            style="width: 200px;height:200px; float:left"
+          ></div>
+          <h2>Tank 2</h2>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="tank3"
+            style="width: 200px;height:200px; float:left"
+          ></div>
+          <h2>Tank 3</h2>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="tank4"
+            style="width: 200px;height:200px; float:left"
+          ></div>
+          <h2>Tank 4</h2>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container">
-
-    <div class="row">
-      <div class="col-lg-4" style="background-color: #fe5e21;min-height: 100px;min-width: 100px; ">
-        <h1>Danger Zone</h1>
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-lg-4"
+          style="background-color: #fe5e21;min-height: 100px;min-width: 100px; "
+        >
+          <h1>Danger Zone</h1>
+        </div>
+        <div
+          class="col-lg-4"
+          style="background-color: #ffb30c;min-width: 100px;min-height: 100px"
+        >
+          <h1>Warning Zone</h1>
+        </div>
+        <div
+          class="col-lg-4"
+          style="background-color: #2ed351;min-width: 100px;min-height: 100px"
+        >
+          <h1>Safe Zone</h1>
+        </div>
       </div>
-      <div class="col-lg-4" style="background-color: #ffb30c;min-width: 100px;min-height: 100px">
-        <h1>Warning Zone</h1>
-      </div>
-      <div class="col-lg-4" style="background-color: #2ed351;min-width: 100px;min-height: 100px">
-        <h1>Safe Zone</h1>
-      </div>
+      <hr />
+      <p>
+        <center><strong>Made by Vinit Shahdeo</strong></center>
+      </p>
     </div>
-    <hr>
-    <p>
-      <center><strong>Made by Vinit Shahdeo</strong></center>
-    </p>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script>
-    //var x=30;
-    //alert("vini");
-    //var qs = window.GetQueryString(query);
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      //var x=30;
+      //alert("vini");
+      //var qs = window.GetQueryString(query);
 
-    //var x = window.getParameterByName('foo');
+      //var x = window.getParameterByName('foo');
 
-    /* function getParameterByName(name) {
+      /* function getParameterByName(name) {
      
         var match = RegExp('[?]' + foo + '=')
                         .exec(window.location.search);
@@ -110,61 +142,69 @@
      
     }*/
 
-    function getQueryStringValue(key) {
-      return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key)
-        .replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
-    }
-    var x = getQueryStringValue("tank1");
-    var y = getQueryStringValue("tank2");
-    var z = getQueryStringValue("tank3");
-    var w = getQueryStringValue("tank4");
-    $('.tank1').createWaterBall({
-      targetRange: x
-    });
-    $('.tank2').createWaterBall({
-      targetRange: y
-    });
-    $('.tank3').createWaterBall({
-      targetRange: z
-    });
-    $('.tank4').createWaterBall({
-      targetRange: w
-    });
+      function getQueryStringValue(key) {
+        return decodeURIComponent(
+          window.location.search.replace(
+            new RegExp(
+              "^(?:.*[&\\?]" +
+                encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") +
+                "(?:\\=([^&]*))?)?.*$",
+              "i"
+            ),
+            "$1"
+          )
+        );
+      }
+      var x = getQueryStringValue("tank1");
+      var y = getQueryStringValue("tank2");
+      var z = getQueryStringValue("tank3");
+      var w = getQueryStringValue("tank4");
+      $(".tank1").createWaterBall({
+        targetRange: x
+      });
+      $(".tank2").createWaterBall({
+        targetRange: y
+      });
+      $(".tank3").createWaterBall({
+        targetRange: z
+      });
+      $(".tank4").createWaterBall({
+        targetRange: w
+      });
 
-    var loadingEle = $('.loading');
-    var loading_width = loadingEle.width(),
-      loading_height = loadingEle.height();
-    $('.loading').createWaterBall({
-      cvs_config: {
-        width: loading_width,
-        height: loading_height
-      },
-      wave_config: {
-        waveWidth: 0.02,
-        waveHeight: 5
-      },
-      data_range: [30, 70, 100],
-      isLoading: true,
-      nowRange: 70,
-      targetRange: 70
-    });
-    setTimeout(function () {
-      $('.loading').createWaterBall('updateRange', 80);
-    }, 1000);
-    $('.waterBall1').createWaterBall({
-      csv_config: {
-        width: $('.waterBall1').width(),
-        height: $('.waterBall1').height()
-      },
-      wave_config: {
-        waveWidth: 0.02,
-        waveHeight: 5
-      },
-      data_range: [40, 50, 100],
-      targetRange: 45
-    });
-  </script>
-  <!-- @author: Vinit Shahdeo -->
-</body>
-
+      var loadingEle = $(".loading");
+      var loading_width = loadingEle.width(),
+        loading_height = loadingEle.height();
+      $(".loading").createWaterBall({
+        cvs_config: {
+          width: loading_width,
+          height: loading_height
+        },
+        wave_config: {
+          waveWidth: 0.02,
+          waveHeight: 5
+        },
+        data_range: [30, 70, 100],
+        isLoading: true,
+        nowRange: 70,
+        targetRange: 70
+      });
+      setTimeout(function() {
+        $(".loading").createWaterBall("updateRange", 80);
+      }, 1000);
+      $(".waterBall1").createWaterBall({
+        csv_config: {
+          width: $(".waterBall1").width(),
+          height: $(".waterBall1").height()
+        },
+        wave_config: {
+          waveWidth: 0.02,
+          waveHeight: 5
+        },
+        data_range: [40, 50, 100],
+        targetRange: 45
+      });
+    </script>
+    <!-- @author: Vinit Shahdeo -->
+  </body>
 </html>
