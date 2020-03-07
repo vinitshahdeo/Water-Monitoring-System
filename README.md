@@ -152,7 +152,9 @@ _All communication will happen on the Slack channel for this particular projects
 
 _Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration._
 
-## About RGSoC'20
+## About [RGSoC'20](https://railsgirlssummerofcode.org/)
+
+<img src="https://lh3.googleusercontent.com/proxy/0KGI0YKyX3vsday11nhtwlq8esciFZ87EkXefqp4XVH8Cxz6tPs7mS3VCMkIlEEhVgqcc9zD5iRhzZFSQsxxQzewii_FJr8AjaLDkN0G9-s02bnkygdM4ZrboCDEzM0vFgFI9uKqnsd30XTM90EA9MZFpt52emrbOVkbuE-iig" width="30%" height="30%"/>
 
 ```javascript
 
@@ -173,6 +175,12 @@ if (_.contains(projectsInRGSoC, {
 }
 
 ```
+
+Glad to share that this project is shortlisted for [Rails Girls Summer Of Code 2020](https://railsgirlssummerofcode.org/), a global fellowship program for women and non-binary coders. Students receive a three-month scholarship to work on existing Open Source projects and expand their skill set.
+
+- [Click here](https://railsgirlssummerofcode.org/blog/) to learn more.
+- RGSoC student applications have officially started on Monday, 02 March 2020. Apply [here](https://teams.railsgirlssummerofcode.org/apply).
+- Check out the project [here](https://teams.railsgirlssummerofcode.org/projects/293-water-monitoring-system).
 
 ## Additional Info
 
