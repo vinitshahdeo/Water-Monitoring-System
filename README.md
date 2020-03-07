@@ -152,6 +152,26 @@ _All communication will happen on the Slack channel for this particular projects
 
 _Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration._
 
+## About RGSoC'20
+
+```javascript
+var baseURL = `https://github.com`,
+    projectsInRGSoC = _.filter(appliedProjects,
+        (project) => {
+            RGSoC.isSelected(project,
+                new Date().getFullYear())
+        });
+
+if (_.contains(projectsInRGSoC, {
+        name: `Water Monitoring System`,
+        url: `${baseURL}Water-Monitoring-System`
+    })) {
+    fork('Water Monitoring System');
+    // Looking forward to awesome contributions
+    console.log('Thank You RGSoC');
+}
+```
+
 ## Additional Info
 
 - If you're interested in contributing for **documentation**, please checkout `feature/documentation` branch.
