@@ -176,11 +176,12 @@ if (_.contains(projectsInRGSoC, {
 
 ```
 
-Glad to share that this project is shortlisted for [Rails Girls Summer Of Code 2020](https://railsgirlssummerofcode.org/), a global fellowship program for women and non-binary coders. Students receive a three-month scholarship to work on existing Open Source projects and expand their skill set.
+**Glad to share that this project is shortlisted for [Rails Girls Summer Of Code 2020](https://railsgirlssummerofcode.org/)**, a global fellowship program for women and non-binary coders. Students receive a three-month scholarship to work on existing Open Source projects and expand their skill set.
 
 - [Click here](https://railsgirlssummerofcode.org/blog/) to learn more.
-- RGSoC student applications have officially started on Monday, 02 March 2020. Apply [here](https://teams.railsgirlssummerofcode.org/apply).
+- **RGSoC student applications have officially started on Monday, 02 March 2020. Apply [here](https://teams.railsgirlssummerofcode.org/apply).**
 - Check out the project [here](https://teams.railsgirlssummerofcode.org/projects/293-water-monitoring-system).
+- **[Click here](https://twitter.com/Vinit_Shahdeo/status/1234936360613695489) to view the tweet**. RTs are most welcome! :heart:
 
 ## Additional Info
 
