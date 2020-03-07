@@ -140,13 +140,13 @@ _Yes, it is a hardware/IoT + software project. There would be maximum tasks rela
 
 #### _3. How to communicate with us?_
 
-*All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. *Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more.\*\*
+_All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. *Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more._
 
 #### _4. What is the Tech Stack for this project?_
 
-- **\*Frontend:** React\*
+- **Frontend:** React
 
-- **\*Backend:** Django, Node.js\*
+- **Backend:** Django, Node.js
 
 #### _5. What is the deadline for any task submission?_
 
