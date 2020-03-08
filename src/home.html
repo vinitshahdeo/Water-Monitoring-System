@@ -1,176 +1,334 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="Vinit Shahdeo" />
+    <link
+      href="http://www.jqueryscript.net/css/jquerysctipttop.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <title>Water Level Monitoring System - IoT Project</title>
+    <style>
+      body {
+        background-color: #fafafa;
+        font-family: "Montserrat", sans-serif;
+      }
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="author" content="Vinit Shahdeo">
-  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-  <title>Water Level Monitoring System - IoT Project</title>
-  <style>
-    body {
-      background-color: #fafafa;
-      font-family: 'Montserrat', sans-serif;
-    }
+      .container {
+        margin: 80px auto;
+        max-width: 960px;
+      }
 
-    .container {
-      margin: 80px auto;
-      max-width: 960px;
-    }
+      .demo {
+        padding: 20px;
+        margin: 30px;
+      }
 
-    .demo {
-      padding: 20px;
-      margin: 30px;
-    }
+      h1 {
+        text-align: center;
+        color: #fff;
+      }
 
-    h1 {
-      text-align: center;
-      color: #fff;
-    }
+      .title {
+        color: grey;
+      }
 
-    .title {
-      color: grey;
-    }
+      h2 {
+        padding-top: 200px;
+        text-align: center;
+        font-weight: 800;
+      }
+      .faq {
+        border: 10px #5e90e0 solid;
+        background-color: #f0f0b4;
+      }
+      .faq h2 {
+        padding-top: 0px;
+        color: grey;
+      }
+      .faq h3 {
+        font-weight: 800;
+        color: #5e90e0;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <div class="container">
+      <center>
+        <h1 class="title">Water Monitoring System</h1>
+        <p>
+          Water Monitoring System is an IOT based Liquid Level Monitoring system
+          that has mechanisms to keep the user alerted in case of liquid
+          overflow or when tank depletes.
+        </p>
+      </center>
+      <div class="row">
+        <div class="col-lg-3">
+          <div
+            class="tank1"
+            style="width: 200px;height:200px; float:left"
+          ></div>
+          <h2>Tank 1</h2>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="tank2"
+            style="width: 200px;height:200px; float:left"
+          ></div>
+          <h2>Tank 2</h2>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="tank3"
+            style="width: 200px;height:200px; float:left"
+          ></div>
+          <h2>Tank 3</h2>
+        </div>
+        <div class="col-lg-3">
+          <div
+            class="tank4"
+            style="width: 200px;height:200px; float:left"
+          ></div>
+          <h2>Tank 4</h2>
+        </div>
+      </div>
+    </div>
 
-    h2 {
-      padding-top: 200px;
-      text-align: center;
-      font-weight: 800;
-    }
-
-    .container {
-      margin: 150px auto;
-      max-width: 960px;
-    }
-  </style>
-</head>
-
-<body>
-  <div class="container">
-    <center>
-      <h1 class="title">Water Monitoring System</h1>
-      <p>Water Monitoring System is an IOT based Liquid Level Monitoring system that has
-        mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-lg-4"
+          style="background-color: #fe5e21;min-height: 100px;min-width: 100px; "
+        >
+          <h1>Danger Zone</h1>
+        </div>
+        <div
+          class="col-lg-4"
+          style="background-color: #ffb30c;min-width: 100px;min-height: 100px"
+        >
+          <h1>Warning Zone</h1>
+        </div>
+        <div
+          class="col-lg-4"
+          style="background-color: #2ed351;min-width: 100px;min-height: 100px"
+        >
+          <h1>Safe Zone</h1>
+        </div>
+      </div>
+      <hr />
+      <p>
+        <center><strong>Made by Vinit Shahdeo</strong></center>
       </p>
-    </center>
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="tank1" style="width: 140px;height: 140px;float:left"></div>
-        <h2>Tank 1</h2>
-      </div>
-      <div class="col-lg-3">
-        <div class="tank2" style="width: 140px;height: 140px;float:left"></div>
-        <h2>Tank 2</h2>
-      </div>
-      <div class="col-lg-3">
-        <div class="tank3" style="width: 140px;height: 140px;float:left"></div>
-        <h2>Tank 3</h2>
-      </div>
-      <div class="col-lg-3">
-        <div class="tank4" style="width: 140px;height: 140px;float:left"></div>
-        <h2>Tank 4</h2>
-      </div>
     </div>
-  </div>
-
-  <div class="container">
-
-    <div class="row">
-      <div class="col-lg-4" style="background-color: #fe5e21;min-height: 100px;min-width: 100px; ">
-        <h1>Danger Zone</h1>
-      </div>
-      <div class="col-lg-4" style="background-color: #ffb30c;min-width: 100px;min-height: 100px">
-        <h1>Warning Zone</h1>
-      </div>
-      <div class="col-lg-4" style="background-color: #2ed351;min-width: 100px;min-height: 100px">
-        <h1>Safe Zone</h1>
-      </div>
-    </div>
-    <hr>
-    <p>
-      <center><strong>Made by Vinit Shahdeo</strong></center>
-    </p>
-  </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
+<<<<<<< HEAD
     //var x=30;
     //alert("vini");
     //var qs = window.GetQueryString(query);
 
     //var x = window.getParameterByName('foo');
-
-    /* function getParameterByName(name) {
-     
-        var match = RegExp('[?]' + foo + '=')
-                        .exec(window.location.search);
-     
-        return match ?
-            decodeURIComponent(match[1].replace(/+/g, ' '))
-            : null;
-     
-    }*/
-
-    function getQueryStringValue(key) {
-      return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key)
-        .replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
-    }
-    var x = getQueryStringValue("tank1");
-    var y = getQueryStringValue("tank2");
-    var z = getQueryStringValue("tank3");
-    var w = getQueryStringValue("tank4");
-    $('.tank1').createWaterBall({
-      targetRange: x
-    });
-    $('.tank2').createWaterBall({
-      targetRange: y
-    });
-    $('.tank3').createWaterBall({
-      targetRange: z
-    });
-    $('.tank4').createWaterBall({
-      targetRange: w
-    });
+=======
 
     var loadingEle = $('.loading');
     var loading_width = loadingEle.width(),
       loading_height = loadingEle.height();
-    $('.loading').createWaterBall({
-      cvs_config: {
-        width: loading_width,
-        height: loading_height
-      },
-      wave_config: {
-        waveWidth: 0.02,
-        waveHeight: 5
-      },
-      data_range: [30, 70, 100],
-      isLoading: true,
-      nowRange: 70,
-      targetRange: 70
-    });
-    setTimeout(function () {
-      $('.loading').createWaterBall('updateRange', 80);
-    }, 1000);
-    $('.waterBall1').createWaterBall({
+
+    $('.tank1').createWaterBall({
       csv_config: {
-        width: $('.waterBall1').width(),
-        height: $('.waterBall1').height()
+        width: $('.tank1').width(),
+        height: $('.tank1').height()
       },
       wave_config: {
         waveWidth: 0.02,
-        waveHeight: 5
+        waveHeight: 15
+      },
+      data_range: [40, 50, 100],
+      targetRange: 55
+    });
+
+    $('.tank2').createWaterBall({
+      csv_config: {
+        width: $('.tank2').width(),
+        height: $('.tank2').height()
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 15
+      },
+      data_range: [40, 50, 100],
+      targetRange: 25
+    });
+
+    $('.tank3').createWaterBall({
+      csv_config: {
+        width: $('.tank3').width(),
+        height: $('.tank3').height()
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 15
       },
       data_range: [40, 50, 100],
       targetRange: 45
     });
-  </script>
-  <!-- @author: Vinit Shahdeo -->
-</body>
 
+    $('.tank4').createWaterBall({
+      csv_config: {
+        width: $('.tank4').width(),
+        height: $('.tank4').height()
+      },
+      wave_config: {
+        waveWidth: 0.02,
+        waveHeight: 15
+      },
+      data_range: [40, 50, 100],
+      targetRange: 80
+    });
+>>>>>>> b8dcb6c95a79da7171917d502906778b8f6e2f64
+
+      function getQueryStringValue(key) {
+        return decodeURIComponent(
+          window.location.search.replace(
+            new RegExp(
+              "^(?:.*[&\\?]" +
+                encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") +
+                "(?:\\=([^&]*))?)?.*$",
+              "i"
+            ),
+            "$1"
+          )
+        );
+      }
+      var x = getQueryStringValue("tank1");
+      var y = getQueryStringValue("tank2");
+      var z = getQueryStringValue("tank3");
+      var w = getQueryStringValue("tank4");
+      $(".tank1").createWaterBall({
+        targetRange: x
+      });
+      $(".tank2").createWaterBall({
+        targetRange: y
+      });
+      $(".tank3").createWaterBall({
+        targetRange: z
+      });
+      $(".tank4").createWaterBall({
+        targetRange: w
+      });
+
+      var loadingEle = $(".loading");
+      var loading_width = loadingEle.width(),
+        loading_height = loadingEle.height();
+      $(".loading").createWaterBall({
+        cvs_config: {
+          width: loading_width,
+          height: loading_height
+        },
+        wave_config: {
+          waveWidth: 0.02,
+          waveHeight: 5
+        },
+        data_range: [30, 70, 100],
+        isLoading: true,
+        nowRange: 70,
+        targetRange: 70
+      });
+      setTimeout(function() {
+        $(".loading").createWaterBall("updateRange", 80);
+      }, 1000);
+      $(".waterBall1").createWaterBall({
+        csv_config: {
+          width: $(".waterBall1").width(),
+          height: $(".waterBall1").height()
+        },
+        wave_config: {
+          waveWidth: 0.02,
+          waveHeight: 5
+        },
+        data_range: [40, 50, 100],
+        targetRange: 45
+      });
+    </script>
+
+    <div class="faq container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Frequently Asked Questions(FAQs) for Water Monitoring System</h2>
+          <h3>What is Water Monitoring System?</h3>
+          <p>
+            Water Monitoring System is an IOT based Liquid Level Monitoring
+            system that has mechanisms to keep the user alerted in case of
+            liquid overflow or when tank depletes.
+          </p>
+          <h3>How Water Monitoring System works?</h3>
+          <p>
+            The water tanks can be fixed with ultrasonic sensors that is placed
+            over the container. Ultrasonic sensor is used to measure, compare
+            container depth and liquid level.
+          </p>
+          <h3>How status of the system could be monitored?</h3>
+          <p>
+            The status of the system could be monitored by an LCD screen or a
+            web page that provides a brilliant graphical representation. Colours
+            are used to depict various scenarios with respect to the amount of
+            liquid in the tanks or containers and the buzzer buzzes when the
+            limit exceeds the permissible quantity of fill.
+          </p>
+          <h3>
+            What colors are used to represent various scenarios with respect to
+            the amount of liquid in the tank?
+          </h3>
+          <p>
+            <strong>Danger Zone</strong> is indicated as
+            </strong><span style="color:#fe5e21;font-weight:800">Red color</span>,
+            <strong>Warning Zone</strong> is indicated as
+            <span style="color: #ffb30c;font-weight:800;">Yellow color</span>, <strong>Safe Zone</strong> is
+            indicated as <span style="color:#2ed351;font-weight:800;">Green color</span>.
+          </p>
+          <h3>What are the Goals of this Project?</h3>
+          <ul>
+            <li>To reduce the wastage of water across the city</li>
+            <li>To provide better water supply to the people</li>
+          </ul>
+          <h3>What are the IoT(Hardware) components required?</h3>
+          <ul>
+            <li>AVR family microcontroller</li>
+            <li>LCD screen</li>
+            <li>Wifi modem</li>
+            <li>A buzzer</li>
+            <li>12V transformer</li>
+          </ul>
+          <h3>Is this a hardware/IoT project?</h3>
+          <p>
+            Yes, it is a hardware/IoT + software project. There would be maximum
+            tasks related to frontend, backend, design and documentation of the
+            website and later, it would be integarted with the real-time data
+            from the sensors.
+          </p>
+          <h3>What is the tech Stack for this project?</h3>
+          <ul>
+            <li><strong>Frontend:</strong> React</li>
+            <li><strong>Backend:</strong> Django, Node.js</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- @author: Vinit Shahdeo -->
+  </body>
 </html>
