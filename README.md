@@ -155,7 +155,8 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 
 ## About [RGSoC'20](https://railsgirlssummerofcode.org/)
 
-<img src="https://lh3.googleusercontent.com/proxy/0KGI0YKyX3vsday11nhtwlq8esciFZ87EkXefqp4XVH8Cxz6tPs7mS3VCMkIlEEhVgqcc9zD5iRhzZFSQsxxQzewii_FJr8AjaLDkN0G9-s02bnkygdM4ZrboCDEzM0vFgFI9uKqnsd30XTM90EA9MZFpt52emrbOVkbuE-iig" width="30%" height="30%"/>
+
+<img src="./assets/rgsoc2020.png" width="30%" height="30%"/>
 
 ```javascript
 
