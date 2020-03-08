@@ -156,7 +156,7 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 ## About [RGSoC'20](https://railsgirlssummerofcode.org/)
 
 
-<img src="./assets/rgsoc2020.png" width="30%" height="30%"/>
+<a href="https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141" target="_blank"><img src="./assets/rgsoc2020.png" width="30%" height="30%"/></a>
 
 ```javascript
 
