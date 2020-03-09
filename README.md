@@ -6,7 +6,7 @@
 
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 
-![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-orange?style=for-the-badge&logo=nodejs)
+![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-orange?style=for-the-badge&logo=node.js)
 ![Django](https://img.shields.io/badge/Made%20with-Django-brightgreen?style=for-the-badge&logo=django)
 ![React](https://img.shields.io/badge/Made%20with-React-red?style=for-the-badge&logo=react)
 
