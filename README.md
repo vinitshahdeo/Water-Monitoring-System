@@ -6,9 +6,9 @@
 
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 
-![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-orange?style=for-the-badge)
-![Django](https://img.shields.io/badge/Made%20with-Django-brightgreen?style=for-the-badge)
-![React](https://img.shields.io/badge/Made%20with-React-red?style=for-the-badge)
+![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-orange?style=for-the-badge&logo=nodejs)
+![Django](https://img.shields.io/badge/Made%20with-Django-brightgreen?style=for-the-badge&logo=django)
+![React](https://img.shields.io/badge/Made%20with-React-red?style=for-the-badge&logo=react)
 
 Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes. The water tanks can be fixed with ultrasonic sensors that is placed over the container. Ultrasonic sensor is used to measure, compare container depth and liquid level.
 
