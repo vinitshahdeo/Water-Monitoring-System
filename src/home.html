@@ -7,8 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Vinit Shahdeo">
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/> 
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    
   <title>Water Level Monitoring System - IoT Project</title>
   <style>
     body {
@@ -16,10 +19,10 @@
       font-family: 'Montserrat', sans-serif;
     }
 
-    .container {
+   /* .container {
       margin: 80px auto;
       max-width: 960px;
-    }
+    }*/
 
     .demo {
       padding: 20px;
@@ -40,6 +43,57 @@
       text-align: center;
       font-weight: 800;
     }
+     footer {
+  background-color: #1c2331;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-top: 5em;
+}
+.footer-copyright {
+  background-color: #111;
+  color: #8286ad;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin-top: 0;
+  width: 100%;
+}
+footer h4 {
+  font-weight: bold;
+  margin-bottom: 0.2em;
+}
+footer hr {
+  border-color: #ff6347;
+  margin-top: 1em;
+  margin-left: 0;
+}
+.light {
+  color: #dcdcdc;
+  font-size: 0.93em;
+}
+footer .row {
+  width: 85%;
+  margin: auto;
+  padding-top: 1em;
+  text-align: left;
+}
+.li-ic,
+.tw-ic,
+.fb-ic {
+  margin-right: 2em;
+}
+.item {
+  padding: 20px;
+  margin-bottom: 0em;
+}
+.item i {
+  color: white;
+}
+.contact{
+    padding-left: 4em;  
+      }
+.logo{
+          height:10em;
+      }
   </style>
 </head>
 
@@ -83,10 +137,6 @@
         <h1>Safe Zone</h1>
       </div>
     </div>
-    <hr>
-    <p>
-      <center><strong>Made by Vinit Shahdeo</strong></center>
-    </p>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -166,5 +216,41 @@
   </script>
   <!-- @author: Vinit Shahdeo -->
 </body>
-
+<footer>
+  <div class="row text-center text-md-left">
+    <div class="col-sm-6 item">
+      <h4>WATER MONITORING SYSTEM</h4>
+      <hr class="d-inline-block" style="width:11em;">
+      <p class="light"> IOT based Liquid Level Monitoring system with mechanisms to keep alert the user in case of
+        liquid overflow or tank depletion.</p>
+    </div>
+    <div class="col-sm-4 item contact">
+      <h4>CONTACT</h4>
+      <hr class="d-inline-block " style="width:4em;">
+      <div>
+        <!-- Facebook -->
+        <a class="fb-ic" href="https://www.facebook.com/vinit.shahdeo">
+          <i class="fab fa-facebook-f fa-2x"> </i>
+        </a>
+        <!-- Twitter -->
+        <a class="tw-ic" href="https://twitter.com/Vinit_Shahdeo">
+          <i class="fab fa-twitter fa-2x"> </i>
+        </a>
+        <!--Linkedin -->
+        <a class="li-ic" href="https://www.linkedin.com/in/vinitshahdeo/">
+          <i class="fab fa-linkedin-in fa-2x"> </i>
+        </a>
+        <!--Github-->
+        <a class="git-ic" href="https://github.com/vinitshahdeo/Water-Monitoring-System">
+          <i class="fab fa-github fa-2x"> </i>
+        </a>
+      </div>
+    </div>
+    <div class="col-sm-2 item">
+        <img src="../assets/logo.gif" class="logo">
+    </div>
+  </div>
+  <div class="footer-copyright text-center">Made by Vinit Shahdeo
+  </div>
+</footer>
 </html>
