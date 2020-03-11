@@ -6,9 +6,9 @@
 
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 
-[![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-orange?style=for-the-badge&logo=node.js&labelColor=red&color=darkred)](https://nodejs.org/)
-[![Django](https://img.shields.io/badge/Made%20with-Django-brightgreen?style=for-the-badge&logo=django&labelColor=red&color=darkred)](https://www.djangoproject.com/)
-[![React](https://img.shields.io/badge/Made%20with-React-red?style=for-the-badge&logo=react&labelColor=red&color=darkred)](https://reactjs.org/)
+[![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-orange?style=for-the-badge&logo=node.js&labelColor=black&color=darkgreen)](https://nodejs.org/en/docs/)
+[![React](https://img.shields.io/badge/Made%20with-React-red?style=for-the-badge&logo=react&labelColor=black&color=blue)](https://reactjs.org/docs/getting-started.html)
+[![Django](https://img.shields.io/badge/Made%20with-Django-brightgreen?style=for-the-badge&logo=django&labelColor=black&color=#02f47e)](https://docs.djangoproject.com/en/3.0/)
 
 
 
