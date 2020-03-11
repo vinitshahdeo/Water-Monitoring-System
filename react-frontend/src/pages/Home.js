@@ -15,7 +15,7 @@ class Home extends Component {
         <div className="container">
           <div className="row m-3">
             <center>
-              <h1 className="title text-center">Water Monitoring System</h1>
+              <h1 className="grey-color text-center">Water Monitoring System</h1>
               <p>Water Monitoring System is an IOT based Liquid Level Monitoring system that has
                 mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.</p>
             </center>
@@ -26,7 +26,7 @@ class Home extends Component {
                 <div className="col-lg-3 d-flex align-items-center" id={tank.id}>
                   <center>
                     <TankCircle className="rounded-circle">
-                      <TankWaterValue className="d-flex justify-content-center align-items-center w-100 h-100 position-relative">{tank.value}%</TankWaterValue> 
+                      <TankWaterValue className="grey-color d-flex justify-content-center align-items-center w-100 h-100 position-relative">{tank.value}%</TankWaterValue> 
                     </TankCircle>
                     <div className="d-flex justify-content-center">
                       <span className="tank-title">Tank{ tank.id}</span>

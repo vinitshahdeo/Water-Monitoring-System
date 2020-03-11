@@ -8,6 +8,4 @@ export const TankCircle = styled.div`
   border-style: solid;
 `
 
-export const TankWaterValue = styled.p`
-  color: grey;  
-`
+export const TankWaterValue = styled.p``
