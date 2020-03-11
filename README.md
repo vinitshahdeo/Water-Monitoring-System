@@ -1,23 +1,29 @@
 # [Water Monitoring System](https://github.com/vinitshahdeo/Water-Monitoring-System) - IoT Project
 
-[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System) 
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)
 
 > **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html).**
 
 [![Water Monitoring System](https://img.shields.io/badge/Water&nbsp;Monitoring-System-teal.svg?colorA=teal&colorB=orange&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 
+[![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-orange?style=for-the-badge&logo=node.js&labelColor=black&color=darkgreen)](https://nodejs.org/en/docs/)
+[![React](https://img.shields.io/badge/Made%20with-React-red?style=for-the-badge&logo=react&labelColor=black&color=blue)](https://reactjs.org/docs/getting-started.html)
+[![Django](https://img.shields.io/badge/Made%20with-Django-brightgreen?style=for-the-badge&logo=django&labelColor=black&color=#02f47e)](https://docs.djangoproject.com/en/3.0/)
+
+
+
 Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes. The water tanks can be fixed with ultrasonic sensors that is placed over the container. Ultrasonic sensor is used to measure, compare container depth and liquid level.
 
 The status of the system could be monitored by an LCD screen or a web page that provides a brilliant graphical representation. Colours are used to depict various scenarios with respect to the amount of liquid in the tanks or containers and the buzzer buzzes when the limit exceeds the permissible quantity of fill.
 
-### Goals of this project : 
+### Goals of this project :
 
 - ***To reduce the wastage of water across the city***
 - ***To provide better water supply to the people***
 
 ```js
   ____                   __        __    _            
- / ___|  __ ___   _____  \ \      / /_ _| |_ ___ _ __ 
+ / ___|  __ ___   _____  \ \      / /_ _| |_ ___ _ __
  \___ \ / _` \ \ / / _ \  \ \ /\ / / _` | __/ _ \ '__|
   ___) | (_| |\ V /  __/   \ V  V / (_| | ||  __/ |   
  |____/ \__,_| \_/ \___|    \_/\_/ \__,_|\__\___|_|   
@@ -26,7 +32,7 @@ The status of the system could be monitored by an LCD screen or a web page that 
  \___ \ / _` \ \ / / _ \ | |   | | |_ / _ \           
   ___) | (_| |\ V /  __/ | |___| |  _|  __/           
  |____/ \__,_| \_/ \___| |_____|_|_|  \___|           
-                                                      
+
 ```
 
 > **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/docs/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
@@ -127,7 +133,7 @@ git push -u origin <your_branch_name>
 > ***Need help?***
 ***Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)***
 
-[![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo) 
+[![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
 ---
 
