@@ -1,6 +1,5 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,31 +11,83 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
     
+  <!-- general meta tags-->
+  <meta name="keywords" content="Iot, Iot Project,Open Source, Water,Water Monitoring,Liquid Level Monitoring"/>
+  <meta name="distribution" content="Global">
+  <meta http-equiv="refresh" content="45"> 
+  <meta name="url" content=" https://vinitshahdeo.github.io/Water-Monitoring-System/">
+  <meta name="description" content="IOT based Liquid Level Monitoring system that keeps the user alerted in case of liquid overflow or when tank depletes "/>
+  
+  <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+  <meta name="og:type" content="Website"/>
+  <meta name="og:title" content="Water Level Monitoring System"/>
+  <meta name="og:url" content="https://vinitshahdeo.github.io/Water-Monitoring-System/"/>
+  <meta name="og:description" content="IOT based Liquid Level Monitoring system that keeps the user alerted in case of liquid overflow or when tank depletes"/> 
+  <meta itemprop="name" content="Water Level Monitoring System">
+  <meta itemprop="description" content="IOT based Liquid Level Monitoring system that keeps the user alerted in case of liquid overflow or when tank depletes ">
+  <meta name="og:image" content="https://raw.githubusercontent.com/vinitshahdeo/Water-Monitoring-System/master/assets/animatedtank.gif"/>
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Water Level Monitoring System">
+  <meta name="twitter:description" content="IOT based Liquid Level Monitoring system that keeps the user alerted in case of liquid overflow or when tank depletes ">
+  <meta name="twitter:creator" content="@Vinit_Shahdeo" />
+  <meta name="twitter:image" content="https://raw.githubusercontent.com/vinitshahdeo/Water-Monitoring-System/master/assets/animatedtank.gif" /> 
+  
+
   <title>Water Level Monitoring System - IoT Project</title>
   <style>
     body {
       background-color: #fafafa;
       font-family: 'Montserrat', sans-serif;
     }
+      .container {
+        margin: 80px auto;
+        max-width: 960px;
+      }
 
-   /* .container {
-      margin: 80px auto;
-      max-width: 960px;
-    }*/
+      .demo {
+        padding: 20px;
+        margin: 30px;
+      }
 
-    .demo {
-      padding: 20px;
-      margin: 30px;
-    }
+      h1 {
+        text-align: center;
+        color: #fff;
+      }
 
-    h1 {
-      text-align: center;
-      color: #fff;
-    }
+      .title {
+        color: grey;
+      }
 
-    .title {
-      color: grey;
-    }
+      h2 {
+        padding-top: 200px;
+        text-align: center;
+        font-weight: 800;
+      }
+      .faq {
+        border: 10px #5e90e0 solid;
+        background-color: #f0f0b4;
+      }
+      .faq h2 {
+        padding-top: 0px;
+        color: grey;
+      }
+      .faq h3 {
+        font-weight: 800;
+        color: #5e90e0;
+      }
+      .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border: none;
+        background: none;
+        color: black;
+      }
 
     h2 {
       padding-top: 200px;
@@ -94,6 +145,15 @@ footer .row {
 .logo{
           height:10em;
       }
+      .fa:hover {
+        opacity: 0.7;
+      }     
+      .flex-container{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
   </style>
 </head>
 
@@ -120,36 +180,48 @@ footer .row {
       <div class="col-lg-3">
         <div class="tank4" style="width: 200px;height:200px; float:left"></div>
         <h2>Tank 4</h2>
+        </div>
       </div>
     </div>
-  </div>
 
-  <div class="container">
-
-    <div class="row">
-      <div class="col-lg-4" style="background-color: #fe5e21;min-height: 100px;min-width: 100px; ">
-        <h1>Danger Zone</h1>
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-lg-4"
+          style="background-color: #fe5e21;min-height: 100px;min-width: 100px; "
+        >
+          <h1>Danger Zone</h1>
+        </div>
+        <div
+          class="col-lg-4"
+          style="background-color: #ffb30c;min-width: 100px;min-height: 100px"
+        >
+          <h1>Warning Zone</h1>
+        </div>
+        <div
+          class="col-lg-4"
+          style="background-color: #2ed351;min-width: 100px;min-height: 100px"
+        >
+          <h1>Safe Zone</h1>
+        </div>
       </div>
-      <div class="col-lg-4" style="background-color: #ffb30c;min-width: 100px;min-height: 100px">
-        <h1>Warning Zone</h1>
-      </div>
-      <div class="col-lg-4" style="background-color: #2ed351;min-width: 100px;min-height: 100px">
-        <h1>Safe Zone</h1>
-      </div>
+      <hr />
+      <p>
+        <center><strong>Made by Vinit Shahdeo</strong></center>
+      </p>
     </div>
-  </div>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script>
-    //var x=30;
-    //alert("vini");
-    //var qs = window.GetQueryString(query);
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+      //var x=30;
+      //alert("vini");
+      //var qs = window.GetQueryString(query);
 
-    //var x = window.getParameterByName('foo');
+      //var x = window.getParameterByName('foo');
 
-    /* function getParameterByName(name) {
+      /* function getParameterByName(name) {
      
         var match = RegExp('[?]' + foo + '=')
                         .exec(window.location.search);
@@ -159,98 +231,171 @@ footer .row {
             : null;
      
     }*/
+      function getQueryStringValue(key) {
+        return decodeURIComponent(
+          window.location.search.replace(
+            new RegExp(
+              "^(?:.*[&\\?]" +
+                encodeURIComponent(key).replace(/[\.\+\*]/g, "\\$&") +
+                "(?:\\=([^&]*))?)?.*$",
+              "i"
+            ),
+            "$1"
+          )
+        );
+      }
+      var x = getQueryStringValue("tank1");
+      var y = getQueryStringValue("tank2");
+      var z = getQueryStringValue("tank3");
+      var w = getQueryStringValue("tank4");
+      $(".tank1").createWaterBall({
+        targetRange: x
+      });
+      $(".tank2").createWaterBall({
+        targetRange: y
+      });
+      $(".tank3").createWaterBall({
+        targetRange: z
+      });
+      $(".tank4").createWaterBall({
+        targetRange: w
+      });
 
-    function getQueryStringValue(key) {
-      return decodeURIComponent(window.location.search.replace(new RegExp("^(?:.*[&\\?]" + encodeURIComponent(key)
-        .replace(/[\.\+\*]/g, "\\$&") + "(?:\\=([^&]*))?)?.*$", "i"), "$1"));
-    }
-    var x = getQueryStringValue("tank1");
-    var y = getQueryStringValue("tank2");
-    var z = getQueryStringValue("tank3");
-    var w = getQueryStringValue("tank4");
-    $('.tank1').createWaterBall({
-      targetRange: x
-    });
-    $('.tank2').createWaterBall({
-      targetRange: y
-    });
-    $('.tank3').createWaterBall({
-      targetRange: z
-    });
-    $('.tank4').createWaterBall({
-      targetRange: w
-    });
+      var loadingEle = $(".loading");
+      var loading_width = loadingEle.width(),
+        loading_height = loadingEle.height();
+      $(".loading").createWaterBall({
+        cvs_config: {
+          width: loading_width,
+          height: loading_height
+        },
+        wave_config: {
+          waveWidth: 0.02,
+          waveHeight: 5
+        },
+        data_range: [30, 70, 100],
+        isLoading: true,
+        nowRange: 70,
+        targetRange: 70
+      });
+      setTimeout(function() {
+        $(".loading").createWaterBall("updateRange", 80);
+      }, 1000);
+      $(".waterBall1").createWaterBall({
+        csv_config: {
+          width: $(".waterBall1").width(),
+          height: $(".waterBall1").height()
+        },
+        wave_config: {
+          waveWidth: 0.02,
+          waveHeight: 5
+        },
+        data_range: [40, 50, 100],
+        targetRange: 45
+      });
+    </script>
 
-    var loadingEle = $('.loading');
-    var loading_width = loadingEle.width(),
-      loading_height = loadingEle.height();
-    $('.loading').createWaterBall({
-      cvs_config: {
-        width: loading_width,
-        height: loading_height
-      },
-      wave_config: {
-        waveWidth: 0.02,
-        waveHeight: 5
-      },
-      data_range: [30, 70, 100],
-      isLoading: true,
-      nowRange: 70,
-      targetRange: 70
-    });
-    setTimeout(function () {
-      $('.loading').createWaterBall('updateRange', 80);
-    }, 1000);
-    $('.waterBall1').createWaterBall({
-      csv_config: {
-        width: $('.waterBall1').width(),
-        height: $('.waterBall1').height()
-      },
-      wave_config: {
-        waveWidth: 0.02,
-        waveHeight: 5
-      },
-      data_range: [40, 50, 100],
-      targetRange: 45
-    });
-  </script>
-  <!-- @author: Vinit Shahdeo -->
-</body>
-<footer>
-  <div class="row text-center text-md-left">
-    <div class="col-sm-6 item">
-      <h4>WATER MONITORING SYSTEM</h4>
-      <hr class="d-inline-block" style="width:11em;">
-      <p class="light"> IOT based Liquid Level Monitoring system with mechanisms to keep alert the user in case of
-        liquid overflow or tank depletion.</p>
-    </div>
-    <div class="col-sm-4 item contact">
-      <h4>CONTACT</h4>
-      <hr class="d-inline-block " style="width:4em;">
-      <div>
-        <!-- Facebook -->
-        <a class="fb-ic" href="https://www.facebook.com/vinit.shahdeo">
-          <i class="fab fa-facebook-f fa-2x"> </i>
-        </a>
-        <!-- Twitter -->
-        <a class="tw-ic" href="https://twitter.com/Vinit_Shahdeo">
-          <i class="fab fa-twitter fa-2x"> </i>
-        </a>
-        <!--Linkedin -->
-        <a class="li-ic" href="https://www.linkedin.com/in/vinitshahdeo/">
-          <i class="fab fa-linkedin-in fa-2x"> </i>
-        </a>
-        <!--Github-->
-        <a class="git-ic" href="https://github.com/vinitshahdeo/Water-Monitoring-System">
-          <i class="fab fa-github fa-2x"> </i>
-        </a>
+    <div class="faq container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Frequently Asked Questions(FAQs) for Water Monitoring System</h2>
+          <h3>What is Water Monitoring System?</h3>
+          <p>
+            Water Monitoring System is an IOT based Liquid Level Monitoring
+            system that has mechanisms to keep the user alerted in case of
+            liquid overflow or when tank depletes.
+          </p>
+          <h3>How Water Monitoring System works?</h3>
+          <p>
+            The water tanks can be fixed with ultrasonic sensors that is placed
+            over the container. Ultrasonic sensor is used to measure, compare
+            container depth and liquid level.
+          </p>
+          <h3>How status of the system could be monitored?</h3>
+          <p>
+            The status of the system could be monitored by an LCD screen or a
+            web page that provides a brilliant graphical representation. Colours
+            are used to depict various scenarios with respect to the amount of
+            liquid in the tanks or containers and the buzzer buzzes when the
+            limit exceeds the permissible quantity of fill.
+          </p>
+          <h3>
+            What colors are used to represent various scenarios with respect to
+            the amount of liquid in the tank?
+          </h3>
+          <p>
+            <strong>Danger Zone</strong> is indicated as
+            </strong><span style="color:#fe5e21;font-weight:800">Red color</span>,
+            <strong>Warning Zone</strong> is indicated as
+            <span style="color: #ffb30c;font-weight:800;">Yellow color</span>, <strong>Safe Zone</strong> is
+            indicated as <span style="color:#2ed351;font-weight:800;">Green color</span>.
+          </p>
+          <h3>What are the Goals of this Project?</h3>
+          <ul>
+            <li>To reduce the wastage of water across the city</li>
+            <li>To provide better water supply to the people</li>
+          </ul>
+          <h3>What are the IoT(Hardware) components required?</h3>
+          <ul>
+            <li>AVR family microcontroller</li>
+            <li>LCD screen</li>
+            <li>Wifi modem</li>
+            <li>A buzzer</li>
+            <li>12V transformer</li>
+          </ul>
+          <h3>Is this a hardware/IoT project?</h3>
+          <p>
+            Yes, it is a hardware/IoT + software project. There would be maximum
+            tasks related to frontend, backend, design and documentation of the
+            website and later, it would be integarted with the real-time data
+            from the sensors.
+          </p>
+          <h3>What is the tech Stack for this project?</h3>
+          <ul>
+            <li><strong>Frontend:</strong> React</li>
+            <li><strong>Backend:</strong> Django, Node.js</li>
+          </ul>
+        </div>
       </div>
     </div>
-    <div class="col-sm-2 item">
-        <img src="../assets/logo.gif" class="logo">
-    </div>
-  </div>
-  <div class="footer-copyright text-center">Made by Vinit Shahdeo
-  </div>
-</footer>
+    <footer>
+      <div class="row text-center text-md-left">
+        <div class="col-sm-6 item">
+          <h4>WATER MONITORING SYSTEM</h4>
+          <hr class="d-inline-block" style="width:11em;">
+          <p class="light"> IOT based Liquid Level Monitoring system with mechanisms to keep alert the user in case of
+            liquid overflow or tank depletion.</p>
+        </div>
+        <div class="col-sm-4 item contact">
+          <h4>CONTACT</h4>
+          <hr class="d-inline-block " style="width:4em;">
+          <div>
+            <!-- Facebook -->
+            <a class="fb-ic" href="https://www.facebook.com/vinit.shahdeo">
+              <i class="fab fa-facebook-f fa-2x"> </i>
+            </a>
+            <!-- Twitter -->
+            <a class="tw-ic" href="https://twitter.com/Vinit_Shahdeo">
+              <i class="fab fa-twitter fa-2x"> </i>
+            </a>
+            <!--Linkedin -->
+            <a class="li-ic" href="https://www.linkedin.com/in/vinitshahdeo/">
+              <i class="fab fa-linkedin-in fa-2x"> </i>
+            </a>
+            <!--Github-->
+            <a class="git-ic" href="https://github.com/vinitshahdeo/Water-Monitoring-System">
+              <i class="fab fa-github fa-2x"> </i>
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-2 item">
+            <img src="../assets/logo.gif" class="logo">
+        </div>
+      </div>
+      <div class="footer-copyright text-center">Made by Vinit Shahdeo
+      </div>
+    </footer>
+
+    <!-- @author: Vinit Shahdeo -->
+  </body>
 </html>
