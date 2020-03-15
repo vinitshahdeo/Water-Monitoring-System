@@ -76,10 +76,6 @@ git checkout -b <your_branch_name>
 
 ```terminal
 git push -u origin <your_branch_name>
--> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.gssoc.tech/).
-+> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.girlscript.tech/).
- 
- [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://www.gssoc.tech/)
 ```
 
 **8.** Create a PR!
@@ -116,7 +112,7 @@ git push -u origin <your_branch_name>
 
 - Always create PR to `develop` branch.
 
-- Please read our [Code of Conduct](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CODE_OF_CONDUCT.md).
+- Please read our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
@@ -219,7 +215,7 @@ if (_.contains(projectsInRGSoC, {
 | [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
 | [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
 
-[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/7)
+[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://twitter.com/Vinit_Shahdeo)
 
 ## Useful Resources
 
@@ -232,10 +228,9 @@ if (_.contains(projectsInRGSoC, {
 
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
 
-<a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width="150px" height="150px" /></a>
-
-**[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
-
+|                                                                                         <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width=150px height=150px /></a>                                                                                         |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                        **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**                                                                                                                                        |
 | <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a> |
 
 > **_Need help?_** 
