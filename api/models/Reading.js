@@ -6,6 +6,22 @@ const readingSchema = new mongoose.Schema({
   value: {
     required: true,
     type: String
+  },
+  capacity:{
+    required:true,
+    type: Number
+  },
+  location:{
+    required:true,
+    type:String
+  },
+  name:{
+    required:true,
+    type:String
+  },
+  id:{
+    required:false,
+    type:Number
   }
 });
 
