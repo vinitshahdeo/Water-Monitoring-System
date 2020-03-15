@@ -19,7 +19,7 @@ const readingSchema = new mongoose.Schema({
     required:true,
     type:String
   },
-  id:{
+  tankId:{
     required:false,
     type:Number
   }

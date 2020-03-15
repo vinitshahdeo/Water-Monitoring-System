@@ -41,7 +41,7 @@ router.get("/:readId", (req, res) => {
 router.put("/:readId", (req, res) => {
   const readId = sanitizer.sanitize(req.params.readId);
   const value = sanitizer.sanitize(req.body.value);
-  Reading.findByIdAndUpdate({tankID:readId}, { $set: { value } }, { new: true })
+  Reading.findByIdAndUpdate({tankId:readId}, { $set: { value } }, { new: true })
     .then(result => {
       res.status(200).json({ mssg: "Ok", data: result });
     })
@@ -52,7 +52,7 @@ router.put("/:readId", (req, res) => {
 //Delete particular reading
 router.delete("/:readId", (req, res) => {
   const readId = sanitizer.sanitize(req.params.readId);
-  Reading.findByIdAndDelete({tankID:readId)
+  Reading.findByIdAndDelete({tankId:readId)
     .then(result => {
       res.status(200).json({ mssg: "Ok", data: result });
     })
