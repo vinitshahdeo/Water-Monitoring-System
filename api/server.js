@@ -45,10 +45,14 @@ if (config.util.getEnv("NODE_ENV") !== "test") {
 }
 
 //Requiring Routes
-const readingRoutes = require("./routes/readingRoutes");
+const readingRoutes = require("./routes/readingRoutes"),
+  phoneAuth = require("./auth/phoneAuth")
 
 //Using Routes
 app.use("/api/reading", readingRoutes);
+
+//Using phone auth routes
+app.use("/auth", phoneAuth);
 
 //Starting the server
 app.listen(port, err => {
