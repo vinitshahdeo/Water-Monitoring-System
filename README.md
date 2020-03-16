@@ -1,5 +1,6 @@
 # [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) - IoT Project
 
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/vinitshahdeo/Water-Monitoring-System/issues) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)
 [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)![slack](https://img.shields.io/badge/chat-slack-tomato.svg?style=flat&logo=slack)
 
 > **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html).**
@@ -174,9 +175,6 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 
 ## Mentors
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)](https://github.com/vinitshahdeo/Water-Monitoring-System/pulls?q=is%3Apr+is%3Aclosed)
-
-
 | GitHub Usernames                                     | Domain                     |
 | ---------------------------------------------------- | -------------------------- |
 | [@vinitshahdeo](https://github.com/vinitshahdeo)     | Full Stack + Documentation |
@@ -188,7 +186,6 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 | [@Manvityagi](https://github.com/Manvityagi)         | APIs + Cloud               |
 | [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
 | [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
-
 
 [![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/7)
 
@@ -202,6 +199,7 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 ## Project Admin
 
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
+
 | <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width=150px height=150px /></a> |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
 
