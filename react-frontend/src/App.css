@@ -1,0 +1,17 @@
+body {
+  background-color: #fafafa;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.title {
+  color: grey;
+}
+
+.tank-title {
+  font-size: 30px;
+}
