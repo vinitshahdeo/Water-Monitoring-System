@@ -9,6 +9,10 @@
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+
+
   <title>Water Level Monitoring System - IoT Project</title>
   <style>
     body {
@@ -45,6 +49,13 @@
 
 <body>
   <div class="container">
+    <div class="emailLogin">
+      <input id="txtEmail" type="email" placeholder="Email">
+      <input id="txtPassword" type="password" placeholder="Password">
+      <button id="btnLogin" class="btn btn-action">Log In</button>
+      <button id="btnSignUp" class="btn btn-secondary">Sign Up</button>
+      <button id="btnLogOut" class="btn btn-action hide">Log Out</button>
+    </div>
     <center>
       <h1 class="title">Water Monitoring System</h1>
       <p>Water Monitoring System is an IOT based Liquid Level Monitoring system that has
@@ -164,6 +175,7 @@
       targetRange: 45
     });
   </script>
+  <script src="app.js"></script>
   <!-- @author: Vinit Shahdeo -->
 </body>
 
