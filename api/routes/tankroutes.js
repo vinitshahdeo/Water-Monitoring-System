@@ -4,8 +4,17 @@ const express=require("express");
 const router =express.Router();
 const Tank=require("../models/tank");
 
-//requires name location and capacity of tank to be submitted in req
-router.post("/new",(req,res)=>{ //new tank
+/**
+ * Adds a new tank according to specifications.
+ * @param {Number} capacity-tank capacity
+ * @param {String} name-tank name
+ * @param {String} location-tank location
+ * @returns {Tank} Tank object
+ * @returns {Internal Error} When tank is not created.
+ */
+
+
+router.post("/new",(req,res)=>{  
 	var name = req.body.name,
 		location=req.body.location,
 		capacity=req.body.capacity;
@@ -15,9 +24,9 @@ router.post("/new",(req,res)=>{ //new tank
 		name:name,
 		location:location
 	}, function(err,tank){
-		if(err){ res.json({mssg:"Internal Error!"})};//error message if error occurs
+		if(err){ res.json({mssg:"Internal Error!"});}
 		else {
-			res.json({mssg:"Created!", data:tank});//returns tank object if successfully created
+			res.json({mssg:"Created!", data:tank});
 		}
 	});
 });
