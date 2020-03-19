@@ -60,7 +60,6 @@
       }
 
       h2 {
-        padding-top: 200px;
         text-align: center;
         font-weight: 800;
       }
@@ -89,7 +88,6 @@
       }
 
     h2 {
-      padding-top: 200px;
       text-align: center;
       font-weight: 800;
     }
@@ -164,20 +162,20 @@ footer .row {
         mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.</p>
     </center>
     <div class="row">
-      <div class="col-lg-3">
-        <div class="tank1 mb-5" style="width: 200px;height:200px; float:left"></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="tank1 mb-5 d-flex justify-content-center" ></div>
         <h2>Tank 1</h2>
       </div>
-      <div class="col-lg-3">
-        <div class="tank2 mb-5" style="width: 200px;height:200px; float:left"></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="tank2 mb-5 d-flex justify-content-center"></div>
         <h2>Tank 2</h2>
       </div>
-      <div class="col-lg-3">
-        <div class="tank3 mb-5" style="width: 200px;height:200px; float:left"></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="tank3 mb-5 d-flex justify-content-center"></div>
         <h2>Tank 3</h2>
       </div>
-      <div class="col-lg-3">
-        <div class="tank4 mb-5" style="width: 200px;height:200px; float:left"></div>
+      <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="tank4 mb-5 d-flex justify-content-center"></div>
         <h2>Tank 4</h2>
         </div>
       </div>
@@ -397,10 +395,21 @@ footer .row {
     </footer>
 
 
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
+  <script>
+
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script>
+
     var loadingEle = $('.loading');
     var loading_width = loadingEle.width(),
       loading_height = loadingEle.height();
@@ -455,7 +464,7 @@ footer .row {
       data_range: [40, 50, 100],
       targetRange: 80
     });
-    
+
       function getQueryStringValue(key) {
         return decodeURIComponent(
           window.location.search.replace(
@@ -485,6 +494,40 @@ footer .row {
       $(".tank4").createWaterBall({
         targetRange: w
       });
+
+      var loadingEle = $(".loading");
+      var loading_width = loadingEle.width(),
+        loading_height = loadingEle.height();
+      $(".loading").createWaterBall({
+        cvs_config: {
+          width: loading_width,
+          height: loading_height
+        },
+        wave_config: {
+          waveWidth: 0.02,
+          waveHeight: 5
+        },
+        data_range: [30, 70, 100],
+        isLoading: true,
+        nowRange: 70,
+        targetRange: 70
+      });
+      setTimeout(function() {
+        $(".loading").createWaterBall("updateRange", 80);
+      }, 1000);
+      $(".waterBall1").createWaterBall({
+        csv_config: {
+          width: $(".waterBall1").width(),
+          height: $(".waterBall1").height()
+        },
+        wave_config: {
+          waveWidth: 0.02,
+          waveHeight: 5
+        },
+        data_range: [40, 50, 100],
+        targetRange: 45
+      });
+
     </script>
 
     <!-- @author: Vinit Shahdeo -->
