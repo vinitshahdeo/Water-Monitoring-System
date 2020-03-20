@@ -40,7 +40,7 @@ The IoT(Hardware) components required are:
 - **12V transformer**
 
 UML Diagram:
-[Block Diagram](screenshots/Water-Monitoring-System.jpg)
+![Block Diagram](/screenshots/Water-Monitoring-System.jpg "Water-Monitoring-System Block Diagram")
 
 ## Getting Started
 
