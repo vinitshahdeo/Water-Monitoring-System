@@ -242,13 +242,16 @@ if (_.contains(projectsInRGSoC, {
 
 I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects. 
 
-### [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
+### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
 
 1. **HANDS**: Wash them often
 2. **ELBOW**: Cough into it
 3. **FACE**: Don't touch it
 4. **SPACE**: Keep safe distance
 5. **HOME**: Stay if you can
+
+### Avoid Handshakes :handshake: :x:, Do Namastey :pray: :heavy_check_mark:
+
 
 <sup>**PS: I know it's off-topic but **Yes**, COVID-19 everyone's talking about. Please stay safe at your home and enjoy contributing to your projects.**</sup>
 
