@@ -14,7 +14,7 @@ const Tank=require("../models/tank");
  */
 
 
-router.post("/new",(req,res)=>{  
+router.post("/add",(req,res)=>{  
 	var name = req.body.name,
 		location=req.body.location,
 		capacity=req.body.capacity;
