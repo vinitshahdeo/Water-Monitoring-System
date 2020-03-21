@@ -250,7 +250,7 @@ I hope you are all staying safe at your home and enjoying the contribution for y
 4. **SPACE**: Keep safe distance
 5. **HOME**: Stay if you can
 
-
+<sup>**PS: I know it's off-topic but **Yes**, COVID-19 everyone's talking about. Please stay safe at your home and enjoy contributing to your projects.**</sup>
 
 ---
 
