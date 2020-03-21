@@ -9,5 +9,5 @@ export const fetchTanks = () => {
       {"id":"3","value":"40"},
       {"id":"4","value":"90"}
     ]
-  }) 
-};
+  })
+}
