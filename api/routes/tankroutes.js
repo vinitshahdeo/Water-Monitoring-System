@@ -10,7 +10,7 @@ const Tank=require("../models/tank");
  * @param {String} name-tank name
  * @param {String} location-tank location
  * @returns {Tank} Tank object
- * @returns {Internal Error} When tank is not created.
+ * @throws {Internal Error} When tank is not created.
  */
 
 
