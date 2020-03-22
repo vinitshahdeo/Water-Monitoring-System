@@ -5,7 +5,7 @@ const router = express.Router();
 const { google } = require('googleapis');
 
 /**
- * Send a user a verification code for phone auth service.
+ * Send the user a verification code via SMS, for phone authentication service.
  * @async
  * @method
  * @param {String} phoneNumber - User's phone number
@@ -31,7 +31,7 @@ router.post('/sendSMS', function (req, res) {
             recaptchaToken: recaptcha,
         });
 
-        // save phoneSessionId into databse . We will need this to verify the SMS code
+        // save phoneSessionId into database . We will need this to verify the SMS code
         const phoneSessionId = response.data.sessionInfo;
 
     }
@@ -42,7 +42,7 @@ router.post('/sendSMS', function (req, res) {
 });
 
 /**
- * Send a user a verification code for phone auth service.
+ * Verifying the user, from the SMS code send via client end
  * @async
  * @method
  * @param {String} verificationCode - verificationCode send by user
@@ -62,8 +62,8 @@ router.post('/verifySMS', function (req, res) {
     //get session Info from database
     try {
         await identityToolkit.relyingparty.verifyPhoneNumber({
-        code: verificationCode,
-        sessionInfo: phoneSessionId,
+            code: verificationCode,
+            sessionInfo: phoneSessionId,
         });
     
     }
@@ -77,5 +77,3 @@ router.post('/verifySMS', function (req, res) {
 });
 
 module.exports = router;
-
-
