@@ -1,14 +1,22 @@
 "use strict";
-
 const mongoose= require("mongoose");
-
+//todo-GeoJSON for location
 //tank schema
 
 const tankSchema= new mongoose.Schema({
 	value: {
-		capacity: Number,
-		location: String,
-		name: String
+		capacity: {
+			type: Number,
+			required:true
+		},
+		location: {
+			type: String,
+			required:true
+		} ,
+		name: {
+			type: String,
+			required:true
+		} 
 	}
 });
 
