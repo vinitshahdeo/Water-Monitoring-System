@@ -1,14 +1,29 @@
 # [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) - IoT Project
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/vinitshahdeo/Water-Monitoring-System/issues) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System) 
 =======
 [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)
 >>>>>>> 82dff5934974a50c32a82d21f4b325f33d909197
+=======
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/vinitshahdeo/Water-Monitoring-System/issues) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)
+
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)![slack](https://img.shields.io/badge/chat-slack-tomato.svg?style=flat&logo=slack)
+>>>>>>> 7093731408fdca498c45bee06582376d76ab5cbb
 
 > **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html).**
 
 [![Water Monitoring System](https://img.shields.io/badge/Water Monitoring-System-teal.svg?colorA=teal =orange =for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
+<<<<<<< HEAD
+=======
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vinitshahdeo/Water-Monitoring-System/)
+
+![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-orange?style=for-the-badge&logo=node.js)
+![Django](https://img.shields.io/badge/Made%20with-Django-brightgreen?style=for-the-badge&logo=django)
+![React](https://img.shields.io/badge/Made%20with-React-red?style=for-the-badge&logo=react)
+>>>>>>> 7093731408fdca498c45bee06582376d76ab5cbb
 
 Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes. The water tanks can be fixed with ultrasonic sensors that is placed over the container. Ultrasonic sensor is used to measure, compare container depth and liquid level.
 
@@ -61,7 +76,11 @@ git clone https://github.com/<your-github-username>/Water-Monitoring-System
 cd Water-Monitoring-System
 ```
 
+<<<<<<< HEAD
 **4.** Create a new branch from develop branch.
+=======
+**4.** Create a new branch.
+>>>>>>> 7093731408fdca498c45bee06582376d76ab5cbb
 
 ```terminal
 git checkout -b develop
@@ -92,10 +111,13 @@ git push -u origin <your_branch_name>
 <<<<<<< HEAD
 [![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/codeuino/Water-Monitoring-System/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/vinitshahdeo) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo)
 
+<<<<<<< HEAD
 =======
 [![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/codeuino/Water-Monitoring-System/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/vinitshahdeo) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo)
 >>>>>>> 82dff5934974a50c32a82d21f4b325f33d909197
 
+=======
+>>>>>>> 7093731408fdca498c45bee06582376d76ab5cbb
 | TITLE                                                                                                          | LEVEL       |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
 | [UI Enhancements](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/2)                            | `EASY`      |
@@ -108,7 +130,7 @@ git push -u origin <your_branch_name>
 
 ## Contribution Guidelines
 
-![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white) ![GitHub contributors](https://img.shields.io/github/contributors/vinitshahdeo/Water-Monitoring-System?logo=github) [![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)](https://github.com/vinitshahdeo/)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)](https://github.com/vinitshahdeo/Water-Monitoring-System/pulls) ![GitHub contributors](https://img.shields.io/github/contributors/vinitshahdeo/Water-Monitoring-System?logo=github) [![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)](https://github.com/vinitshahdeo/)
 
 - Write clear meaningful git commit messages (Do read [this](http://chris.beams.io/posts/git-commit/)).
 
@@ -127,6 +149,10 @@ git push -u origin <your_branch_name>
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7093731408fdca498c45bee06582376d76ab5cbb
 ## Open Source Programs
 
 This project is part of the following Open Source programs:
@@ -138,32 +164,32 @@ This project is part of the following Open Source programs:
 - [Rails Girls Summer of Code 2020](http://railsgirlssummerofcode.org/)
 - [JGEC Winter of Code 2020](https://jwoc.tech/)
 
-
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
 
-> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.gssoc.tech/).
+> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.girlscript.tech/).
 
 [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://www.gssoc.tech/)
 
-#### *1. How to start as a beginner so as to contribute to the project?*
-*There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs.Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions.*
+#### _1. How to start as a beginner so as to contribute to the project?_
+_There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs.Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions._
 
+#### _2. Is this a hardware/IoT project?_
 
-#### *2. Is this a hardware/IoT project?*
-*Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integarted with the real-time data from the sensors.*
+_Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integarted with the real-time data from the sensors._
 
-#### *3. How to communicate with us?*
-*All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. *Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more.**
+#### _3. How to communicate with us?_
 
-#### *4. What is the Tech Stack for this project?*
+*All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. *Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more.\*\*
 
-- ***Frontend:** React*
+#### _4. What is the Tech Stack for this project?_
 
-- ***Backend:** Django, Node.js*
+- **\*Frontend:** React\*
 
-#### *5. What is the deadline for any task submission?*
+- **\*Backend:** Django, Node.js\*
 
-*Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration.*
+#### _5. What is the deadline for any task submission?_
+
+_Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration._
 
 ## Additional Info
 
@@ -171,30 +197,26 @@ This project is part of the following Open Source programs:
 
 - If you're interested in contributing for **backend**, please checkout the following branch according to the tech stack:
 
-  - **Django**: `feature/backend-django` 
+  - **Django**: `feature/backend-django`
   - **Node.js**: `feature/backend-node`
 
 - If you're interested in contributing for **frontend**, please checkout `feature/frontend` branch.
 
 > **Note:** Are you an **absolute beginner?** Please [check the issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues?q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only) labeled with `first-timers-only`. These issues might _let your Open Source journey begin_ - **Welcome onboard!**
 
-
 ## Mentors
 
- [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) ![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)
-
-| GitHub Usernames  | Domain  |
-|---|---|
-| [@vinitshahdeo](https://github.com/vinitshahdeo)  | Full Stack + Documentation |
-| [@ShreyaAnand](https://github.com/ShreyaAnand)  | Full Stack  |
-| [@YashMeh](https://github.com/YashMeh)  | Backend |
-| [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation  |
-| [@ramanaditya](https://github.com/ramanaditya)  | Backend + Hardware  |
-| [@ArpitKotecha](https://github.com/ArpitKotecha)  | Backend |
-| [@Manvityagi](https://github.com/Manvityagi)  | APIs + Cloud  |
-| [@jainpawan21](https://github.com/jainpawan21)  | Frontend  |
-
-[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/7)
+| GitHub Usernames                                     | Domain                     |
+| ---------------------------------------------------- | -------------------------- |
+| [@vinitshahdeo](https://github.com/vinitshahdeo)     | Full Stack + Documentation |
+| [@ShreyaAnand](https://github.com/ShreyaAnand)       | Full Stack                 |
+| [@YashMeh](https://github.com/YashMeh)               | Backend                    |
+| [@PragatiVerma18](https://github.com/PragatiVerma18) | Backend + Documentation    |
+| [@ramanaditya](https://github.com/ramanaditya)       | Backend + Hardware         |
+| [@ArpitKotecha](https://github.com/ArpitKotecha)     | Backend                    |
+| [@Manvityagi](https://github.com/Manvityagi)         | APIs + Cloud               |
+| [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
+| [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
 
 
 ## Useful Resources
@@ -204,20 +226,28 @@ This project is part of the following Open Source programs:
 - [Node.js Docs](https://nodejs.org/api/)
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
-
 ## Project Admin
 
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
 
-| <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width=150px height=150px /></a> |
-|:---:|
-| **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**  |
-| <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a> |
 
+| <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width=150px height=150px /></a> |
+| :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
+
+<<<<<<< HEAD
 > **_Need help?_** > **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
+=======
 
+**[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
+<a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a>
+>>>>>>> 7093731408fdca498c45bee06582376d76ab5cbb
+
+> **_Need help?_**
+> **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
+
+[![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
 ---
 
