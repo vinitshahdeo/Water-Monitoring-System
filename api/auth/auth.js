@@ -40,7 +40,7 @@ router.post('/sendSMS', function (req, res) {
 });
 
 /**
- * Verifying the user, from the SMS code send via client end
+ * Verifying the user, from the SMS code sent via client end
  * @async
  * @method
  * @param {String} verificationCode - verificationCode send by user
