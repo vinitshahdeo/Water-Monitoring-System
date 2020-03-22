@@ -13,8 +13,6 @@ const { google } = require('googleapis');
  * @throws {Could not send verification code} When the user cannot be send with verification code
  */
 
-
-// route to trigger for auth
 router.post('/sendSMS', function (req, res) {
 
     // body must have phoneNumber and recaptchaToken
