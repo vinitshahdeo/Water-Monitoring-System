@@ -12,8 +12,8 @@ The status of the system could be monitored by an LCD screen or a web page that 
 
 ### Goals of this project : 
 
-- ***To reduce the wastage of water across the city***
-- ***To provide better water supply to the people***
+- **To reduce the wastage of water across the city**
+- **To provide better water supply to the people**
 
 ```js
   ____                   __        __    _            
