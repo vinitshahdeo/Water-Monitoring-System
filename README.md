@@ -240,7 +240,26 @@ if (_.contains(projectsInRGSoC, {
 
 ## COVID-19: Stay Home<sup>Stay Safe</sup>
 
-I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects. 
+I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects.
+
+```javascript
+/**
+ * 
+ * Let's fight for Corona together!
+ */
+function stayAtHome() {
+  eat();
+  sleep();
+  code();
+  repeat();
+}
+
+while(_.isAlive(new Virus('COVID-19'))) {
+  // Stay home, Stay safe
+  stayAtHome();
+}
+
+```
 
 ### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
 
@@ -250,10 +269,14 @@ I hope you are all staying safe at your home and enjoying the contribution for y
 4. **SPACE**: Keep safe distance
 5. **HOME**: Stay if you can
 
-### Avoid Handshakes :handshake: :x:, Do Namastey :pray: :heavy_check_mark:
-
+### - Avoid Handshakes :handshake: :x:
+### - Do Namastey :pray: :heavy_check_mark:
 
 <sup>**PS: I know it's off-topic but **Yes**, COVID-19 everyone's talking about. Please stay safe at your home and enjoy contributing to your projects.**</sup>
+
+
+_Your friend,_ <br>
+_**[Vinit](https://www.instagram.com/vinitshahdeo/) :)**_
 
 ---
 
