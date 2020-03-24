@@ -46,7 +46,7 @@ if (config.util.getEnv("NODE_ENV") !== "test") {
 
 //Requiring Routes
 const readingRoutes = require("./routes/readingRoutes"),
-  authServices = require("./auth/auth")
+  authServices = require("./routes/auth");
 
 //Using Routes
 app.use("/api/reading", readingRoutes);
