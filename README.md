@@ -269,8 +269,10 @@ while(_.isAlive(new Virus('COVID-19'))) {
 4. **SPACE**: Keep safe distance
 5. **HOME**: Stay if you can
 
-### :handshake: Avoid Handshakes :x:
-### :pray: Do Namastey :heavy_check_mark:
+### :x: Avoid Handshakes :handshake: 
+### :heavy_check_mark: Do Namastey :pray:
+
+<br>
 
 <sup>**PS: I know it's off-topic but **Yes**, COVID-19 everyone's talking about. Please stay safe at your home and enjoy contributing to your projects.**</sup>
 
