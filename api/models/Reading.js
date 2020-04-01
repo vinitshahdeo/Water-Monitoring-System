@@ -2,26 +2,39 @@
 
 const mongoose = require("mongoose");
 
+const pointSchema = new mongoose.Schema({
+  type: {
+    type: String,
+    enum: ['Point'],
+    required: true
+  },
+  coordinates: {
+    type: [Number],
+    required: true
+  }
+});
+
+
 const readingSchema = new mongoose.Schema({
   value: {
     required: true,
     type: String
   },
-  capacity:{
-    required:true,
+  tankId: {
+    required: true,
+    type: mongoose.Types.ObjectId
+  },
+  capacity: {
+    required: true,
     type: Number
   },
-  location:{
-    required:true,
-    type:String
+  location: {
+    type: pointSchema,
+    required: true
   },
-  name:{
-    required:true,
-    type:String
-  },
-  tankId:{
-    required:false,
-    type:Number
+  name: {
+    required: true,
+    type: String
   }
 });
 
