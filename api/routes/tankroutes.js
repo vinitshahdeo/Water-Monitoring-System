@@ -1,25 +1,25 @@
 "use strict";
 const express = require("express");
 const router = express.Router();
-const Tank = require("../models/tank");
+const Tank = require("../models/Reading");
 
 /**
  * Adds a new tank according to specifications.
  * @param {Number} capacity-tank capacity
  * @param {String} name-tank name
- * @param {String} location-tank location
+ * @param {Object} location-tank location
  * @returns {Object} Tank object 
  * @throws {NotFoundError} When tank is not created.
  */
 router.post("/add", function (req, res) {
-	var name = req.body.name,
-		location = req.body.location,
-		capacity = req.body.capacity;
+	var name = req.body.tankName,
+		location = req.body.tankLocation,
+		capacity = req.body.tankCapacity;
 
 	Tank.create({
-		capacity: capacity,
-		name: name,
-		location: location
+		tankCapacity: capacity,
+		tankName: name,
+		tankLocation: location
 	}, function (err, tank) {
 		if (err) {
 			res.json({
