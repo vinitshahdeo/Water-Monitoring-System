@@ -4,7 +4,7 @@
 
 > **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html).**
 
-[![Water Monitoring System](https://img.shields.io/badge/Water Monitoring-System-teal.svg?colorA=teal =orange =for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
+[![Water Monitoring System](https://img.shields.io/badge/Water Monitoring-System-teal.svg?colorA=teal&colorB=orange&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
 
 Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes. The water tanks can be fixed with ultrasonic sensors that is placed over the container. Ultrasonic sensor is used to measure, compare container depth and liquid level.
 
@@ -116,6 +116,7 @@ git push -u origin <your_branch_name>
 
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
+
 ## Open Source Programs
 
 This project is part of the following Open Source programs:
@@ -140,17 +141,50 @@ _Yes, it is a hardware/IoT + software project. There would be maximum tasks rela
 
 #### _3. How to communicate with us?_
 
-*All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. *Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more.\*\*
+_All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more._
 
 #### _4. What is the Tech Stack for this project?_
 
-- **\*Frontend:** React\*
+- **Frontend:** React
 
-- **\*Backend:** Django, Node.js\*
+- **Backend:** Django, Node.js
 
 #### _5. What is the deadline for any task submission?_
 
 _Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration._
+
+## About [RGSoC'20](https://railsgirlssummerofcode.org/)
+
+
+<a href="https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141" target="_blank"><img src="./assets/rgsoc2020.png" width="30%" height="30%"/></a>
+
+```javascript
+
+var baseURL = `https://github.com`,
+    projectsInRGSoC = _.filter(appliedProjects,
+        (project) => {
+            RGSoC.isSelected(project,
+                new Date().getFullYear())
+        });
+
+if (_.contains(projectsInRGSoC, {
+        name: `Water Monitoring System`,
+        url: `${baseURL}Water-Monitoring-System`
+    })) {
+    fork('Water Monitoring System');
+    // Looking forward to awesome contributions
+    console.log('Thank You RGSoC');
+}
+
+```
+
+**Glad to share that this project is shortlisted for [Rails Girls Summer Of Code 2020](https://railsgirlssummerofcode.org/)**, a global fellowship program for women and non-binary coders. Students receive a three-month scholarship to work on existing Open Source projects and expand their skill set.
+
+- [Click here](https://railsgirlssummerofcode.org/blog/) to learn more.
+- **RGSoC student applications have officially started on Monday, 02 March 2020. Apply [here](https://teams.railsgirlssummerofcode.org/apply).**
+- Check out the project [here](https://teams.railsgirlssummerofcode.org/projects/293-water-monitoring-system).
+- **[Click here](https://twitter.com/Vinit_Shahdeo/status/1234936360613695489) to view the tweet**. RTs are most welcome! :heart:
+- Feel free to **shoot your doubts [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141)**.
 
 ## Additional Info
 
@@ -179,8 +213,9 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 | [@ArpitKotecha](https://github.com/ArpitKotecha)     | Backend                    |
 | [@Manvityagi](https://github.com/Manvityagi)         | APIs + Cloud               |
 | [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
+| [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
 
-[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/7)
+[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://twitter.com/Vinit_Shahdeo)
 
 ## Useful Resources
 
@@ -198,7 +233,7 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 |                                                                                                                                        **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**                                                                                                                                        |
 | <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a> |
 
-> **_Need help?_**
+> **_Need help?_** 
 > **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
