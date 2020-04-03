@@ -1,6 +1,6 @@
 # [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) - IoT Project
 
-[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System) 
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/vinitshahdeo/Water-Monitoring-System/issues) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System) 
 
 > **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html).**
 
@@ -116,6 +116,14 @@ git push -u origin <your_branch_name>
 
 - Refer [this](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/CONTRIBUTING.md) for more.
 
+## Open Source Programs
+
+This project is part of the following Open Source programs:
+
+- [GirlScript Summer of Code 2020](https://www.gssoc.tech/)
+- [Rails Girls Summer of Code 2020](http://railsgirlssummerofcode.org/)
+- [JGEC Winter of Code 2020](https://jwoc.tech/)
+
 
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
 
@@ -153,6 +161,8 @@ git push -u origin <your_branch_name>
   - **Node.js**: `feature/backend-node`
 
 - If you're interested in contributing for **frontend**, please checkout `feature/frontend` branch.
+
+> **Note:** Are you an **absolute beginner?** Please [check the issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues?q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only) labeled with `first-timers-only`. These issues might _let your Open Source journey begin_ - **Welcome onboard!**
 
 
 ## Mentors
