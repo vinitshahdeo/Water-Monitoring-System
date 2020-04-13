@@ -192,7 +192,7 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 
 - [Django Docs](https://docs.djangoproject.com/en/3.0/)
 - [React Docs](https://reactjs.org/docs/getting-started.html)
-- [Node.js Docs](https://nodejs.org/api/)
+- [Node.js Docs](https://nodejs.org/api)
 - [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
 ## Project Admin
