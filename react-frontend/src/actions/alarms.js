@@ -22,7 +22,7 @@ export let overflowAlarm = (currentWaterLevel, currentTankId) => {
     stopAlarmButton.style.display = 'flex';
     stopAlarmButton.style.justifyContent = 'center';
     stopAlarmButton.style.alignItems = 'center';
-    stopAlarmButton.addEventListener('click', stopAlarm(evt));
+    stopAlarmButton.addEventListener('click', stopAlarm);
     currentTank.appendChild(stopAlarmButton);
   };
 
