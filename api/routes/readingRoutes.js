@@ -17,6 +17,9 @@ router.post("/new", (req, res) => {
     });
 });
 //Read all readings
+/**
+ * 
+ */
 router.get("/all", (req, res) => {
   Reading.find({})
     .then(result => {
