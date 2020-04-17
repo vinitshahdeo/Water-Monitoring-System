@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react'
 import {TankCircle, TankWaterValue} from '../components/Tank';
 import {Sticker} from '../components/Sticker'
@@ -5,9 +6,10 @@ import { connect } from 'react-redux';
 import { fetchTanks } from '../actions/tankActions';
 import {overflowAlarm} from '../actions/alarms';
 
+
 class Home extends Component {
-  componentWillMount(){
-    this.props.fetchTanks()
+  componentWillMount() {
+    this.props.fetchTanks();
   }
 
   render() {
@@ -17,20 +19,26 @@ class Home extends Component {
           <div className="row m-3">
             <center>
               <h1 className="title">Water Monitoring System</h1>
-              <p>Water Monitoring System is an IOT based Liquid Level Monitoring system that has
-                mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.</p>
+              <p>
+                Water Monitoring System is an IOT based Liquid Level Monitoring
+                system that has mechanisms to keep the user alerted in case of
+                liquid overflow or when tank depletes.
+              </p>
             </center>
           </div>
           <div className="row m-5 d-flex justify-content-center align-items-center">
-            {this.props.tanks.map(tank=> (
-              <div>
-                <div className="col-lg-3 d-flex align-items-center" id={tank.id}>
+            {this.props.tanks.map((tank, index) => (
+              <div key={index}>
+                <div
+                  className="col-lg-3 d-flex align-items-center"
+                  id={tank.id}
+                >
                   <center>
                     <TankCircle>
-                      <TankWaterValue>{tank.value}%</TankWaterValue> 
+                      <TankWaterValue>{tank.value}%</TankWaterValue>
                     </TankCircle>
                     <div className="d-flex justify-content-center">
-                      <span className="tank-title">Tank{ tank.id}</span>
+                      <span className="tank-title">Tank{tank.id}</span>
                     </div>
                   </center>
                   {overflowAlarm(tank.value, tank.id)}
@@ -43,31 +51,35 @@ class Home extends Component {
         <div className="container mt-5">
           <div className="row">
             <div className="col-lg-4">
-              <Sticker backgroundColor="#fe5e21"><h1>Danger Zone</h1></Sticker>
+              <Sticker backgroundColor="#fe5e21">
+                <h1>Danger Zone</h1>
+              </Sticker>
             </div>
             <div className="col-lg-4">
-              <Sticker backgroundColor="#ffb30c"><h1>Warning Zone</h1></Sticker>
+              <Sticker backgroundColor="#ffb30c">
+                <h1>Warning Zone</h1>
+              </Sticker>
             </div>
             <div className="col-lg-4">
-              <Sticker backgroundColor="#2ed351"><h1>Safe Zone</h1></Sticker>
+              <Sticker backgroundColor="#2ed351">
+                <h1>Safe Zone</h1>
+              </Sticker>
             </div>
           </div>
-          <hr/>
-          <p>
-            <center><strong>Made by Vinit Shahdeo</strong></center>
-          </p>
+          <hr />
+          <center>
+            <p>
+              <strong>Made by Vinit Shahdeo</strong>
+            </p>
+          </center>
         </div>
       </div>
-    )
+    );
   }
 }
 
 const mapStateToProps = state => ({
-  tanks: state.tanks.tanks,
+  tanks: state.tanks.tanks
 });
 
 export default connect(mapStateToProps, { fetchTanks })(Home);
-
-
-
-
