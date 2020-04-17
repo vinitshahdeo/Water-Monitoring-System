@@ -24,15 +24,15 @@ const readingSchema = new mongoose.Schema({
     required: true,
     type: mongoose.Types.ObjectId
   },
-  tankCapacity: {
+  capacity: {
     required: true,
     type: Number
   },
-  tankLocation: {
+  location: {
     type: pointSchema,
     required: true
   },
-  tankName: {
+  name: {
     required: true,
     type: String
   }
