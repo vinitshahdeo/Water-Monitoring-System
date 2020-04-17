@@ -33,7 +33,7 @@ class Home extends Component {
                       <span className="tank-title">Tank{ tank.id}</span>
                     </div>
                   </center>
-                  {this.props.overflowAlarm(tank.value, tank.id)}
+                  {overflowAlarm(tank.value, tank.id)}
                 </div>
               </div>
             
