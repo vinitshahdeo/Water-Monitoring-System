@@ -1,0 +1,25 @@
+[debug] [2020-03-22T17:51:52.933Z] ----------------------------------------------------------------------
+[debug] [2020-03-22T17:51:52.935Z] Command:       /usr/local/bin/firebase /home/ayan/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2020-03-22T17:51:52.935Z] CLI Version:   7.15.1
+[debug] [2020-03-22T17:51:52.935Z] Platform:      linux
+[debug] [2020-03-22T17:51:52.936Z] Node Version:  v12.13.1
+[debug] [2020-03-22T17:51:52.936Z] Time:          Sun Mar 22 2020 23:21:52 GMT+0530 (India Standard Time)
+[debug] [2020-03-22T17:51:52.936Z] ----------------------------------------------------------------------
+[debug] [2020-03-22T17:51:52.936Z] 
+[debug] [2020-03-22T17:51:52.941Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-03-22T17:51:52.941Z] > authorizing via signed-in user
+[debug] [2020-03-22T17:51:52.941Z] [iam] checking project fleet-tractor-247413 for permissions ["firebase.projects.get"]
+[debug] [2020-03-22T17:51:52.942Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fleet-tractor-247413:testIamPermissions  
+
+[debug] [2020-03-22T17:51:55.063Z] <<< HTTP RESPONSE 200
+[debug] [2020-03-22T17:51:55.070Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fleet-tractor-247413  
+ 
+[debug] [2020-03-22T17:51:55.954Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/ayan/Projects/Water-Monitoring-System'...
+[info] 
+[debug] [2020-03-22T17:51:55.958Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fleet-tractor-247413/webApps/-/config  
+ 
+[debug] [2020-03-22T17:51:57.081Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: src
+[info] ✔  hosting: Local server: http://localhost:5000
