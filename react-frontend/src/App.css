@@ -4,6 +4,15 @@ body {
 }
 
 .grey-color {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+.title {
   color: grey;
 }
 

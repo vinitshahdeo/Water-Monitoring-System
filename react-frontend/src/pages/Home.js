@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-import {TankCircle, TankWaterValue} from '../components/Tank';
-import {Sticker} from '../components/Sticker'
-import { connect } from 'react-redux';
-import { fetchTanks } from '../actions/tankActions';
+import React, { Component } from "react";
+import { TankCircle, TankWaterValue } from "../components/Tank";
+import { Sticker } from "../components/Sticker";
+import { connect } from "react-redux";
+import { fetchTanks } from "../actions/tankActions";
 
 class Home extends Component {
-  componentWillMount(){
-    this.props.fetchTanks()
+  componentWillMount() {
+    this.props.fetchTanks();
   }
 
   render() {
@@ -15,21 +15,27 @@ class Home extends Component {
         <div className="container">
           <div className="row m-3">
             <center>
-              <h1 className="grey-color text-center">Water Monitoring System</h1>
-              <p>Water Monitoring System is an IOT based Liquid Level Monitoring system that has
-                mechanisms to keep the user alerted in case of liquid overflow or when tank depletes.</p>
+              <h1 className="title">Water Monitoring System</h1>
+              <p>
+                Water Monitoring System is an IOT based Liquid Level Monitoring
+                system that has mechanisms to keep the user alerted in case of
+                liquid overflow or when tank depletes.
+              </p>
             </center>
           </div>
           <div className="row m-5 d-flex justify-content-center align-items-center">
-            {this.props.tanks.map(tank=> (
-              <div>
-                <div className="col-lg-3 d-flex align-items-center" id={tank.id}>
+            {this.props.tanks.map((tank, index) => (
+              <div key={index}>
+                <div
+                  className="col-lg-3 d-flex align-items-center"
+                  id={tank.id}
+                >
                   <center>
-                    <TankCircle className="rounded-circle">
-                      <TankWaterValue className="grey-color d-flex justify-content-center align-items-center w-100 h-100 position-relative">{tank.value}%</TankWaterValue> 
+                    <TankCircle>
+                      <TankWaterValue className="grey-color d-flex justify-content-center align-items-center w-100 h-100 position-relative">{tank.value}%</TankWaterValue>
                     </TankCircle>
                     <div className="d-flex justify-content-center">
-                      <span className="tank-title">Tank{ tank.id}</span>
+                      <span className="tank-title">Tank{tank.id}</span>
                     </div>
                   </center>
                 </div>
@@ -60,11 +66,7 @@ class Home extends Component {
 }
 
 const mapStateToProps = state => ({
-  tanks: state.tanks.tanks,
+  tanks: state.tanks.tanks
 });
 
 export default connect(mapStateToProps, { fetchTanks })(Home);
-
-
-
-

@@ -1,7 +1,7 @@
-import { FETCH_TANKS } from '../actions/types';
+import { FETCH_TANKS } from "../actions/types";
 
 const initialState = {
-  tanks: [],
+  tanks: []
 };
 
 export default function(state = initialState, action) {
