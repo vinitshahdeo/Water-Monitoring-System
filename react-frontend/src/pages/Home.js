@@ -31,7 +31,7 @@ class Home extends Component {
                   id={tank.id}
                 >
                   <center>
-                    <TankCircle>
+                    <TankCircle className="rounded-circle">
                       <TankWaterValue className="grey-color d-flex justify-content-center align-items-center w-100 h-100 position-relative">{tank.value}%</TankWaterValue>
                     </TankCircle>
                     <div className="d-flex justify-content-center">
