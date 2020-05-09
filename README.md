@@ -144,7 +144,7 @@ _There are many beginner level issues to begin with, which include documentation
 
 #### _2. Is this a hardware/IoT project?_
 
-_Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integarted with the real-time data from the sensors._
++_Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integrated with the real-time data from the sensors._
 
 #### _3. How to communicate with us?_
 
