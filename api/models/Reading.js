@@ -22,7 +22,8 @@ const readingSchema = new mongoose.Schema({
   },
   tankId: {
     required: true,
-    type: mongoose.Types.ObjectId
+    type: mongoose.Types.ObjectId,
+	auto:true
   },
   capacity: {
     required: true,
