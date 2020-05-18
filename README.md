@@ -219,6 +219,7 @@ if (_.contains(projectsInRGSoC, {
 | [@ramanaditya](https://github.com/ramanaditya)       | Backend + Hardware         |
 | [@ArpitKotecha](https://github.com/ArpitKotecha)     | Backend                    |
 | [@Manvityagi](https://github.com/Manvityagi)         | APIs + Cloud               |
+| [@divyabhushan](https://github.com/divyabhushan)     | Documentation              |
 | [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
 | [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
 
