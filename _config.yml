@@ -2,3 +2,5 @@ title: Water Monitoring System
 show_downloads: true
 logo: assets/logo.gif
 theme: jekyll-theme-leap-day
+plugins:
+  - jemoji
