@@ -18,7 +18,7 @@ Water Monitoring System is an IOT based Liquid Level Monitoring system that has 
 
 The status of the system could be monitored by an LCD screen or a web page that provides a brilliant graphical representation. Colours are used to depict various scenarios with respect to the amount of liquid in the tanks or containers and the buzzer buzzes when the limit exceeds the permissible quantity of fill.
 
-### Goals of this project :
+### Goals of this project
 
 - **_To reduce the wastage of water across the city_**
 - **_To provide better water supply to the people_**
@@ -247,7 +247,7 @@ if (_.contains(projectsInRGSoC, {
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
-### COVID-19: Stay Home<sup>Stay Safe</sup>
+### COVID-19: Stay Home Stay Safe
 
 I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects.
 
