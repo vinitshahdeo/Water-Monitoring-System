@@ -133,7 +133,7 @@ This project is part of the following Open Source programs:
 - [Rails Girls Summer of Code 2020](http://railsgirlssummerofcode.org/)
 - [JGEC Winter of Code 2020](https://jwoc.tech/)
 
-## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
+## FAQs for [GSSoC'20](https://www.gssoc.tech/)
 
 > This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.gssoc.tech/).
 
@@ -247,7 +247,7 @@ if (_.contains(projectsInRGSoC, {
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
-## COVID-19: Stay Home<sup>Stay Safe</sup>
+### COVID-19: Stay Home<sup>Stay Safe</sup>
 
 I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects.
 
@@ -270,7 +270,7 @@ while(_.isAlive(new Virus('COVID-19'))) {
 
 ```
 
-### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
+#### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
 
 1. **HANDS**: Wash them often
 2. **ELBOW**: Cough into it
@@ -278,8 +278,8 @@ while(_.isAlive(new Virus('COVID-19'))) {
 4. **SPACE**: Keep safe distance
 5. **HOME**: Stay if you can
 
-### :x: Avoid Handshakes :handshake: 
-### :heavy_check_mark: Do Namastey :pray:
+#### :x: Avoid Handshakes :handshake: 
+#### :heavy_check_mark: Do Namastey :pray:
 
 <br>
 
