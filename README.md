@@ -210,19 +210,20 @@ if (_.contains(projectsInRGSoC, {
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)](https://github.com/vinitshahdeo/Water-Monitoring-System/pulls?q=is%3Apr+is%3Aclosed)
 
-| GitHub Usernames                                     | Domain                     |
-| ---------------------------------------------------- | -------------------------- |
-| [@vinitshahdeo](https://github.com/vinitshahdeo)     | Full Stack + Documentation |
-| [@ShreyaAnand](https://github.com/ShreyaAnand)       | Full Stack                 |
-| [@YashMeh](https://github.com/YashMeh)               | Backend                    |
-| [@PragatiVerma18](https://github.com/PragatiVerma18) | Backend + Documentation    |
-| [@ramanaditya](https://github.com/ramanaditya)       | Backend + Hardware         |
-| [@ArpitKotecha](https://github.com/ArpitKotecha)     | Backend                    |
-| [@Manvityagi](https://github.com/Manvityagi)         | APIs + Cloud               |
-| [@divyabhushan](https://github.com/divyabhushan)     | Documentation              |
-| [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
-| [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
-| [@nainikaB](https://github.com/nainikaB)             | UI/UX                      |
+| GitHub Usernames                                      | Domain                     |
+| ----------------------------------------------------- | -------------------------- |
+| [@vinitshahdeo](https://github.com/vinitshahdeo)      | Full Stack + Documentation |
+| [@ShreyaAnand](https://github.com/ShreyaAnand)        | Full Stack                 |
+| [@YashMeh](https://github.com/YashMeh)                | Backend                    |
+| [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation    |
+| [@ramanaditya](https://github.com/ramanaditya)        | Backend + Hardware         |
+| [@ArpitKotecha](https://github.com/ArpitKotecha)      | Backend                    |
+| [@Manvityagi](https://github.com/Manvityagi)          | APIs + Cloud               |
+| [@divyabhushan](https://github.com/divyabhushan)      | Documentation              |
+| [@jainpawan21](https://github.com/jainpawan21)        | Frontend                   |
+| [@amaaniqbal](https://github.com/amaaniqbal)          | Frontend                   |
+| [@nainikaB](https://github.com/nainikaB)              | UI/UX                      |
+| [@sharmishthadash](https://github.com/sharmishthadash)| Product Management         |
 
 [![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://twitter.com/Vinit_Shahdeo)
 
