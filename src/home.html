@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Vinit Shahdeo">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -163,14 +164,11 @@ footer .row {
   cursor: pointer;
   font-size: 20px;
 }
-img{
-  position: absolute;
-  right: 120px;
-  height: 300px;
-  top: 70px;
-}
 .jumbotron h2{
   font-weight : 1000;
+}
+.card-body{
+  text-align: center;
 }
   </style>
 </head>
@@ -231,15 +229,76 @@ img{
     </div> -->
     <!-- jumbotron starts here -->
     <div class= "container">
-    <div class="jumbotron">
+    <div class="jumbotron mb-0">
     <h5 class="display-4">A simple and effective</h5>
-    <img src="../assets/logo.gif"></img>
+    <img src="../assets/logo.gif" style="position: absolute;right: 120px;height: 300px;top: 70px;"></img>
     <h2 class="display-4 mb-5">Water Monitoring System</h2>
     <p class="lead my-3">Conserving water has now become a technology use case as there is a need <br>to act on it. Web based monitoring system can be used to prevent wastage of water.</p>
     <a class="btn btn-outline-secondary btn-lg my-3" href="signuppage.html" id = "btn" role="button"><strong>SignUp</strong> ></a>
 </div>
 </div>
-<!-- jumbotron ends here-->
+      <!-- jumbotron ends here-->
+
+
+<div class = "container">
+<h1 class="text-center mx-0 my-3"> Why do you need it?</h1>
+  <div class = "row">
+    <div class= " col-sm-4 my-3">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/time.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Real time tracking of each tank</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class= " col-sm-4 my-3 d-flex">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/alert.png" style="width :286px; height:286px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Alerts for low water level</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class= " col-sm-4 my-3">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/water.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Prevent water overflow and wastage</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row">
+    <div class= " col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/cost.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Low cost installation and maintenance</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class= " col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/phone.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">View stats directly on your phone</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class= " col-sm-4 d-flex">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/water1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Better water supply to people</h3>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
@@ -435,7 +494,6 @@ img{
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
-  <script>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
