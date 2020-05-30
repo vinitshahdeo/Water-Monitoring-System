@@ -157,8 +157,13 @@ footer .row {
     
     .tagline{
       font-weight: bold;
-      font-size: 40px;
+      font-size: 50px;
       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    #tagline-container{
+      background: #c9e9f4 url('./water-drop.png') no-repeat left;
+      background-size: contain; 
+      background-origin:content-box; 
     }
   </style>
 </head>
@@ -377,15 +382,11 @@ footer .row {
       </div>
     </div>
 
-<!-- tagline -->
-    <div class="container">
-      <div class="row py-2" style="background-color: #c9e9f4;" >
-        <div class="col-4">
-          <img src="./water-drop.png" class="img-fluid" alt="water-drop">
-        </div>
-        <div class="col-8" style="display: flex; align-items: center;"  >
-          <h1 class="tagline"  style="color: #0585a2;">Save Water, Save Life</h1>
-        </div>
+  <!-- tagline -->
+    <div class="container p-4" id="tagline-container" >
+      <h1 class="tagline"  style="color: #0585a2;">Save Water, Save Life</h1>
+      <div class="row d-flex justify-content-center ">
+        <a href="signuppage.html" style="background-color: orange;"  class="btn my-2 py-2 px-5 text-dark">Sign Up</a>
       </div>
     </div>
 
