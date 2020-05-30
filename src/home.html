@@ -10,15 +10,14 @@
       rel="stylesheet"
       type="text/css"
     />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-    />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat"
       rel="stylesheet"
     />
     <title>Water Level Monitoring System - IoT Project</title>
+
     <style>
       body {
         background-color: #fafafa;
@@ -49,10 +48,72 @@
         text-align: center;
         font-weight: 800;
       }
+
+      .navbar-brand{
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #262626;
+      }
+
+      .nav-item{
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .navbar-light .navbar-nav .nav-item .nav-link:hover,
+      .navbar-light .navbar-nav .nav-item.active .nav-link{
+        border-radius: 30px;
+        background: blue;
+        color: #fff;
+      }
+
+      .navbar-light .navbar-nav .nav-item .nav-link{
+        color: #262626;
+        padding: 8px 20px;
+      }
+
+      .navbar-light .navbar-toggler{
+        border: none;
+        color: #fff;
+        border: 2px solid #7f7f7f;
+        outline: none;
+      }
+      
     </style>
   </head>
 
   <body>
+    <!-- Navbar Header Start -->
+    <header>
+      <div class="container1">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">WATER MONITORING SYSTEM</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-lg-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- <section class="banner">
+
+    </section> -->
+    <!-- Navbar Header End -->
     <div class="container">
       <center>
         <h1 class="title">Water Monitoring System</h1>
@@ -205,6 +266,21 @@
         targetRange: 45
       });
     </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" 
+            crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+            crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+            crossorigin="anonymous">
+    </script>
+
+
     <!-- @author: Vinit Shahdeo -->
   </body>
 </html>
