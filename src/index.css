@@ -1,0 +1,115 @@
+   .container {
+       position: relative;
+   }
+    nav {
+        margin: 20px 0px;
+    }
+    .bottomRight {
+        background-color: #447CFC;
+        color: white;
+        position: absolute;
+        top: 30%;
+        font-size: 18px;
+        border: none;
+        width: 40%;
+    }
+    p.ads-content{
+        position: absolute;
+    }
+    h2.ads-content {
+        position: absolute;
+        top: 3%;
+    }
+    .demo1 {
+        padding-left: 20%;
+        background: url("../assets/image1.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .demo2 {
+        padding-left: 20%;
+        background: url("../assets/image2.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .demo3 {
+        padding-left: 20%;
+        background: url("../assets/image3.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border: none;
+    background: none;
+    color: black;
+    padding: 20px;
+    }
+    footer {
+      background-color: black;
+      color: #ffffff;
+      font-family: "Roboto", sans-serif;
+      margin-top: 5em;
+      width: 100%;
+    }
+    .footer-copyright {
+      padding-bottom: 1em;
+      padding-top: 1em;
+      margin-top: 0;
+      width: 100%;
+    }
+    .light {
+      color: #dcdcdc;
+      font-size: 0.93em;
+    }
+    footer .row {
+      width: 85%;
+      margin: auto;
+      padding-top: 1em;
+      text-align: center;
+    }
+    .li-ic,
+    .tw-ic,
+    .fb-ic,
+    .git-ic {
+      margin-right: 2em;
+    }
+    .li-ic:hover{
+      text-decoration: none;
+    }
+    .fb-ic:hover{
+      text-decoration: none;
+    }
+    .tw-ic:hover{
+      text-decoration: none;
+    }
+    .item {
+      padding: 20px;
+      margin-bottom: 0em;
+    }
+    .item i {
+        color: white;
+    }
+    .contact{
+        padding-left: 2em; 
+        display: flex; 
+    }
+    .logo{
+              height:10em;
+              align-items: center;
+          }
+          .fa:hover {
+            opacity: 0.7;
+          }     
+          .flex-container{
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
