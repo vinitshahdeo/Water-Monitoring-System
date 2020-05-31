@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Vinit Shahdeo">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
@@ -51,18 +52,21 @@
         margin: 30px;
       }
 
-      h1 {
-        text-align: center;
-        color: #fff;
-      }
-
       .title {
         color: grey;
       }
 
-      h2 {
-        text-align: center;
+      .faq {
+        border: 10px #5e90e0 solid;
+        background-color: #f0f0b4;
+      }
+      .faq h2 {
+        padding-top: 0px;
+        color: grey;
+      }
+      .faq h3 {
         font-weight: 800;
+        color: #5e90e0;
       }
       .fa {
         padding: 20px;
@@ -76,10 +80,6 @@
         color: black;
       }
 
-    h2 {
-      text-align: center;
-      font-weight: 800;
-    }
      footer {
   background-color: #1c2331;
   color: #ffffff;
@@ -154,22 +154,21 @@ footer .row {
         justify-content: center;
         align-items: center;
       }
-    
-    .tagline{
-      font-weight: bold;
-      font-size: 50px;
-      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    #tagline-container{
-      background: #c9e9f4 url('./water-drop.png') no-repeat left;
-      background-size: contain; 
-      background-origin:content-box; 
-    }
+.btn{
+  background-color: white;
+  color: magenta;
+  border-radius: 32px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.card-body{
+  text-align: center;
+}
   </style>
 </head>
 
 <body>
-  <div class="container">
+ <!-- <div class="container">
     <center>
       <h1 class="title">Water Monitoring System</h1>
       <p class="mb-4">Water Monitoring System is an IOT based Liquid Level Monitoring system that has
@@ -221,7 +220,68 @@ footer .row {
         <center><strong>Made by Vinit Shahdeo</strong></center>
       </p>
 
+    </div> -->
+
+<div class = "container">
+<h1 class="text-center mx-0 my-3"> Why do you need it?</h1>
+  <div class = "row">
+    <div class= " col-sm-4 my-3">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/time.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Real time tracking of each tank</h3>
+        </div>
+      </div>
     </div>
+
+    <div class= " col-sm-4 my-3 d-flex">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/alert.png" style="width :286px; height:286px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Alerts for low water level</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class= " col-sm-4 my-3">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/water.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Prevent water overflow and wastage</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class = "row">
+    <div class= " col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/cost.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Low cost installation and maintenance</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class= " col-sm-4">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/phone.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">View stats directly on your phone</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class= " col-sm-4 d-flex">
+      <div class="card" style="width: 18rem;">
+        <img src="../assets/HomePage/water1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h3 class="card-text">Better water supply to people</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
@@ -309,87 +369,67 @@ footer .row {
 
     <div class="faq container">
       <div class="row">
-        <div class="col-lg-12 p-12">
-		<div class="p-5">
-          <h2 style="color:grey;">Frequently Asked Questions(FAQs) for Water Monitoring System</h2></div>
-		  <div class="p-3">
-          <h3 style="color:#5e90e0;"><b>What is Water Monitoring System?</h3></b>
+        <div class="col-lg-12">
+          <h2>Frequently Asked Questions(FAQs) for Water Monitoring System</h2>
+          <h3>What is Water Monitoring System?</h3>
           <p>
             Water Monitoring System is an IOT based Liquid Level Monitoring
             system that has mechanisms to keep the user alerted in case of
             liquid overflow or when tank depletes.
-          </p></div>
-		  <div class="p-3">
-          <h3 style="color:#5e90e0;"><b>How Water Monitoring System works?</h3></b>
+          </p>
+          <h3>How Water Monitoring System works?</h3>
           <p>
             The water tanks can be fixed with ultrasonic sensors that is placed
             over the container. Ultrasonic sensor is used to measure, compare
             container depth and liquid level.
-          </p></div>
-		  <div class="p-3">
-          <h3 style="color:#5e90e0;"><b>How status of the system could be monitored?</h3></b>
+          </p>
+          <h3>How status of the system could be monitored?</h3>
           <p>
             The status of the system could be monitored by an LCD screen or a
             web page that provides a brilliant graphical representation. Colours
             are used to depict various scenarios with respect to the amount of
             liquid in the tanks or containers and the buzzer buzzes when the
             limit exceeds the permissible quantity of fill.
-          </p></div>
-		  <div class="p-3">
-          <h3 style="color:#5e90e0;"><b>
+          </p>
+          <h3>
             What colors are used to represent various scenarios with respect to
             the amount of liquid in the tank?
-          </h3></b>
+          </h3>
           <p>
             <strong>Danger Zone</strong> is indicated as
             </strong><span style="color:#fe5e21;font-weight:800">Red color</span>,
             <strong>Warning Zone</strong> is indicated as
             <span style="color: #ffb30c;font-weight:800;">Yellow color</span>, <strong>Safe Zone</strong> is
             indicated as <span style="color:#2ed351;font-weight:800;">Green color</span>.
-          </p></div>
-		  <div class="p-3">
-          <h3 style="color:#5e90e0;"><b>What are the Goals of this Project?</h3></b>
+          </p>
+          <h3>What are the Goals of this Project?</h3>
           <ul>
             <li>To reduce the wastage of water across the city</li>
             <li>To provide better water supply to the people</li>
-          </ul></div>
-		  <div class="p-3">
-          <h3 style="color:#5e90e0;"><b>What are the IoT(Hardware) components required?</h3></b>
+          </ul>
+          <h3>What are the IoT(Hardware) components required?</h3>
           <ul>
             <li>AVR family microcontroller</li>
             <li>LCD screen</li>
             <li>Wifi modem</li>
             <li>A buzzer</li>
             <li>12V transformer</li>
-          </ul></div>
-		  <div class="p-3">
-          <h3 style="color:#5e90e0;"><b>Is this a hardware/IoT project?</h3></b>
+          </ul>
+          <h3>Is this a hardware/IoT project?</h3>
           <p>
             Yes, it is a hardware/IoT + software project. There would be maximum
             tasks related to frontend, backend, design and documentation of the
             website and later, it would be integarted with the real-time data
             from the sensors.
-          </p></div>
-		  <div class="p-3">
-          <h3 style="color:#5e90e0;"><b>What is the tech Stack for this project?</h3></b>
+          </p>
+          <h3>What is the tech Stack for this project?</h3>
           <ul>
             <li><strong>Frontend:</strong> React</li>
             <li><strong>Backend:</strong> Django, Node.js</li>
           </ul>
-		  </div>
-		  </div>
         </div>
       </div>
     </div>
-
-  <!-- tagline -->
-    <div class="container p-4" id="tagline-container" >
-      <h1 class="tagline"  style="color: #0585a2;">Save Water, Save Life</h1>
-      <div class="row d-flex justify-content-center ">
-        <a href="signuppage.html" style="background-color: orange;"  class="btn my-2 py-2 px-5 text-dark">Sign Up</a>
-      </div>
-    </div>
-
     <footer>
       <div class="row text-center text-md-left pr-3">
         <div class="col-sm-6 item">
@@ -436,7 +476,6 @@ footer .row {
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
-  <script>
 
 
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -567,4 +606,3 @@ footer .row {
     <!-- @author: Vinit Shahdeo -->
   </body>
 </html>
-
