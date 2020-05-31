@@ -50,19 +50,8 @@
         padding: 20px;
         margin: 30px;
       }
-
-      h1 {
-        text-align: center;
-        color: #fff;
-      }
-
       .title {
         color: grey;
-      }
-
-      h2 {
-        text-align: center;
-        font-weight: 800;
       }
       .fa {
         padding: 20px;
@@ -75,11 +64,6 @@
         background: none;
         color: black;
       }
-
-    h2 {
-      text-align: center;
-      font-weight: 800;
-    }
      footer {
   background-color: #1c2331;
   color: #ffffff;
@@ -165,11 +149,22 @@ footer .row {
       background-size: contain; 
       background-origin:content-box; 
     }
+.jumbotron{
+    background: linear-gradient(to right, #ccffff 0%, #ffccff 100%);
+    }
+    .jumbotron h2{
+      font-weight: 1000;
+    }
+    .btn{
+      border-radius: 32px;
+      color: magenta;
+      background-color: white;
+    }
   </style>
 </head>
 
 <body>
-  <div class="container">
+  <!-- <div class="container">
     <center>
       <h1 class="title">Water Monitoring System</h1>
       <p class="mb-4">Water Monitoring System is an IOT based Liquid Level Monitoring system that has
@@ -221,7 +216,19 @@ footer .row {
         <center><strong>Made by Vinit Shahdeo</strong></center>
       </p>
 
-    </div>
+    </div> -->
+<!-- jumbotron starts here -->
+<div class= "container">
+	<div class="jumbotron">
+    		<h5 class="display-4">A simple and effective</h5>
+    		<img src="../assets/logo.gif" style="position: absolute;right: 120px;height: 300px;top: 70px;"></img>
+    		<h2 class="display-4">Water Monitoring System</h2>
+    		<br>
+    		<p class="lead my-3">Conserving water has now become a technology use case as there is a need <br> to act on it. Web based monitoring system can be used to prevent wastage of water.</p>
+    		<a class="btn btn-outline-secondary btn-lg my-3" href="signuppage.html" id = "btn" role="button"><strong>SignUp</strong> ></a>
+	</div>
+</div>
+<!-- jumbotron ends here-->
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
