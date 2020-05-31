@@ -1,4 +1,11 @@
 # [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) - IoT Project
+---
+> ## :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house:  <br> :mag_right: Checkout [this](http://corona-cases-india.netlify.com/) web app for live CORONA updates. 
+> ### :incoming_envelope: Read my open letter [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/236). :heart:
+> ## :bar_chart: Checkout the [COVID-19 Tacker :mask: | INDIA](https://indiafightscorona.netlify.app/) :india: 
+> ### :point_right: You can find the repo [here](https://github.com/vinitshahdeo/COVID19/). :star:
+
+---
 
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/vinitshahdeo/Water-Monitoring-System/issues) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)
 
@@ -52,6 +59,7 @@ The IoT(Hardware) components required are:
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vinitshahdeo/Water-Monitoring-System?color=bluevoilet&logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
 
 **1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
+Click on the <a href="https://github.com/vinitshahdeo/Water-Monitoring-System/"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 
@@ -73,12 +81,46 @@ git checkout -b <your_branch_name>
 
 **5.** Make changes in source code.
 
-**6.** Commit your changes.
+**6.** Stage your changes and commit
 
-```terminal
-  git add .
-  git commit -m "<your_commit_message>"
+```bash
+#Add changes to Index
+git add .
+
+#Commit to the local repo
+git commit -m "<your_commit_message>"
 ```
+
+>CAUTION: Synch up your local repo with [original repo](https://github.com/vinitshahdeo/Water-Monitoring-System) (Upstream) before pushing your commits.
+>This avoids unnecessary conflicts during the merge.
+
+>NOTE: You can do so by adding a [remote handler](https://www.atlassian.com/de/git/tutorials/syncing) reference to the original repo and pull the changes from the respective branch.
+>Resolve the [merge-conflicts](https://www.atlassian.com/de/git/tutorials/using-branches/merge-conflicts) if any.
+
+>TIPS: [Workflow diagram](git-workflow.svg)
+>```bash
+>#Add upstream repo
+>git remote add upstream https://github.com/vinitshahdeo/Water-Monitoring-System.git
+>
+>#Disable accidental push to the upstream
+>git remote set-url --push upstream DISABLE
+>
+>#List the remote repo and fetch references
+>git remote -v && git fetch upstream
+>
+>#Check for any new commits in the upstream branch
+>git log HEAD..upstream/master #No output indicates, upstream has not moved ahead
+>
+>#See the patch difference between local and upstream branch
+>git diff -p HEAD..upstream/master
+>
+>```
+
+>CAUTION: If the upstream has moved ahead, rebase your commit and resolve conflicts if any. [Skip otherwise]
+>```bash
+>git rebase upstream/master
+>```
+>
 
 **7.** Push your local branch to the remote repository.
 
@@ -86,7 +128,7 @@ git checkout -b <your_branch_name>
 git push -u origin <your_branch_name>
 ```
 
-**8.** Create a PR!
+**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) project.
 
@@ -140,25 +182,59 @@ This project is part of the following Open Source programs:
 [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://www.gssoc.tech/)
 
 #### _1. How to start as a beginner so as to contribute to the project?_
-_There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs.Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions._
+
+_There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs. Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions._
 
 #### _2. Is this a hardware/IoT project?_
 
-_Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integarted with the real-time data from the sensors._
+_Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integrated with the real-time data from the sensors._
 
 #### _3. How to communicate with us?_
 
-*All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. *Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more.\*\*
+_All communication will happen on the Slack channel for this particular project. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on Slack and GitHub both. Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more._
 
 #### _4. What is the Tech Stack for this project?_
 
-- **\*Frontend:** React\*
+- **Frontend:** React
 
-- **\*Backend:** Django, Node.js\*
+- **Backend:** Django, Node.js
 
 #### _5. What is the deadline for any task submission?_
 
 _Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration._
+
+## About [RGSoC'20](https://railsgirlssummerofcode.org/)
+
+
+<a href="https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141" target="_blank"><img src="./assets/rgsoc2020.png" width="30%" height="30%"/></a>
+
+```javascript
+
+var baseURL = `https://github.com`,
+    projectsInRGSoC = _.filter(appliedProjects,
+        (project) => {
+            RGSoC.isSelected(project,
+                new Date().getFullYear())
+        });
+
+if (_.contains(projectsInRGSoC, {
+        name: `Water Monitoring System`,
+        url: `${baseURL}Water-Monitoring-System`
+    })) {
+    fork('Water Monitoring System');
+    // Looking forward to awesome contributions
+    console.log('Thank You RGSoC');
+}
+
+```
+
+**Glad to share that this project is shortlisted for [Rails Girls Summer Of Code 2020](https://railsgirlssummerofcode.org/)**, a global fellowship program for women and non-binary coders. Students receive a three-month scholarship to work on existing Open Source projects and expand their skill set.
+
+- [Click here](https://railsgirlssummerofcode.org/blog/) to learn more.
+- **RGSoC student applications have officially started on Monday, 02 March 2020. Apply [here](https://teams.railsgirlssummerofcode.org/apply).**
+- Check out the project [here](https://teams.railsgirlssummerofcode.org/projects/293-water-monitoring-system).
+- **[Click here](https://twitter.com/Vinit_Shahdeo/status/1234936360613695489) to view the tweet**. RTs are most welcome! :heart:
+- Feel free to **shoot your doubts [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141)**.
 
 ## Additional Info
 
@@ -175,18 +251,24 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 
 ## Mentors
 
-| GitHub Usernames                                     | Domain                     |
-| ---------------------------------------------------- | -------------------------- |
-| [@vinitshahdeo](https://github.com/vinitshahdeo)     | Full Stack + Documentation |
-| [@ShreyaAnand](https://github.com/ShreyaAnand)       | Full Stack                 |
-| [@YashMeh](https://github.com/YashMeh)               | Backend                    |
-| [@PragatiVerma18](https://github.com/PragatiVerma18) | Backend + Documentation    |
-| [@ramanaditya](https://github.com/ramanaditya)       | Backend + Hardware         |
-| [@ArpitKotecha](https://github.com/ArpitKotecha)     | Backend                    |
-| [@Manvityagi](https://github.com/Manvityagi)         | APIs + Cloud               |
-| [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
-| [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)](https://github.com/vinitshahdeo/Water-Monitoring-System/pulls?q=is%3Apr+is%3Aclosed)
 
+| GitHub Usernames                                      | Domain                     |
+| ----------------------------------------------------- | -------------------------- |
+| [@vinitshahdeo](https://github.com/vinitshahdeo)      | Full Stack + Documentation |
+| [@ShreyaAnand](https://github.com/ShreyaAnand)        | Full Stack                 |
+| [@YashMeh](https://github.com/YashMeh)                | Backend                    |
+| [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation    |
+| [@ramanaditya](https://github.com/ramanaditya)        | Backend + Hardware         |
+| [@ArpitKotecha](https://github.com/ArpitKotecha)      | Backend                    |
+| [@Manvityagi](https://github.com/Manvityagi)          | APIs + Cloud               |
+| [@divyabhushan](https://github.com/divyabhushan)      | Documentation              |
+| [@jainpawan21](https://github.com/jainpawan21)        | Frontend                   |
+| [@amaaniqbal](https://github.com/amaaniqbal)          | Frontend                   |
+| [@nainikaB](https://github.com/nainikaB)              | UI/UX                      |
+| [@sharmishthadash](https://github.com/sharmishthadash)| Product Management         |
+
+[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://twitter.com/Vinit_Shahdeo)
 
 ## Useful Resources
 
@@ -200,17 +282,57 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
 
 
-| <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width=150px height=150px /></a> |
-| :----------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                         <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width=150px height=150px /></a>                                                                                         |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                                                                                                                        **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**                                                                                                                                        |
+| <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a> |
 
-
-**[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**
-<a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a>
-
-> **_Need help?_**
+> **_Need help?_** 
 > **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
+
+## COVID-19: Stay Home<sup>Stay Safe</sup>
+
+I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects.
+
+```javascript
+/**
+ * 
+ * Let's fight for Corona together!
+ */
+function stayAtHome() {
+  eat();
+  sleep();
+  code();
+  repeat();
+}
+
+while(_.isAlive(new Virus('COVID-19'))) {
+  // Stay home, Stay safe
+  stayAtHome();
+}
+
+```
+
+### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
+
+1. **HANDS**: Wash them often
+2. **ELBOW**: Cough into it
+3. **FACE**: Don't touch it
+4. **SPACE**: Keep safe distance
+5. **HOME**: Stay if you can
+
+### :x: Avoid Handshakes :handshake: 
+### :heavy_check_mark: Do Namastey :pray:
+
+<br>
+
+<sup>**PS: I know it's off-topic but **Yes**, COVID-19 everyone's talking about. Please stay safe at your home and enjoy contributing to your projects.**</sup>
+
+
+_Your friend,_ <br>
+_**[Vinit](https://www.instagram.com/vinitshahdeo/) :)**_
 
 ---
 
