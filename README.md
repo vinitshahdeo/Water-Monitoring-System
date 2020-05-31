@@ -283,7 +283,7 @@ if (_.contains(projectsInRGSoC, {
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
-## COVID-19: Stay Home<sup>Stay Safe</sup>
+## COVID-19<sup>Stay Home, Stay Safe!</sup>
 
 I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects.
 
