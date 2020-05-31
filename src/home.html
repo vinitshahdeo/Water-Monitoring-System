@@ -173,10 +173,46 @@ footer .row {
       color: magenta;
       background-color: white;
     }
+        .navbar-nav > li{
+  padding-left:30px;
+  padding-right:30px;
+}
+#magic-line {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 90px;
+  height: 4px;
+  background: #fe4902;
+}
   </style>
 </head>
 
 <body>
+<!-- Navbar starts here -->
+<div id="app">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a href="home.html" class="pull-left"><img src="../assets/logo.jpg"></a> 
+    <ul class="navbar-nav ml-auto mx-2">
+    <li class="nav-item active">
+        <a class="nav-link" href="home.html"> Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="loginpage.html">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="signuppage.html">Register</a>
+      </li>
+      <form class="form-inline my-2 my-lg-0" action="home.html">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+    </ul>
+  </nav>
+</div>
+<!-- Navbar ends here -->
   <!-- <div class="container">
     <center>
       <h1 class="title">Water Monitoring System</h1>
@@ -234,7 +270,7 @@ footer .row {
 <div class= "container">
 	<div class="jumbotron">
     		<h5 class="display-4">A simple and effective</h5>
-    		<img src="../assets/logo.gif" style="position: absolute;right: 120px;height: 300px;top: 70px;"></img>
+    		<img src="../assets/logo.gif" style="position: absolute;right: 120px;height: 300px;top: 100px;"></img>
     		<h2 class="display-4">Water Monitoring System</h2>
     		<br>
     		<p class="lead my-3">Conserving water has now become a technology use case as there is a need <br> to act on it. Web based monitoring system can be used to prevent wastage of water.</p>
@@ -386,6 +422,41 @@ footer .row {
         data_range: [40, 50, 100],
         targetRange: 45
       });
+      <!-- Script for navbar starts here -->
+      $(function() {
+  var $el,
+    leftPos,
+    newWidth,
+    $mainNav = $(".navbar-nav");
+
+  $mainNav.append("<li id='magic-line'></li>");
+  var $magicLine = $("#magic-line");
+
+  $magicLine
+    .width($(".active").width())
+    .css("left", $(".active a").position().left)
+    .data("origLeft", $magicLine.position().left)
+    .data("origWidth", $magicLine.width());
+
+  $(".navbar-nav li a").hover(
+    function() {
+      $el = $(this);
+      leftPos = $el.position().left;
+      newWidth = $el.parent().width();
+      $magicLine.stop().animate({
+        left: leftPos,
+        width: newWidth
+      });
+    },
+    function() {
+      $magicLine.stop().animate({
+        left: $magicLine.data("origLeft"),
+        width: $magicLine.data("origWidth")
+      });
+    }
+  );
+});
+<!-- Script for navbar ends here -->
     </script>
 
 
