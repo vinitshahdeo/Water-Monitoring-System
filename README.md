@@ -7,11 +7,20 @@
 
 ---
 
-[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/vinitshahdeo/Water-Monitoring-System/issues?q=is%3Aissue+is%3Aopen+label%3Afirst-timers-only) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network/members) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System) [![Open Source Helpers](https://www.codetriage.com/vinitshahdeo/water-monitoring-system/badges/users.svg)](https://www.codetriage.com/vinitshahdeo/water-monitoring-system)
+[![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-tomato.svg?style=flat&logo=git)](https://github.com/vinitshahdeo/Water-Monitoring-System/issues) [![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)
+
+[![GitHub license](https://img.shields.io/github/license/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/vinitshahdeo/Water-Monitoring-System.svg?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/stargazers) [![GitHub forks](https://img.shields.io/github/forks/vinitshahdeo/Water-Monitoring-System.svg?logo=github&color=teal)](https://github.com/vinitshahdeo/Water-Monitoring-System/network) [![GitHub top language](https://img.shields.io/github/languages/top/vinitshahdeo/Water-Monitoring-System?color=yellow&logo=javascript)](https://github.com/vinitshahdeo/Water-Monitoring-System)![slack](https://img.shields.io/badge/chat-slack-tomato.svg?style=flat&logo=slack)
 
 > **You can view the demo [here](https://vinitshahdeo.github.io/Water-Monitoring-System/src/home.html).**
 
-[![Water Monitoring System](https://img.shields.io/badge/Water Monitoring-System-teal.svg?colorA=teal&colorB=orange&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
+[![Water Monitoring System](https://img.shields.io/badge/Water Monitoring-System-teal.svg?colorA=teal =orange =for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/) [![IoT](https://img.shields.io/badge/IoT-Project-teal.svg?colorA=blue&colorB=red&style=for-the-badge)](https://github.com/vinitshahdeo/Water-Monitoring-System/)
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/vinitshahdeo/Water-Monitoring-System/)
+
+[![NodeJS](https://img.shields.io/badge/Made%20with-Node.js-green?style=for-the-badge&logo=node.js)](https://nodejs.org/)
+[![Django](https://img.shields.io/badge/Made%20with-Django-red?style=for-the-badge&logo=django)](https://www.djangoproject.com/)
+[![React](https://img.shields.io/badge/Made%20with-React-red?style=for-the-badge&logo=react)](https://reactjs.org/)
+
 
 Water Monitoring System is an IOT based Liquid Level Monitoring system that has mechanisms to keep the user alerted in case of liquid overflow or when tank depletes. The water tanks can be fixed with ultrasonic sensors that is placed over the container. Ultrasonic sensor is used to measure, compare container depth and liquid level.
 
@@ -51,6 +60,7 @@ The IoT(Hardware) components required are:
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vinitshahdeo/Water-Monitoring-System?color=bluevoilet&logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
 
 **1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
+Click on the <a href="https://github.com/vinitshahdeo/Water-Monitoring-System/"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
 
 **2.** Clone the forked repository.
 
@@ -72,12 +82,46 @@ git checkout -b <your_branch_name>
 
 **5.** Make changes in source code.
 
-**6.** Commit your changes.
+**6.** Stage your changes and commit
 
-```terminal
-  git add .
-  git commit -m "<your_commit_message>"
+```bash
+#Add changes to Index
+git add .
+
+#Commit to the local repo
+git commit -m "<your_commit_message>"
 ```
+
+>CAUTION: Synch up your local repo with [original repo](https://github.com/vinitshahdeo/Water-Monitoring-System) (Upstream) before pushing your commits.
+>This avoids unnecessary conflicts during the merge.
+
+>NOTE: You can do so by adding a [remote handler](https://www.atlassian.com/de/git/tutorials/syncing) reference to the original repo and pull the changes from the respective branch.
+>Resolve the [merge-conflicts](https://www.atlassian.com/de/git/tutorials/using-branches/merge-conflicts) if any.
+
+>TIPS: [Workflow diagram](git-workflow.svg)
+>```bash
+>#Add upstream repo
+>git remote add upstream https://github.com/vinitshahdeo/Water-Monitoring-System.git
+>
+>#Disable accidental push to the upstream
+>git remote set-url --push upstream DISABLE
+>
+>#List the remote repo and fetch references
+>git remote -v && git fetch upstream
+>
+>#Check for any new commits in the upstream branch
+>git log HEAD..upstream/master #No output indicates, upstream has not moved ahead
+>
+>#See the patch difference between local and upstream branch
+>git diff -p HEAD..upstream/master
+>
+>```
+
+>CAUTION: If the upstream has moved ahead, rebase your commit and resolve conflicts if any. [Skip otherwise]
+>```bash
+>git rebase upstream/master
+>```
+>
 
 **7.** Push your local branch to the remote repository.
 
@@ -85,13 +129,14 @@ git checkout -b <your_branch_name>
 git push -u origin <your_branch_name>
 ```
 
-**8.** Create a PR!
+**8.** Create a [PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request) !
 
 **9.** **Congratulations!** Sit and relax, you've made your contribution to [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) project.
 
 ## Issues
 
 [![GitHub issues](https://img.shields.io/github/issues/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=git&logoColor=white)](https://github.com/vinitshahdeo/Water-Monitoring-System/pulls) [![GitHub last commit](https://img.shields.io/github/last-commit/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo)
+
 
 | TITLE                                                                                                          | LEVEL       |
 | -------------------------------------------------------------------------------------------------------------- | ----------- |
@@ -106,6 +151,7 @@ git push -u origin <your_branch_name>
 ## Contribution Guidelines
 
 [![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)](https://github.com/vinitshahdeo/Water-Monitoring-System/compare) [![GitHub contributors](https://img.shields.io/github/contributors/vinitshahdeo/Water-Monitoring-System?logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/graphs/contributors) [![Vinit Shahdeo](https://img.shields.io/badge/Author-@vinitshahdeo-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)](https://github.com/vinitshahdeo/)
+
 
 - Write clear meaningful git commit messages (Do read [this](http://chris.beams.io/posts/git-commit/)).
 
@@ -134,7 +180,7 @@ This project is part of the following Open Source programs:
 
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
 
-> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.gssoc.tech/).
+> This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.girlscript.tech/).
 
 [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://www.gssoc.tech/)
 
@@ -210,20 +256,23 @@ if (_.contains(projectsInRGSoC, {
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)](https://github.com/vinitshahdeo/Water-Monitoring-System/pulls?q=is%3Apr+is%3Aclosed)
 
-| GitHub Usernames                                     | Domain                     |
-| ---------------------------------------------------- | -------------------------- |
-| [@vinitshahdeo](https://github.com/vinitshahdeo)     | Full Stack + Documentation |
-| [@ShreyaAnand](https://github.com/ShreyaAnand)       | Full Stack                 |
-| [@YashMeh](https://github.com/YashMeh)               | Backend                    |
-| [@PragatiVerma18](https://github.com/PragatiVerma18) | Backend + Documentation    |
-| [@ramanaditya](https://github.com/ramanaditya)       | Backend + Hardware         |
-| [@ArpitKotecha](https://github.com/ArpitKotecha)     | Backend                    |
-| [@Manvityagi](https://github.com/Manvityagi)         | APIs + Cloud               |
-| [@divyabhushan](https://github.com/divyabhushan)     | Documentation              |
-| [@jainpawan21](https://github.com/jainpawan21)       | Frontend                   |
-| [@amaaniqbal](https://github.com/amaaniqbal)         | Frontend                   |
+| GitHub Usernames                                      | Domain                     |
+| ----------------------------------------------------- | -------------------------- |
+| [@vinitshahdeo](https://github.com/vinitshahdeo)      | Full Stack + Documentation |
+| [@ShreyaAnand](https://github.com/ShreyaAnand)        | Full Stack                 |
+| [@YashMeh](https://github.com/YashMeh)                | Backend                    |
+| [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation    |
+| [@ramanaditya](https://github.com/ramanaditya)        | Backend + Hardware         |
+| [@ArpitKotecha](https://github.com/ArpitKotecha)      | Backend                    |
+| [@Manvityagi](https://github.com/Manvityagi)          | APIs + Cloud               |
+| [@divyabhushan](https://github.com/divyabhushan)      | Documentation              |
+| [@jainpawan21](https://github.com/jainpawan21)        | Frontend                   |
+| [@amaaniqbal](https://github.com/amaaniqbal)          | Frontend                   |
+| [@nainikaB](https://github.com/nainikaB)              | UI/UX                      |
+| [@sharmishthadash](https://github.com/sharmishthadash)| Product Management         |
 
-[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://github.com/goyalmuskan)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://github.com/PragatiVerma18)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://twitter.com/Vinit_Shahdeo)
+[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://twitter.com/Vinit_Shahdeo)
+
 
 ## Useful Resources
 
