@@ -1,10 +1,21 @@
-tasks:
-  - init: >
-      python3 -m pip install -r water_monitoring_system/requirements.txt &&
-      python3 manage.py water_monitoring_system/migrate
+image:
+  file: .gitpod.dockerfile
 
-    command: >
-      python3 water_monitoring_system/manage.py runserver
+tasks:
+  - init: npm install
+    command: npm start
+    
 github:
     prebuilds:
         pullRequestsFromForks: true
+        master: true
+        branches: true
+        pullRequests: true
+        addCheck: true
+        addBadge: true
+
+ports:
+  - port: 8080
+    onOpen: open-preview
+  - port: 9000-9999
+    onOpen: ignore
