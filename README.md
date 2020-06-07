@@ -165,6 +165,7 @@ This project is part of the following Open Source programs:
 
 - [GirlScript Summer of Code 2020](https://www.gssoc.tech/)
 - [Rails Girls Summer of Code 2020](http://railsgirlssummerofcode.org/)
+- [Student Code In](https://scodein.tech/)
 - [JGEC Winter of Code 2020](https://jwoc.tech/)
 
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
