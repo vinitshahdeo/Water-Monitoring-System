@@ -196,6 +196,14 @@ _All communication will happen on the Slack channel for this particular projects
 
 _Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration._
 
+
+## Shared experiences on [GSSoC'20](https://www.gssoc.tech/) :pencil:
+
+| Article                                               | Author                                          |
+|-------------------------------------------------------|---------------------------------------------------|
+| [GirlScript Summer of Code 2020 Mentor Experience](https://medium.com/girlscript-summer-of-code/girlscript-summer-of-code-2020-mentor-experience-28daec399b1e) | [@PragatiVerma18](https://github.com/PragatiVerma18)|
+| [GSSOC 2020-A journey to explore the “UNEXPLORED”](https://medium.com/@swara.shukla65/gssoc-2020-a-journey-to-explore-the-unexplored-f25a6ade8288) | [@Swarnimashukla](https://github.com/Swarnimashukla)            |
+
 ## About [RGSoC'20](https://railsgirlssummerofcode.org/)
 
 
