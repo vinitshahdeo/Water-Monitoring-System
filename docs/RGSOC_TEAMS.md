@@ -1,6 +1,6 @@
 |      Team Name     |     Member 1     | Member 2 |
 |:-------------:|:-------------------:|------------------|
-| Shooting Stars | Archie Tayal(@unique04) | micky-mouse2007(@micky-mouse2007)   |
+| Shooting Stars | Archie Tayal( @unique04 ) | micky-mouse2007( @micky-mouse2007 )   |
 |  mahadivya | Mahima Chauhan(@iammaximus) | P Divya Bharathi(@pdivyabharathi)   |
 | oreos | bhavanavasireddy(@bhavanavasireddy) | pujithaasre(@pujithaasre)    |
 | Pi | G Satya Sai Mownika(@Mownika25) | Sweta Jena(@swetajena98)    |
