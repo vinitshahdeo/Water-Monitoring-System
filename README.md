@@ -166,6 +166,7 @@ This project is part of the following Open Source programs:
 - [GirlScript Summer of Code 2020](https://www.gssoc.tech/)
 - [Rails Girls Summer of Code 2020](http://railsgirlssummerofcode.org/)
 - [Student Code In](https://scodein.tech/)
+- [Leapcode](https://www.leapcode.io/)
 - [JGEC Winter of Code 2020](https://jwoc.tech/)
 
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
@@ -236,6 +237,13 @@ if (_.contains(projectsInRGSoC, {
 - Check out the project [here](https://teams.railsgirlssummerofcode.org/projects/293-water-monitoring-system).
 - **[Click here](https://twitter.com/Vinit_Shahdeo/status/1234936360613695489) to view the tweet**. RTs are most welcome! :heart:
 - Feel free to **shoot your doubts [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141)**.
+
+## Leapcode
+
+[![leapcode-logo-full-png](https://user-images.githubusercontent.com/20594326/86490975-e5639f00-bd86-11ea-853b-1a0ecdc59201.png)](http://leapcode.io/)
+
+Now, we're officially a part of [leapcode.io](http://leapcode.io/). They're still building and hopeful to have their platform up pretty soon. [Click here](https://www.leapcode.io/) to get an early access.
+
 
 ## Additional Info
 
