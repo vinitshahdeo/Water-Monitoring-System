@@ -75,7 +75,7 @@ router.put("/:readId", (req, res) => {
   */
 router.delete("/:readId", (req, res) => {
   const readId = sanitizer.sanitize(req.params.readId);
-  Reading.findByIdAndDelete({tankId:readId)
+  Reading.findByIdAndDelete({tankId:readId})
     .then(result => {
       res.status(200).json({ mssg: "Ok", data: result });
     })

@@ -24,7 +24,7 @@ router.post('/sendSMS', function (req, res) {
     });
 
     try {
-        const response = await identityToolkit.relyingparty.sendVerificationCode({
+        const response = identityToolkit.relyingparty.sendVerificationCode({
             phoneNumber,
             recaptchaToken: recaptcha,
         });
@@ -36,7 +36,7 @@ router.post('/sendSMS', function (req, res) {
     catch (error) {
         res.status(500).send({ error: 'Could not send verification code' })
     }
-   
+
 });
 
 /**
@@ -59,16 +59,16 @@ router.post('/verifySMS', function (req, res) {
 
     //get session Info from database
     try {
-        await identityToolkit.relyingparty.verifyPhoneNumber({
+        identityToolkit.relyingparty.verifyPhoneNumber({
             code: verificationCode,
             sessionInfo: phoneSessionId,
         });
-    
+
     }
     catch (error) {
         res.status(500).send({ error: 'User Cannot be verified' })
     }
-    
+
 
     //verification is done, do other tasks
 
