@@ -4,7 +4,7 @@ const express = require("express");
 const router = express.Router();
 
 
-
+//Defining the project in swagger documentation
 const swaggerOptions = {
     swaggerDefinition: {
       openapi: "3.0.0",
@@ -28,11 +28,13 @@ const swaggerOptions = {
         }
       ]
     },
+    //Files to check for the yaml 
     apis: ["./routes/*.js","./models/*.js"]
   };
 
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 
+//url to access swagger docs
 router.use("/api-docs", swaggerUi.serve);
 router.get("/api-docs", swaggerUi.setup(swaggerDocs));
 

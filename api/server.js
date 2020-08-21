@@ -53,7 +53,7 @@ const readingRoutes = require("./routes/readingRoutes"),
 
 //Using Routes
 
-app.use("/swagger",swag);
+app.use("/swagger",swag); //To access the docs go to /swagger/api-docs
 
 app.use("/api/reading", readingRoutes);
 
