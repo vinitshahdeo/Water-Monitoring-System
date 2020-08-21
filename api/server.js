@@ -44,11 +44,17 @@ if (config.util.getEnv("NODE_ENV") !== "test") {
   app.use(morgan("combined"));
 }
 
+//Requiring swagger
+const swag=require("./routes/swagger")
 //Requiring Routes
 const readingRoutes = require("./routes/readingRoutes"),
   authServices = require("./routes/auth");
 
+
 //Using Routes
+
+app.use("/swagger",swag);
+
 app.use("/api/reading", readingRoutes);
 
 //Using phone auth routes
@@ -61,3 +67,4 @@ app.listen(port, err => {
 });
 
 module.exports = app; // for testing
+

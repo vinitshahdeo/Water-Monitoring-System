@@ -11,6 +11,14 @@ const Tank = require("../models/Reading");
  * @returns {Object} Tank object 
  * @throws {NotFoundError} When tank is not created.
  */
+
+/**
+ * @swagger
+ * tags:
+ *   name: Tanks
+ *   description: Tank management
+ */
+
 router.post("/add", function (req, res) {
 	var name = req.body.tankName,
 		location = req.body.tankLocation,
