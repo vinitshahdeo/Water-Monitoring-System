@@ -1,6 +1,6 @@
 # [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) - IoT Project
 ---
-> :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house: <br> 
+> :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house: <br>
 > :mag_right: Checkout [this](http://corona-cases-india.netlify.com/) web app for live CORONA updates. <br>
 > :incoming_envelope: Read my open letter [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/236). :heart: <br>
 > :bar_chart: Checkout the [COVID-19 Tacker :mask: | INDIA](https://indiafightscorona.netlify.app/) :india: <br>
@@ -261,7 +261,9 @@ if (_.contains(projectsInRGSoC, {
 | [@amaaniqbal](https://github.com/amaaniqbal)          | Frontend                   |
 | [@nainikaB](https://github.com/nainikaB)              | UI/UX                      |
 | [@roypratik](https://github.com/roypratik)            | IoT                        |
-| [@sharmishthadash](https://github.com/sharmishthadash)| Product Management         | 
+| [@sharmishthadash](https://github.com/sharmishthadash)| Product Management         |
+| [@nandikajain](https://github.com/nandikajain)        | Frontend(React)            |
+| [@harshita19244](https://github.com/harshita19244)    | Frontend(React)            |
 
 [![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://twitter.com/Vinit_Shahdeo)
 
@@ -281,7 +283,7 @@ if (_.contains(projectsInRGSoC, {
 |                                                                                                                                        **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**                                                                                                                                        |
 | <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a> |
 
-> **_Need help?_** 
+> **_Need help?_**
 > **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
@@ -292,7 +294,7 @@ I hope you are all staying safe at your home and enjoying the contribution for y
 
 ```javascript
 /**
- * 
+ *
  * Let's fight for Corona together!
  */
 function stayAtHome() {
@@ -317,7 +319,7 @@ while(_.isAlive(new Virus('COVID-19'))) {
 4. **SPACE**: Keep safe distance
 5. **HOME**: Stay if you can
 
-#### :x: Avoid Handshakes :handshake: 
+#### :x: Avoid Handshakes :handshake:
 #### :heavy_check_mark: Do Namastey :pray:
 
 <br>
