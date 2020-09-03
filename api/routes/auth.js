@@ -35,8 +35,8 @@ const { google } = require('googleapis');
  *              type: object
  *              properties:
  *                  phoneNumber:
- *                      type: integer
- *                      example: 9446570779
+ *                      type: string
+ *                      example: +919446570779
  *                  recaptchaToken:
  *                      type: string
  *                      example: CD54YK

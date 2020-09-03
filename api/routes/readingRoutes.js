@@ -66,7 +66,7 @@ router.post("/new", (req, res) => {
 
 
  /**
-  * Read all readings.
+  * Get all readings.
   * @returns {Reading} Tank Details
   * @throws {Internal Error} When error occurs.
   */
@@ -105,7 +105,7 @@ router.get("/all", (req, res) => {
 });
 
 /**
-  * Read a particular reading.
+  * Get a particular reading.
   * @returns {data} Tank reading
   * @throws {Internal Error} When reading can't be found or error occurs.
   */
