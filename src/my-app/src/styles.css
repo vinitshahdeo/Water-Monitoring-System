@@ -1,0 +1,277 @@
+
+.mystyle {
+
+position: absolute;
+width: 125px;
+height: 23px;
+left: 58px;
+top: 211px;
+text-align:center;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+
+
+
+color: #D4F1F4;
+}
+
+.mystyle2{
+position: absolute;
+width: 138px;
+height: 68px;
+left: 58px;
+top: 256px;
+text-align:center;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+text-align: center;
+
+color: #D4F1F4
+}
+
+.avatar{
+position: absolute;
+width: 128px;
+height: 106px;
+left: 40px;
+top: 35px
+}
+
+.buttonstyle{
+
+position: absolute;
+width: 132px;
+height: 44px;
+left: 58px;
+top: 340px;
+color:white;
+font-family:Quicksand;
+background: #189AB4;
+border-radius: 30px
+
+}
+
+.x{
+position: absolute;
+width: 81px;
+height: 23px;
+left: 81px;
+top: 423px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #D4F1F4	
+}
+
+.x1{
+position: absolute;
+width: 81px;
+height: 23px;
+left: 81px;
+top: 453px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+text-align:center;
+line-height: 22px;
+color: #D4F1F4	
+}
+
+.x2{
+position: absolute;
+width: 81px;
+height: 23px;
+left: 81px;
+top: 483px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+text-align:center;
+font-size: 18px;
+line-height: 22px;
+color: #D4F1F4	
+}
+
+.x3{
+position: absolute;
+width: 81px;
+height: 23px;
+text-align:center;
+left: 81px;
+top: 513px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #D4F1F4	
+}
+
+.overall{
+position: absolute;
+width: 81px;
+height: 23px;
+left: 81px;
+text-align:center;
+top: 543px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #D4F1F4;
+}
+
+.bills{
+position: absolute;
+width: 81px;
+height: 23px;
+left: 81px;
+top: 593px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+text-align:center;
+color: #D4F1F4
+}
+
+.logout{
+position: absolute;
+width: 81px;
+height: 23px;
+text-align:center;
+left: 81px;
+top: 643px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+color: #D4F1F4
+}
+
+.sidebar{
+position: absolute;
+width: 280px;
+height: 900px;
+font-family:Quicksand;
+left: 1px;
+top: 0px;
+background: #0D102D;
+box-shadow: 4px 4px 8px rgba(63; 62; 151; 0.1)
+}
+
+.badgex{
+position: absolute;
+width: 27.56px;
+height: 11.74px;
+left: 195.15px;
+top: 593px;
+font-family: Quicksand;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 15px
+}
+
+.growth{
+position: absolute;
+left: 7.05%;
+height:30px;
+width:30px;
+right: 97.4%;
+top: 547px;
+bottom: 30.11%
+}
+
+
+.logoutx{
+position: absolute;
+left: 7.05%;
+height:30px;
+width:30px;
+right: 97.4%;
+top: 643px;
+bottom: 30.11%
+}
+
+.cal{
+position: absolute;
+left: 7.05%;
+height:30px;
+width:30px;
+right: 97.4%;
+top: 597px;
+bottom: 30.11%
+}
+
+.watertank{
+position: absolute;
+left: 7.05%;
+height:27px;
+width:30px;
+right: 97.4%;
+top: 417px;
+
+}
+
+.plus{
+position: absolute;
+left: 70.05%;
+height:27px;
+width:30px;
+right: 37.4%;
+top: 420px;
+
+}
+
+.trash{
+position: absolute;
+left: 70.05%;
+height:27px;
+width:30px;
+right: 37.4%;
+top: 450px;
+
+}
+
+
+.water1{
+position: absolute;
+left: 7.05%;
+height:25px;
+width:25px;
+right: 97.4%;
+top: 447px;
+
+}
+
+ .water2{
+position: absolute;
+left: 7.05%;
+height:25px;
+width:25px;
+right: 97.4%;
+top: 477px;
+
+}
+ .water3{
+position: absolute;
+left: 7.05%;
+height:25px;
+width:25px;
+right: 97.4%;
+top: 507px;
+
+}	
