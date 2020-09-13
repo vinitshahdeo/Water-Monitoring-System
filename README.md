@@ -168,6 +168,7 @@ This project is part of the following Open Source programs:
 - [Student Code In](https://scodein.tech/)
 - [Leapcode](https://www.leapcode.io/)
 - [JGEC Winter of Code 2020](https://jwoc.tech/)
+- [Hacktoberfest 2020](https://hacktoberfest.digitalocean.com/)
 
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
 
@@ -243,6 +244,15 @@ if (_.contains(projectsInRGSoC, {
 [![leapcode-logo-full-png](https://user-images.githubusercontent.com/20594326/86490975-e5639f00-bd86-11ea-853b-1a0ecdc59201.png)](http://leapcode.io/)
 
 Now, we're officially a part of [leapcode.io](http://leapcode.io/). They're still building and hopeful to have their platform up pretty soon. [Click here](https://www.leapcode.io/) to get an early access.
+
+## Hacktoberfest
+
+<a href="https://hacktoberfest.digitalocean.com/"><img src="assets/Logo.svg" width="30%"></a>
+
+**Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1-31 to earn a free t-shirt.**
+
+There are many beginner level issues to begin with, with **Hacktoberfest** as the label which include documentation, development and design. Take up any issue and send your first PR!
+
 
 
 ## Additional Info
