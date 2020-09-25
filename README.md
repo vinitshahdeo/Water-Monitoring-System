@@ -17,19 +17,6 @@
 - ***To reduce the wastage of water across the city***
 - ***To provide better water supply to the people***
 
-```js
-  ____                   __        __    _            
- / ___|  __ ___   _____  \ \      / /_ _| |_ ___ _ __ 
- \___ \ / _` \ \ / / _ \  \ \ /\ / / _` | __/ _ \ '__|
-  ___) | (_| |\ V /  __/   \ V  V / (_| | ||  __/ |   
- |____/ \__,_| \_/ \___|    \_/\_/ \__,_|\__\___|_|   
-  ____                    _     _  __                 
- / ___|  __ ___   _____  | |   (_)/ _| ___            
- \___ \ / _` \ \ / / _ \ | |   | | |_ / _ \           
-  ___) | (_| |\ V /  __/ | |___| |  _|  __/           
- |____/ \__,_| \_/ \___| |_____|_|_|  \___|           
-                                                      
-```
 
 > **Click [here](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/Water%20level%20monitoring%20system.pdf?raw=true) to download the report.**
 
