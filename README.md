@@ -178,15 +178,15 @@ This project is part of the following Open Source programs:
 
 #### _1. How to start as a beginner so as to contribute to the project?_
 
-_There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs.Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions._
+_There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs. Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions._
 
 #### _2. Is this a hardware/IoT project?_
 
-_Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integarted with the real-time data from the sensors._
+_Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integrated with the real-time data from the sensors._
 
 #### _3. How to communicate with us?_
 
-_All communication will happen on the Slack channel for this particular projects. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more._
+_All communication will happen on the Slack channel for this particular project. Mentors can also be reached through GitHub. Avoid DMs and unnecessary mentions on slack and GitHub both. Checkout [this](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/15) issue for more._
 
 #### _4. What is the Tech Stack for this project?_
 
