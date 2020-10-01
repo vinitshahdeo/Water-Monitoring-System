@@ -12,14 +12,22 @@
     />
     <title>Water Monitoring System</title>
     <style>
+    h1{
+      height: 10%;
+      text-align: center;
+      text-decoration:underline;
+    }
       body {
-        background-color: #fafafa;
+
+        background-color: #D3D3D3;
         font-family: "Roboto";
       }
 
       .container {
+        align:center;
         margin: 150px auto;
         max-width: 960px;
+
       }
     </style>
   </head>
@@ -27,13 +35,13 @@
   <body>
     <div class="container">
       <h1>Water Tanks</h1>
-      <div class="loading" style="width: 140px;height: 140px;float:left"></div>
-      <div class="loading" style="width: 160px;height: 160px;float:left"></div>
+      <div class="loading" style="width: 140px;margin:10px ; height: 140px;float:left"></div>
+      <div class="loading" style="width: 160px;margin:10px ;height: 160px;float:left"></div>
       <div
         class="waterBall1"
-        style="width: 200px;height:200px; float:left"
+        style="width: 200px;height:120px; float:left"
       ></div>
-      <div class="demo" style="width: 200px;height:200px; float:left"></div>
+      <div class="demo" style="width: 200px;margin:30px ;height:300px; float:left"></div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
