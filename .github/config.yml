@@ -2,9 +2,11 @@
 newIssueWelcomeComment: |
   Thanks for opening your first issue! 
   Kindly note that this repository is maintained by [Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/). 
+
   He'll get back to you soon. Meanwhile check [this](https://github.com/vinitshahdeo/Hacktoberfest2020/) repo for more.
   
   [![Hacktoberfest2020](https://github-readme-stats.vercel.app/api/pin/?username=vinitshahdeo&repo=Hacktoberfest2020)](https://github.com/vinitshahdeo/Hacktoberfest2020)
+
 
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: |

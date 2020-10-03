@@ -1,0 +1,21 @@
+image:
+  file: .gitpod.dockerfile
+
+tasks:
+  - init: npm install
+    command: npm start
+    
+github:
+    prebuilds:
+        pullRequestsFromForks: true
+        master: true
+        branches: true
+        pullRequests: true
+        addCheck: true
+        addBadge: true
+
+ports:
+  - port: 8080
+    onOpen: open-preview
+  - port: 9000-9999
+    onOpen: ignore
