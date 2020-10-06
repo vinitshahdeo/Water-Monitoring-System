@@ -44,6 +44,11 @@
         color: grey;
       }
 
+      .floating {
+        width: 200px;
+        height: 200px;
+        float: left;
+      }
       h2 {
         padding-top: 200px;
         text-align: center;
@@ -64,31 +69,19 @@
       </center>
       <div class="row">
         <div class="col-lg-3">
-          <div
-            class="tank1"
-            style="width: 200px;height:200px; float:left"
-          ></div>
+          <div class="tank1 floating"></div>
           <h2>Tank 1</h2>
         </div>
         <div class="col-lg-3">
-          <div
-            class="tank2"
-            style="width: 200px;height:200px; float:left"
-          ></div>
+          <div class="tank2 floating"></div>
           <h2>Tank 2</h2>
         </div>
         <div class="col-lg-3">
-          <div
-            class="tank3"
-            style="width: 200px;height:200px; float:left"
-          ></div>
+          <div class="tank3 floating"></div>
           <h2>Tank 3</h2>
         </div>
         <div class="col-lg-3">
-          <div
-            class="tank4"
-            style="width: 200px;height:200px; float:left"
-          ></div>
+          <div class="tank4 floating"></div>
           <h2>Tank 4</h2>
         </div>
       </div>
@@ -98,19 +91,19 @@
       <div class="row">
         <div
           class="col-lg-4"
-          style="background-color: #fe5e21;min-height: 100px;min-width: 100px; "
+          style="background-color: #fe5e21; min-height: 100px; min-width: 100px"
         >
           <h1>Danger Zone</h1>
         </div>
         <div
           class="col-lg-4"
-          style="background-color: #ffb30c;min-width: 100px;min-height: 100px"
+          style="background-color: #ffb30c; min-width: 100px; min-height: 100px"
         >
           <h1>Warning Zone</h1>
         </div>
         <div
           class="col-lg-4"
-          style="background-color: #2ed351;min-width: 100px;min-height: 100px"
+          style="background-color: #2ed351; min-width: 100px; min-height: 100px"
         >
           <h1>Safe Zone</h1>
         </div>
@@ -160,16 +153,16 @@
       var z = getQueryStringValue("tank3");
       var w = getQueryStringValue("tank4");
       $(".tank1").createWaterBall({
-        targetRange: x
+        targetRange: x,
       });
       $(".tank2").createWaterBall({
-        targetRange: y
+        targetRange: y,
       });
       $(".tank3").createWaterBall({
-        targetRange: z
+        targetRange: z,
       });
       $(".tank4").createWaterBall({
-        targetRange: w
+        targetRange: w,
       });
 
       var loadingEle = $(".loading");
@@ -178,31 +171,31 @@
       $(".loading").createWaterBall({
         cvs_config: {
           width: loading_width,
-          height: loading_height
+          height: loading_height,
         },
         wave_config: {
           waveWidth: 0.02,
-          waveHeight: 5
+          waveHeight: 5,
         },
         data_range: [30, 70, 100],
         isLoading: true,
         nowRange: 70,
-        targetRange: 70
+        targetRange: 70,
       });
-      setTimeout(function() {
+      setTimeout(function () {
         $(".loading").createWaterBall("updateRange", 80);
       }, 1000);
       $(".waterBall1").createWaterBall({
         csv_config: {
           width: $(".waterBall1").width(),
-          height: $(".waterBall1").height()
+          height: $(".waterBall1").height(),
         },
         wave_config: {
           waveWidth: 0.02,
-          waveHeight: 5
+          waveHeight: 5,
         },
         data_range: [40, 50, 100],
-        targetRange: 45
+        targetRange: 45,
       });
     </script>
     <!-- @author: Vinit Shahdeo -->
