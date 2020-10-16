@@ -1,0 +1,129 @@
+.signIn-main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+/******************************CSS CODE FOR LEFT SIDE OF THE WEBPAGE*********************************************
+****************************************************************************************************************/
+
+.signIn-left-side{
+    margin-top: 30px auto;
+    width:50%;
+}
+.signIn-first-part{
+    max-width: 100%;
+}
+.signIn-upperHalf{
+    display: flex;
+    margin: 20px auto;
+    /* width: 100%; */
+    justify-content: center;
+}
+
+.signIn-logo{
+    width: 130px;
+    height: 0%;
+    display: flex;
+    margin-right: 0px;
+}
+
+.signIn-upperHalf h1{
+    width: 75%;
+    margin: 10px 0px;
+    text-align: center;
+    font-size: 52px;
+    color: #2D67E4;
+    font-weight: 700;
+}
+
+.signIn-bottomHalf{
+    margin: 10px 50px;
+    font-size: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.signIn-bottomHalf h1{
+    text-align: center;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.signIn-second-part{
+    justify-content: center;
+}
+
+.signIn-login{
+    display: block;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+form{
+    justify-content: center;
+    margin: auto 25%
+}
+
+hr {
+    border: 4px;
+    border-top: 4px solid black;
+    width: 340px;
+    margin-top: 0px;
+    margin-left: -14px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.signIn-form-1{
+    width: 310px;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+.signIn-checkbox{
+   font-weight: 200;
+   font-size: 12px;
+   padding: 2px auto;
+   margin: 10px auto;
+   margin-top: 0px;
+}
+
+input[type=checkbox]{
+    margin: 5px 6px;
+}
+
+.signIn-link{
+    color: red;
+    text-align: right;
+    font-size: 12px;
+    margin-left: 111px;
+}
+
+.signIn-btn-submit{
+    width: 310px;
+    height: 45px;
+    border: 3px solid #24a0ed;
+    border-radius: 10px;
+    color: white;
+    background-color: #24a0ed;
+    margin-top: 10px;
+}
+
+.signIn-btn-submit:hover{
+    transition: 0.4s;
+    background-color: #0069D9;
+}
+
+/******************************END OF CSS CODE FOR LEFT-SIDE OF THE PAGE****************************************/
+
+.signIn-right-side{
+    width: 50%;
+    margin: auto;          /*This code is to adjust screensize for the incoming component Info.jsx */
+    display: flex;
+}
