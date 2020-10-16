@@ -1,0 +1,113 @@
+.signUp-main{
+    height: 700px;
+    width: 100%;
+    display: flex;
+}
+
+/******************************CSS CODE FOR LEFT SIDE OF THE WEBPAGE*********************************************
+****************************************************************************************************************/
+
+.signUp-left-side{
+    margin-top: 30px auto;
+    width:50%;
+}
+.signUp-first-part{
+    max-width: 100%;
+}
+.signUp-upperHalf{
+    margin: 20px auto;
+    justify-content: center;
+}
+
+.signUp-logo{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.signUp-upperHalf h1{
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 46px;
+    color: #2D67E4;
+    font-weight: 700;
+}
+
+.signUp-bottomHalf{
+    margin: 10px 50px;
+    font-size: 'Ubuntu', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+.signUp-msg{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.signUp-second-part{
+    justify-content: center;
+    margin-top: -50px;
+}
+
+form{
+    justify-content: center;
+    margin: auto 25%
+}
+
+hr {
+    border: 4px;
+    border-top: 4px solid black;
+    width: 340px;
+    margin-top: 0px;
+    margin-left: -14px;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.signUp-form-1{
+    width: 310px;
+    height: 40px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+
+
+
+.signUp-link{
+    color: red;
+    text-align: right;
+    font-size: 12px;
+    margin-left: 111px;
+}
+
+.signUp-btn-submit{
+    width: 310px;
+    height: 45px;
+    border: 3px solid #24a0ed;
+    border-radius: 10px;
+    color: white;
+    background-color: #24a0ed;
+    margin-top: 10px;
+}
+
+.signUp-btn-submit:hover{
+    transition: 0.4s;
+    background-color: #0069D9;
+}
+
+/******************************END OF CSS CODE FOR LEFT-SIDE OF THE PAGE****************************************/
+
+.signUp-right-side{
+    width: 50%;               /*This code is to adjust screensize for the incoming component Info.jsx */
+    margin: auto;
+    display: flex;
+}
