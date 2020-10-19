@@ -4,7 +4,14 @@
 @import "jekyll-theme-minimal";
 @import url("https://fonts.googleapis.com/css?family=Muli&display=swap'");
 @import url("https://fonts.googleapis.com/css?family=Lato:700|Muli&display=swap");
-
+html, body {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+}
 body{
   font-family : "Muli", sans-serif;
 }
