@@ -23,16 +23,16 @@ The status of the system could be monitored by an LCD screen or a web page that 
 - **_To provide better water supply to the people_**
 
 ```js
-  ____                   __        __    _
- / ___|  __ ___   _____  \ \      / /_ _| |_ ___ _ __
- \___ \ / _` \ \ / / _ \  \ \ /\ / / _` | __/ _ \ '__|
-  ___) | (_| |\ V /  __/   \ V  V / (_| | ||  __/ |
- |____/ \__,_| \_/ \___|    \_/\_/ \__,_|\__\___|_|
-  ____                    _     _  __
- / ___|  __ ___   _____  | |   (_)/ _| ___
- \___ \ / _` \ \ / / _ \ | |   | | |_ / _ \
-  ___) | (_| |\ V /  __/ | |___| |  _|  __/
- |____/ \__,_| \_/ \___| |_____|_|_|  \___|
+  ____                   __        __    _    
+ / ___|  __ ___   _____  \ \      / /_ _| |_ ___ _ __ ||
+ \___ \ / _` \ \ / / _ \  \ \ /\ / / _` | __/ _ \ '__|||
+  ___) | (_| |\ V /  __/   \ V  V / (_| | ||  __/ |   ||
+ |____/ \__,_| \_/ \___|    \_/\_/ \__,_|\__\___|_|   ()
+  ____                    _     _  __       
+ / ___|  __ ___   _____  | |   (_)/ _| ___  ||
+ \___ \ / _` \ \ / / _ \ | |   | | |_ / _ \ ||
+  ___) | (_| |\ V /  __/ | |___| |  _|  __/ ||
+ |____/ \__,_| \_/ \___| |_____|_|_|  \___| ()
 
 ```
 
@@ -46,7 +46,7 @@ The IoT(Hardware) components required are:
 - **A buzzer**
 - **12V transformer**
 
-## Getting Started
+## Getting Started with this project
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vinitshahdeo/Water-Monitoring-System?color=bluevoilet&logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
 
@@ -65,7 +65,7 @@ git clone https://github.com/<your-github-username>/Water-Monitoring-System
 cd Water-Monitoring-System
 ```
 
-**4.** Create a new branch.
+**4.** To create a new branch.
 
 ```bash
 git checkout -b <your_branch_name>
@@ -148,7 +148,7 @@ git push -u origin <your_branch_name>
 
 - When you make very very minor changes to a PR of yours (like for example fixing a text in button, minor changes requested by reviewers) make sure you squash your commits afterward so that you don't have an absurd number of commits for a very small fix. (Learn how to squash at [here](https://davidwalsh.name/squash-commits-git))
 
-- When you're submitting a PR for a UI-related issue, it would be really awesome if you add a screenshot of your change or a link to a deployment where it can be tested out along with your PR. It makes it very easy for the reviewers and you'll also get reviews quicker.
+- When you're submitting a PR for a UI-related issue, it would be really awesome if you add screenshots of your changes or a link to a deployment where it can be tested out along with your PR. It makes it very easy for the reviewers and you'll also get reviews done quicker.
 
 - Please follow the [PR Template](https://github.com/vinitshahdeo/Water-Monitoring-System/blob/master/.github/PULL_REQUEST_TEMPLATE.md) to create the PR.
 
