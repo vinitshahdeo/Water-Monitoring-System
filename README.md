@@ -50,30 +50,29 @@ The IoT(Hardware) components required are:
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vinitshahdeo/Water-Monitoring-System?color=bluevoilet&logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/commits/) [![GitHub repo size](https://img.shields.io/github/repo-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
 
-**1.** Fork [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository.
+**1.** First [this](https://github.com/vinitshahdeo/Water-Monitoring-System/) repository has to be forked 
 Click on the <a href="https://github.com/vinitshahdeo/Water-Monitoring-System/"><img src="https://img.icons8.com/ios/24/000000/code-fork.png"></a> symbol at the top right corner.
 
-**2.** Clone the forked repository.
-
+**2.** Then the forked repository has to be cloned to your local machine. Type the following command on git bash or cmd.
 ```bash
 git clone https://github.com/<your-github-username>/Water-Monitoring-System
 ```
 
-**3.** Navigate to the project directory.
+**3.** Navigate to the project directory. The following command is to be executed.
 
 ```bash
 cd Water-Monitoring-System
 ```
 
-**4.** Create a new branch.
+**4.** You then must create a new branch. The following command is to be executed.
 
 ```bash
 git checkout -b <your_branch_name>
 ```
 
-**5.** Make changes in source code.
+**5.** You can now make changes in the source code.
 
-**6.** Stage your changes and commit
+**6.** You can now stage your changes using the add . command as shown and commit. The following commands are to be executed.
 
 ```bash
 #Add changes to Index
@@ -83,7 +82,7 @@ git add .
 git commit -m "<your_commit_message>"
 ```
 
->CAUTION: Synch up your local repo with [original repo](https://github.com/vinitshahdeo/Water-Monitoring-System) (Upstream) before pushing your commits.
+>CAUTION: Sync up your local repo with [original repo](https://github.com/vinitshahdeo/Water-Monitoring-System) (Upstream) before pushing your commits.
 >This avoids unnecessary conflicts during the merge.
 
 >NOTE: You can do so by adding a [remote handler](https://www.atlassian.com/de/git/tutorials/syncing) reference to the original repo and pull the changes from the respective branch.
@@ -114,7 +113,7 @@ git commit -m "<your_commit_message>"
 >```
 >
 
-**7.** Push your local commits to the remote repo.
+**7.** You can now push your local commits to the remote repo.
 
 ```bash
 git push -u origin <your_branch_name>
