@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta name="author" content="Vinit Shahdeo" />
     <link
       href="http://www.jqueryscript.net/css/jquerysctipttop.css"
@@ -74,6 +74,28 @@
       }
       
       
+      .tank1, .tank2, .tank3, .tank4{
+        width: 200px;
+        height:200px; 
+        float:left
+      }
+      
+      @media (max-width: 767px) {
+      
+        .col-xs-12 > div{
+            width: auto;
+            height: auto;
+            float: none;
+            text-align: center;
+        }
+        
+        .col-xs-12 h2{
+            padding-top: 0px;
+            padding-bottom: 20px;
+        }
+      }
+      
+      
       
       
     </style>
@@ -90,31 +112,31 @@
         </p>
       </center>
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-12">
           <div
             class="tank1"
-            style="width: 200px;height:200px; float:left"
+            style=""
           ></div>
           <h2>Tank 1</h2>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-12">
           <div
             class="tank2"
-            style="width: 200px;height:200px; float:left"
+            style=""
           ></div>
           <h2>Tank 2</h2>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-12">
           <div
             class="tank3"
-            style="width: 200px;height:200px; float:left"
+            style=""
           ></div>
           <h2>Tank 3</h2>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-12">
           <div
             class="tank4"
-            style="width: 200px;height:200px; float:left"
+            style=""
           ></div>
           <h2>Tank 4</h2>
         </div>
