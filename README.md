@@ -169,6 +169,7 @@ This project is part of the following Open Source programs:
 - [Leapcode](https://www.leapcode.io/)
 - [JGEC Winter of Code 2020](https://jwoc.tech/)
 - [Hacktoberfest 2020](https://hacktoberfest.digitalocean.com/)
+- [Script Winter Of Code](https://swoc.tech/)
 
 ## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
 
