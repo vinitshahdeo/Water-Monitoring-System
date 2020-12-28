@@ -39,7 +39,7 @@
     <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
     <script>
       $(".demo").createWaterBall({
-        targetRange: 90
+        targetRange: 101
       });
 
       var loadingEle = $(".loading");
@@ -60,8 +60,8 @@
         targetRange: 70
       });
       setTimeout(function() {
-        $(".loading").createWaterBall("updateRange", 80);
-      }, 1000);
+        $(".loading").createWaterBall("updateRange", 60);
+      }, 0);
       $(".waterBall1").createWaterBall({
         csv_config: {
           width: $(".waterBall1").width(),
