@@ -1,4 +1,8 @@
 
+
+
+
+
 (function($){
 
 	function drawSin(xOffset,color1,color2){
