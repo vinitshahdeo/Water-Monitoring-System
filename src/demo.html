@@ -38,8 +38,32 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
     <script>
+
+    //phcheck  
+    pHlevelCheck(5, 6);
+    pHlevelCheck(7, 4);
+    pHlevelCheck(8, 5.1 );
+    pHlevelCheck(7, 0.8);
+
+    //function to check ph and turbidity
+    function pHlevelCheck(pH, turbidity){
+      if((pH<6.5||pH>7.5) && turbidity>50){
+        console.log("Unsafe to Drink");
+      }
+      else if((pH>6.5&&pH<7.5) && (turbidity>20 && turbidity<50)){
+        console.log("Safe limit to Drink");
+      }
+      else if((pH>6.5&&pH<7.5) && (turbidity<20)){
+        console.log("Healthy Water");
+      }
+      else{
+        console.log("unable to check");
+      }
+    }
+
+
       $(".demo").createWaterBall({
-        targetRange: 101
+        targetRange: 100
       });
 
       var loadingEle = $(".loading");
