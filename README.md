@@ -256,7 +256,7 @@ There are many beginner level issues to begin with, with **Hacktoberfest** as th
 
 ## Script Winter of Code
 
-<a href="https://swoc.tech/"><img src="assets/swoc.png" width="30%"></a>
+<a href="https://swoc.tech/"><img src="./assets/swoc.png" width="25%"></a>
 
 We are now a part of Script Winter of Code (SWoC), an open source program by [Script Foundation](https://www.scriptindia.org/), with the aim to introduce more and more people to the world of Open source. You can submit a PR with an issue labelled as **SWoC 2021** to get exciting perks and opportunities.
 
