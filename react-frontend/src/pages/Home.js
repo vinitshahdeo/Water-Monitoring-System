@@ -1,11 +1,8 @@
-
-import React, { Component } from 'react'
-import {TankCircle, TankWaterValue} from '../components/Tank';
-import {Sticker} from '../components/Sticker'
-import { connect } from 'react-redux';
-import { fetchTanks } from '../actions/tankActions';
-import {overflowAlarm} from '../actions/alarms';
-
+import React, { Component } from "react";
+import { TankCircle, TankWaterValue } from "../components/Tank";
+import { Sticker } from "../components/Sticker";
+import { connect } from "react-redux";
+import { fetchTanks } from "../actions/tankActions";
 
 class Home extends Component {
   componentWillMount() {
@@ -41,10 +38,8 @@ class Home extends Component {
                       <span className="tank-title">Tank{tank.id}</span>
                     </div>
                   </center>
-                  {overflowAlarm(tank.value, tank.id)}
                 </div>
               </div>
-            
             ))}
           </div>
         </div>
