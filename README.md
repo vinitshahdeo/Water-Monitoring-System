@@ -1,9 +1,17 @@
 # [Water Monitoring System](https://vinitshahdeo.github.io/Water-Monitoring-System/) - IoT Project
 ---
+
 > ## :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house:  <br> :mag_right: Checkout [this](http://corona-cases-india.netlify.com/) web app for live CORONA updates. 
 > ### :incoming_envelope: Read my open letter [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/236). :heart:
 > ## :bar_chart: Checkout the [COVID-19 Tracker :mask: | INDIA](https://indiafightscorona.netlify.app/) :india: 
 > ### :point_right: You can find the repo [here](https://github.com/vinitshahdeo/COVID19/). :star:
+=======
+> :mask: [COVID-19](http://corona-cases-india.netlify.com/) | Stay Home, Stay Safe! :house: <br>
+> :mag_right: Checkout [this](http://corona-cases-india.netlify.com/) web app for live CORONA updates. <br>
+> :incoming_envelope: Read my open letter [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/236). :heart: <br>
+> :bar_chart: Checkout the [COVID-19 Tacker :mask: | INDIA](https://indiafightscorona.netlify.app/) :india: <br>
+> :point_right: You can find the repo [here](https://github.com/vinitshahdeo/COVID19/). :star:
+
 
 ---
 
@@ -17,7 +25,7 @@ Water Monitoring System is an IOT based Liquid Level Monitoring system that has 
 
 The status of the system could be monitored by an LCD screen or a web page that provides a brilliant graphical representation. Colours are used to depict various scenarios with respect to the amount of liquid in the tanks or containers and the buzzer buzzes when the limit exceeds the permissible quantity of fill.
 
-### Goals of this project :
+### Goals of this project
 
 - **_To reduce the wastage of water across the city_**
 - **_To provide better water supply to the people_**
@@ -169,9 +177,12 @@ This project is part of the following Open Source programs:
 - [Leapcode](https://www.leapcode.io/)
 - [JGEC Winter of Code 2020](https://jwoc.tech/)
 - [Hacktoberfest 2020](https://hacktoberfest.digitalocean.com/)
-- [Script Winter Of Code](https://swoc.tech/)
 
-## Frequently Asked Questions(FAQs) for [GSSoC'20](https://www.gssoc.tech/)
+- [Script Winter Of Code](https://swoc.tech/)
+=======
+
+
+## FAQs for [GSSoC'20](https://www.gssoc.tech/)
 
 > This project is accepting contributions under [GirlScript Summer of Code 2020](https://www.gssoc.tech/) - three months long Open Source program conducted by [GirlScript Foundation](https://www.gssoc.tech/).
 
@@ -255,7 +266,6 @@ Now, we're officially a part of [leapcode.io](http://leapcode.io/). They're stil
 There are many beginner level issues to begin with, with **Hacktoberfest** as the label which include documentation, development and design. Take up any issue and send your first PR!
 
 
-
 ## Additional Info
 
 - If you're interested in contributing for **documentation**, please checkout `feature/documentation` branch.
@@ -288,10 +298,17 @@ There are many beginner level issues to begin with, with **Hacktoberfest** as th
 | [@nainikaB](https://github.com/nainikaB)              | UI/UX                      |
 | [@roypratik](https://github.com/roypratik)            | IoT                        |
 | [@sharmishthadash](https://github.com/sharmishthadash)| Product Management         |
+
 | [@nandikajain](https://github.com/nandikajain)        | Frontend (React)           |
 | [@harshita19244](https://github.com/harshita19244)    | Frontend (React)           |
 
 [![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)]()
+=======
+| [@nandikajain](https://github.com/nandikajain)        | Frontend(React)            |
+| [@harshita19244](https://github.com/harshita19244)    | Frontend(React)            |
+
+[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://github.com/vinitshahdeo)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://www.linkedin.com/in/vinitshahdeo/)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)](https://twitter.com/Vinit_Shahdeo)
+
 
 ## Useful Resources
 
@@ -304,23 +321,27 @@ There are many beginner level issues to begin with, with **Hacktoberfest** as th
 
 [![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
 
-|                                                                                         <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width=150px height=150px /></a>                                                                                         |
+|                                                                                         <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width="150px" height="150px" /></a>                                                                                         |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 |                                                                                                                                        **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**                                                                                                                                        |
 | <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a> |
 
-> **_Need help?_** 
+> **_Need help?_**
 > **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
 
 [![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
 
+
 ## COVID-19<sup>Stay Home, Stay Safe!</sup>
+=======
+### COVID-19: Stay Home Stay Safe
+
 
 I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects.
 
 ```javascript
 /**
- * 
+ *
  * Let's fight for Corona together!
  */
 function stayAtHome() {
@@ -337,7 +358,7 @@ while(_.isAlive(new Virus('COVID-19'))) {
 
 ```
 
-### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
+#### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
 
 1. **HANDS**: Wash them often
 2. **ELBOW**: Cough into it
@@ -345,8 +366,8 @@ while(_.isAlive(new Virus('COVID-19'))) {
 4. **SPACE**: Keep safe distance
 5. **HOME**: Stay if you can
 
-### :x: Avoid Handshakes :handshake: 
-### :heavy_check_mark: Do Namastey :pray:
+#### :x: Avoid Handshakes :handshake:
+#### :heavy_check_mark: Do Namastey :pray:
 
 <br>
 
