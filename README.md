@@ -39,6 +39,9 @@ The IoT(Hardware) components required are:
 - **A buzzer**
 - **12V transformer**
 
+UML Diagram:
+![Block Diagram](/screenshots/Water-Monitoring-System.jpg "Water-Monitoring-System Block Diagram")
+
 ## Getting Started
 
 [![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/) [![GitHub commit activity](https://img.shields.io/github/commit-activity/m/vinitshahdeo/Water-Monitoring-System?color=bluevoilet&logo=github)](https://github.com/vinitshahdeo/Water-Monitoring-System/commits/)  [![GitHub repo size](https://img.shields.io/github/repo-size/vinitshahdeo/Water-Monitoring-System?logo=github)](https://vinitshahdeo.github.io/Water-Monitoring-System/)
