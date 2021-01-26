@@ -1,0 +1,18 @@
+/************************************ CSS Coding for FOOTER.js component **************************************
+   *************************************************************************************************************/
+ 
+   .footer{
+    width: 100%;
+    background-color: black;
+    color: azure;
+    margin: 0px auto;
+  }
+
+  .text-footer{
+    font-size:12px;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 0px;
+  }
+
+/******************************** END OF CSS CODING FOR FOOTER.JS COMPONENT  *************************************/
