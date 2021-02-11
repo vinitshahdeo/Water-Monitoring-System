@@ -181,9 +181,8 @@ This project is part of the following Open Source programs:
 
 _There are many beginner level issues to begin with, which include documentation, development and design. Also, feel free to make issues for features as well as for reporting bugs.Participants can claim an issue by commenting that they are interested in it. We are also open to new ideas and suggestions._
 
-#### _2. Is this a hardware/IoT project?_
 
-_Yes, it is a hardware/IoT + software project. There would be maximum tasks related to frontend, backend, design and documentation of the website and later, it would be integrated with the real-time data from the sensors._
+
 
 #### _3. How to communicate with us?_
 
@@ -212,115 +211,6 @@ _Mentors can assign issues to participants and also mention a deadline before wh
 
 <a href="https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141" target="_blank"><img src="./assets/rgsoc2020.png" width="30%" height="30%"/></a>
 
-```javascript
-
-var baseURL = `https://github.com`,
-    projectsInRGSoC = _.filter(appliedProjects,
-        (project) => {
-            RGSoC.isSelected(project,
-                new Date().getFullYear())
-        });
-
-if (_.contains(projectsInRGSoC, {
-        name: `Water Monitoring System`,
-        url: `${baseURL}Water-Monitoring-System`
-    })) {
-    fork('Water Monitoring System');
-    // Looking forward to awesome contributions
-    console.log('Thank You RGSoC');
-}
-
-```
-
-**Glad to share that this project is shortlisted for [Rails Girls Summer Of Code 2020](https://railsgirlssummerofcode.org/)**, a global fellowship program for women and non-binary coders. Students receive a three-month scholarship to work on existing Open Source projects and expand their skill set.
-
-- [Click here](https://railsgirlssummerofcode.org/blog/) to learn more.
-- **RGSoC student applications have officially started on Monday, 02 March 2020. Apply [here](https://teams.railsgirlssummerofcode.org/apply).**
-- Check out the project [here](https://teams.railsgirlssummerofcode.org/projects/293-water-monitoring-system).
-- **[Click here](https://twitter.com/Vinit_Shahdeo/status/1234936360613695489) to view the tweet**. RTs are most welcome! :heart:
-- Feel free to **shoot your doubts [here](https://github.com/vinitshahdeo/Water-Monitoring-System/issues/141)**.
-
-## Leapcode
-
-[![leapcode-logo-full-png](https://user-images.githubusercontent.com/20594326/86490975-e5639f00-bd86-11ea-853b-1a0ecdc59201.png)](http://leapcode.io/)
-
-Now, we're officially a part of [leapcode.io](http://leapcode.io/). They're still building and hopeful to have their platform up pretty soon. [Click here](https://www.leapcode.io/) to get an early access.
-
-## Hacktoberfest
-
-<a href="https://hacktoberfest.digitalocean.com/"><img src="assets/Logo.svg" width="30%"></a>
-
-**Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1-31 to earn a free t-shirt.**
-
-There are many beginner level issues to begin with, with **Hacktoberfest** as the label which include documentation, development and design. Take up any issue and send your first PR!
-
-## Script Winter of Code
-
-<a href="https://swoc.tech/"><img src="./assets/swoc.png" width="25%"></a>
-
-We are now a part of Script Winter of Code (SWoC), an open source program by [Script Foundation](https://www.scriptindia.org/), with the aim to introduce more and more people to the world of Open source. You can submit a PR with an issue labelled as **SWoC 2021** to get exciting perks and opportunities.
-
-## Additional Info
-
-- If you're interested in contributing for **documentation**, please checkout `feature/documentation` branch.
-
-- If you're interested in contributing for **backend**, please checkout the following branch according to the tech stack:
-
-  - **Django**: `feature/backend-django`
-  - **Node.js**: `feature/backend-node`
-
-- If you're interested in contributing for **frontend**, please checkout `feature/frontend` branch.
-
-> **Note:** Are you an **absolute beginner?** Please [check the issues](https://github.com/vinitshahdeo/Water-Monitoring-System/issues?q=is%3Aopen+is%3Aissue+label%3Afirst-timers-only) labeled with `first-timers-only`. These issues might _let your Open Source journey begin_ - **Welcome onboard!**
-
-## Mentors
-
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/vinitshahdeo) [![GitHub pull requests](https://img.shields.io/github/issues-pr-closed-raw/vinitshahdeo/Water-Monitoring-System?logo=git&logoColor=white)](https://github.com/vinitshahdeo/Water-Monitoring-System/pulls?q=is%3Apr+is%3Aclosed)
-
-| GitHub Usernames                                      | Domain                     |
-| ----------------------------------------------------- | -------------------------- |
-| [@vinitshahdeo](https://github.com/vinitshahdeo)      | Full Stack + Documentation |
-| [@ShreyaAnand](https://github.com/ShreyaAnand)        | Full Stack                 |
-| [@YashMeh](https://github.com/YashMeh)                | Backend                    |
-| [@PragatiVerma18](https://github.com/PragatiVerma18)  | Backend + Documentation    |
-| [@ramanaditya](https://github.com/ramanaditya)        | Backend + Hardware         |
-| [@ArpitKotecha](https://github.com/ArpitKotecha)      | Backend                    |
-| [@Manvityagi](https://github.com/Manvityagi)          | APIs + Cloud               |
-| [@divyabhushan](https://github.com/divyabhushan)      | Documentation              |
-| [@jainpawan21](https://github.com/jainpawan21)        | Frontend                   |
-| [@amaaniqbal](https://github.com/amaaniqbal)          | Frontend                   |
-| [@nainikaB](https://github.com/nainikaB)              | UI/UX                      |
-| [@roypratik](https://github.com/roypratik)            | IoT                        |
-| [@sharmishthadash](https://github.com/sharmishthadash)| Product Management         |
-| [@nandikajain](https://github.com/nandikajain)        | Frontend (React)           |
-| [@harshita19244](https://github.com/harshita19244)    | Frontend (React)           |
-
-[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/0)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/0)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/1)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/1)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/2)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/2)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/3)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/3)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/4)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/4)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/5)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/5)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/6)](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/links/6)[![](https://sourcerer.io/fame/vinitshahdeo/vinitshahdeo/Water-Monitoring-System/images/7)]()
-
-## Useful Resources
-
-- [Django Docs](https://docs.djangoproject.com/en/3.0/)
-- [React Docs](https://reactjs.org/docs/getting-started.html)
-- [Node.js Docs](https://nodejs.org/api/)
-- [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
-
-## Project Admin
-
-[![Relative date](https://img.shields.io/date/1577392258?color=important&label=started&logo=github)](https://github.com/vinitshahdeo/) [![Maintenance](https://img.shields.io/maintenance/yes/2020?color=green&logo=github)](https://github.com/vinitshahdeo/)
-
-|                                                                                         <a href="https://fayz.in/stories/s/1522/0/?ckt_id=ZGL1ZGVk&title=story_of_vinit_shahdeo"><img src="assets/vinit-shahdeo.jpg" width=150px height=150px /></a>                                                                                         |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                                                                        **[Vinit Shahdeo](https://www.linkedin.com/in/vinitshahdeo/)**                                                                                                                                        |
-| <a href="https://twitter.com/Vinit_Shahdeo"><img src="assets/twitter.png" width="32px" height="32px"></a> <a href="https://www.facebook.com/vinit.shahdeo"><img src="assets/facebook.png" width="32px" height="32px"></a> <a href="https://www.linkedin.com/in/vinitshahdeo/"><img src="assets/linkedin.png" width="32px" height="32px"></a> |
-
-> **_Need help?_** 
-> **_Feel free to contact me @ [vinitshahdeo@gmail.com](mailto:vinitshahdeo@gmail.com?Subject=WaterMonitoringProject)_**
-
-[![GitHub followers](https://img.shields.io/github/followers/vinitshahdeo.svg?label=Follow%20@vinitshahdeo&style=social)](https://github.com/vinitshahdeo/) [![Twitter Follow](https://img.shields.io/twitter/follow/Vinit_Shahdeo?style=social)](https://twitter.com/Vinit_Shahdeo)
-
-## COVID-19<sup>Stay Home, Stay Safe!</sup>
-
-I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects.
 
 ```javascript
 /**
@@ -334,14 +224,9 @@ function stayAtHome() {
   repeat();
 }
 
-while(_.isAlive(new Virus('COVID-19'))) {
-  // Stay home, Stay safe
-  stayAtHome();
-}
 
 ```
 
-### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
 
 1. **HANDS**: Wash them often
 2. **ELBOW**: Cough into it
