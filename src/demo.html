@@ -10,30 +10,63 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link rel="shortcut icon" 
+      href="../assets/logo.gif" 
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
     <title>Water Monitoring System</title>
     <style>
+
       body {
         background-color: #fafafa;
-        font-family: "Roboto";
+        font-family: "Montserrat", sans-serif;
       }
 
       .container {
-        margin: 150px auto;
+        margin: 80px auto;
         max-width: 960px;
+        text-align: center;
       }
+
+      h1 {
+        color: grey;
+      }
+
+      .waterBalls {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin: 45px;
+        margin-bottom: 0;
+      }
+
+      .waterBall1, .demo {
+        margin-left: 20px;
+      }
+
     </style>
   </head>
 
   <body>
     <div class="container">
       <h1>Water Tanks</h1>
-      <div class="loading" style="width: 140px;height: 140px;float:left"></div>
-      <div class="loading" style="width: 160px;height: 160px;float:left"></div>
-      <div
-        class="waterBall1"
-        style="width: 200px;height:200px; float:left"
-      ></div>
-      <div class="demo" style="width: 200px;height:200px; float:left"></div>
+      <div class="waterBalls">
+        <div class="loading" style="width: 140px;height: 140px;float:left"></div>
+        <div class="loading" style="width: 160px;height: 160px;float:left"></div>
+        <div
+          class="waterBall1"
+          style="width: 200px;height:200px; float:left"
+        ></div>
+        <div class="demo" style="width: 200px;height:200px; float:left"></div>
+      </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="lib/createWaterBall-jquery.js"></script>
