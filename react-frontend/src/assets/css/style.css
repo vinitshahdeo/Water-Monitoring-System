@@ -1,0 +1,93 @@
+.footer{
+        background: black;
+        color: #d3d3d3;
+        bottom: 0px;
+        /* height: 250px; */
+        border: 2px solid #000;
+        margin-bottom: -50px;
+        border-radius: 5px;
+        margin-top: auto;
+        overflow: hidden;
+        -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.75);
+      }
+      .footer .footer-content{
+        display: flex;
+      }
+      .footer .footer-content .footer-section{
+        flex-basis: 50%;
+        padding: 25px;
+      }
+      .footer .footer-content .about{
+        text-align: center;
+      }
+      .footer .footer-content .footer-section .about h1{
+        text-align: center;
+        background-color: #000;
+        margin: 0;
+        color: #fff;
+        font-weight: normal;
+        font-size: 1.05em;
+        letter-spacing: 1px;
+        padding: 25px 15px;
+        text-shadow: 0 0 1px #fff;
+      }
+      .footer .footer-content .center{
+        margin: auto;
+        text-align: center;
+        list-style: none;
+      }
+      .footer .footer-content .center ul a{
+        display: block;
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-size: 1.2em;
+        color: white;
+        transition: all .3s
+      }
+      .footer .footer-content .center ul a:hover{
+        margin-left: 10px;
+        color: red;
+        transition: all .3s 
+      }
+      .footer .footer-content .center ul a li{
+        list-style: none;
+      }
+      .footer .links{
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+      }
+      .footer .links a{
+        padding: 5px 10px;
+      }
+      .footer .links a span{
+        height: 40px;
+        line-height: 40px;
+        width: 40px;
+        background:black;
+        text-align: center;
+        color: antiquewhite;
+        transition-property: all;
+        transition-duration: 0.2s;
+        transition-timing-function: ease;
+        border-radius: 50%;
+      }
+      .footer .links a span:hover{
+        background: red;
+        transform: scale(1.2);
+      }
+
+
+       @media screen and (max-width: 880px) {
+
+        .footer{
+          position: relative;
+          bottom:0px;
+        }
+        .footer .footer-content{
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+       }

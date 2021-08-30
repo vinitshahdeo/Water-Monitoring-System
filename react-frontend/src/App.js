@@ -4,6 +4,7 @@ import { Provider } from "react-redux";
 import store from "./store/store";
 import "./App.css";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {Footer} from "./components/footer" 
 class App extends Component {
   render() {
     return (
@@ -13,6 +14,7 @@ class App extends Component {
             <Route path="/" exact component={Home} />
           </Switch>
         </Provider>
+        <Footer/>
       </Router>
     );
   }
