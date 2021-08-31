@@ -1,8 +1,5 @@
-
-
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
-
 #include "FirebaseESP8266.h"
 #include <ESP8266WiFi.h>
 #include <DateTime.h>
@@ -18,25 +15,12 @@ const int WATER_LEVEL = 850;
 #define WIFI_SSID "*********"
 #define WIFI_PASSWORD "**********"
 
-
-
 FirebaseData firebaseData;
-
-
-
-
-
-
-
 
 void setup()
 {
-
-  
-
-  Serial.begin(115200);
-  timeClient.begin();
- Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
+ Serial.begin(115200);
+Firebase.begin(FIREBASE_HOST, FIREBASE_AUTH);
 
   WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
   Serial.print("Connecting to Wi-Fi");
@@ -50,20 +34,7 @@ void setup()
   Serial.println(WiFi.localIP());
   Serial.println();
 
-
-
- 
-
-  
   Firebase.reconnectWiFi(true);
-
-  
-  
-
-
-  
- 
-
 }
 
 void loop()
@@ -74,16 +45,10 @@ void loop()
   int val3 = analogRead(VAL_PROBE3);
   int val4 = analogRead(VAL_PROBE4);
 
-
   Firebase.setInt("WaterLevel1",val1);
   Firebase.setInt("WaterLevel2",val2);
   Firebase.setInt("WaterLevel3",val3);
   Firebase.setInt("WaterLevel4",val4);
   
- delay(300); 
-
-  
-  
-    
-  }
- 
+ delay(3000);    
+}
