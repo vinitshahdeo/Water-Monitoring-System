@@ -1,0 +1,43 @@
+/************************************ CSS Coding for Info.js component **************************************
+   *************************************************************************************************************/
+
+   .text-block{
+    color: azure;
+    position: absolute;
+    margin: 80px;
+    max-width: 50%;
+  }
+  
+
+  #img{
+    width: 100%;
+    height: 700px;
+  }
+
+  .first-section p{
+    padding: 10px 10px;
+    text-align: justify;
+    font-family: 'Ubuntu', sans-serif;
+  }
+
+  .first-section h3{
+    font-family: 'Merriweather', serif;
+  }
+  
+  .second-section h3{
+    font-family: 'Merriweather', serif;
+  }
+
+  .second-section ul{
+    margin-left: -10px;
+    text-align: justify;
+    font-weight: 300;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+  }
+  
+  .second-section li{
+    margin: 20px;
+  }
+
+/******************************** END OF CSS CODING FOR INFO.JS COMPONENT  *************************************/
