@@ -49,6 +49,23 @@
         text-align: center;
         font-weight: 800;
       }
+      .float_left{
+        float:left;
+      }
+      /*when screen with is lesser than 900px i.e., in case of mobile devices, reduce the padding of h2 and clear float*/
+      @media(max-width:900px){
+          h2{
+            padding-top:20px;
+            margin-bottom:70px;
+          }
+        .float_left{
+            clear:both;
+            float:none;
+            text-align:center;
+            margin-left:auto;
+            margin-right:auto;
+        }    
+      }
     </style>
   </head>
 
@@ -65,29 +82,29 @@
       <div class="row">
         <div class="col-lg-3">
           <div
-            class="tank1"
-            style="width: 200px;height:200px; float:left"
+            class="tank1 float_left"
+            style="width: 200px;height:200px;"
           ></div>
           <h2>Tank 1</h2>
         </div>
         <div class="col-lg-3">
           <div
-            class="tank2"
-            style="width: 200px;height:200px; float:left"
+            class="tank2 float_left"
+            style="width: 200px;height:200px;"
           ></div>
           <h2>Tank 2</h2>
         </div>
         <div class="col-lg-3">
           <div
-            class="tank3"
-            style="width: 200px;height:200px; float:left"
+            class="tank3 float_left"
+            style="width: 200px;height:200px;"
           ></div>
           <h2>Tank 3</h2>
         </div>
         <div class="col-lg-3">
           <div
-            class="tank4"
-            style="width: 200px;height:200px; float:left"
+            class="tank4 float_left"
+            style="width: 200px;height:200px;"
           ></div>
           <h2>Tank 4</h2>
         </div>
