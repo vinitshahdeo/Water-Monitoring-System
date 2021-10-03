@@ -46,17 +46,17 @@
     </style>
 </head>
 
-<body>
+<body >
     <div class="container">
         <center>
             <h1 class="title">Water Monitoring System</h1>
-            <p>
+            <p >
                 Water Monitoring System is an IOT based Liquid Level Monitoring system
                 that has mechanisms to keep the user alerted in case of liquid
                 overflow or when tank depletes.
             </p>
         </center>
-        <div class="row">
+        <div class="row" >
             <div class="col-lg-3">
                 <div class="tank1"
                      style="width: 200px;height:200px; float:left"></div>
@@ -68,14 +68,15 @@
                 <h2>Tank 2</h2>
             </div>
             <div class="col-lg-3">
-                <div class="tank3"
+                <div 
+                class="tank3"
                      style="width: 200px;height:200px; float:left"></div>
                 <h2>Tank 3</h2>
             </div>
             <div class="col-lg-3">
                 <div class="tank4"
                      style="width: 200px;height:200px; float:left"></div>
-                <h2>Tank 4</h2>
+                <h2 >Tank 4</h2>
             </div>
         </div>
     </div>
@@ -83,15 +84,15 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4"
-                 style="background-color: #fe5e21;min-height: 100px;min-width: 100px; ">
+                 style="background: linear-gradient(to bottom left, #ff3300 10%, #003399 74%);min-height: 100px;min-width: 100px; ">
                 <h1>Danger Zone</h1>
             </div>
             <div class="col-lg-4"
-                 style="background-color: #ffb30c;min-width: 100px;min-height: 100px">
+                 style=" background: linear-gradient(to bottom left, #ffcc00 0%, #000099 74%);min-height: 100px">
                 <h1>Warning Zone</h1>
             </div>
             <div class="col-lg-4"
-                 style="background-color: #2ed351;min-width: 100px;min-height: 100px">
+                 style="background: linear-gradient(to bottom left, #009933 14%, #000099 74%);min-height: 100px">
                 <h1>Safe Zone</h1>
             </div>
         </div>
@@ -169,11 +170,11 @@
                   },
                   data_range: [30, 70, 100],
                   isLoading: true,
-                  nowRange: 70,
+                  nowRange: 100,
                   targetRange: 70
               });
               setTimeout(function () {
-                  $(".loading").createWaterBall("updateRange", 80);
+                  $(".loading").createWaterBall("updateRange", 100);
               }, 1000);
               $(".waterBall1").createWaterBall({
                   csv_config: {
@@ -268,8 +269,10 @@
 
           var w = firebase.database().ref('WaterLevel4/').on('value', function (snapshot) {
               w = snapshot.val();
+              
               $(".tank4").createWaterBall({
                   targetRange: w
+                    
               });
               var loadingEle = $(".loading");
               var loading_width = loadingEle.width(),
