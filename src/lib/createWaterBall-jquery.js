@@ -1,7 +1,8 @@
 
 (function($){
 
-	function drawSin(xOffset,color1,color2){
+	function drawSin(xOffset,color1){
+        
         var config = this.data('waterBall').config;
 		var canvas = document.createElement('canvas');
 		var ctx = canvas.getContext('2d');
@@ -37,22 +38,32 @@
 		ctx.lineTo(w_sX,c_height);
 		ctx.lineTo(points[0][0],points[0][1]);
 
-		var gradient = ctx.createLinearGradient(0,c_height,c_width,points[points.length - 1][1]);
-		gradient.addColorStop(0,color1);
-		gradient.addColorStop(1,color2);
+		//var gradient = ctx.createLinearGradient(0,c_height,c_width,points[points.length - 1][1]);
+		//gradient.addColorStop(0,color1);
+		//gradient.addColorStop(1,color2);
+        var gradient = ctx.createLinearGradient(0,c_height,c_width,c_width, points[points.length - 1][1]);
+        gradient.addColorStop(0, color1);
+        gradient.addColorStop(1, "rgb(0, 0, 128)");
+
+//Fill with gradient
+ctx.fillStyle = gradient;
+ctx.fillRect(10, 10, 0, 80);
 
 		ctx.fillStyle = gradient;
 		ctx.fill();
 		ctx.restore();
-
+        
 		if (!config.isLoading) {
 			ctx.save();
 			var size = 0.4 * config.circle_config.cR;
 			ctx.font = size + 'px Microsoft Yahei';
 			ctx.textAlign = 'center';
 			ctx.fillStyle = config.textColorRange[getIndex.call(this)];
+            
 			ctx.fillText(~~config.nowRange + '%', config.circle_config.r, config.circle_config.r + size / 2);
-			ctx.restore();
+           
+			//
+            ctx.restore();
 
 		}
 		return canvas;
@@ -75,12 +86,13 @@
 
 	function getIndex(){
         var config = this.data('waterBall').config;
+        
 		for (var i = 0,data = config.data_range;i < data.length;i++) {
 			if (config.nowRange < data[i]) {
 				return i;
 			}
 		}
-		return data.length - 1;
+		return data.length -1;
 
 	}
 
@@ -91,6 +103,7 @@
             
             var $this = $(this),
                 data = $this.data('waterBall'),
+                
                 _config = {
                     cvs_config:{
                         width:220,
@@ -102,7 +115,7 @@
                         waveWidth:0.015,
                         waveHeight:5,
                         axisLength:220,
-                        speed:0.09,
+                        speed:0.1,
                         xOffset:0
                     },
                     circle_config:{
@@ -115,11 +128,13 @@
                     lineWidth:2,
                     data_range:[60,80,100],
                     textColorRange:['#fe5022','#fff','#fff'],
-                    circle_line_color:['#fe3702','#ffa200','#4ed752'],
+                    circle_line_color:['#8c4253','#876e52','#225e61'],
                     main_backcolor_range:[['#fe5e21','#f98957'],['#ffb30c','#f7d35a'],['#2ed351','#8ced6c']],//渐变色
                     backcolor_range:[['#f76b3b','#f14f17'],['#f4d672','#ffb50d'],['#43ea83','#12ce55']]
                 };
+                
             if (!data) {
+                
                 var wave_config = {},circle_config = {};
                 if (config.cvs_config) {
                     wave_config = {
@@ -144,7 +159,9 @@
                     canvas:canvas,
                     target:$this,
                     config:_config
+                    
                 });
+                
                 methods.render.apply($this);
             }
          });
@@ -156,11 +173,14 @@
             return this.each(function(){
                 var $this = $(this),
                     data = $this.data('waterBall');
+                    
                 if (!data) return;
                 var config = $this.data('waterBall').config;
+
                 config.targetRange = 0;
                 config.nowRange = 0;
                 config.isLoading = false;
+                
                 setTimeout(function () {
                     config.targetRange = newVal;
                 },0);
@@ -186,6 +206,7 @@
 
             if (config.nowRange > config.targetRange) {
                 var tmp = 1;
+                
                 config.nowRange -= tmp;
             }
             var cvs2 = drawSin.call(this,xOffset + 40, bg_color1, bg_color2);
