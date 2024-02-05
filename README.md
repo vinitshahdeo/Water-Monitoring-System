@@ -199,6 +199,14 @@ _All communication will happen on the Slack channel for this particular projects
 
 _Mentors can assign issues to participants and also mention a deadline before which the issue is to be resolved. They can reassign issues in case of any delay, so be active and complete your tasks within the negotiated duration._
 
+#### _6. what are the tools who needed for begginer to contibute on github?_
+ As a beginner looking to contribute on GitHub, there are several tools and resources that can help you get started:
+ 1.Git
+ 2. GitHub account
+ 3. Editor or IDE
+ 4 CLI
+ This are key tools that you shuold have. When you are armed with this you now look on how to contribute.
+
 
 ## Shared experiences on [GSSoC'20](https://www.gssoc.tech/) :pencil:
 
